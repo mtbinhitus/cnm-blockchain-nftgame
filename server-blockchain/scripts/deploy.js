@@ -1,33 +1,18 @@
-// We require the Hardhat Runtime Environment explicitly here. This is optional
-// but useful for running the script in a standalone fashion through `node <script>`.
-//
-// You can also run a script with `npx hardhat run <script>`. If you do that, Hardhat
-// will compile your contracts, add the Hardhat Runtime Environment's members to the
-// global scope, and execute the script.
 const hre = require("hardhat");
 
 async function main() {
-  const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  const unlockTime = currentTimestampInSeconds + 60;
+  const SuperNFT = await hre.ethers.getContractFactory("SuperNFT");
+  const superNft = await SuperNFT.deploy("SuperNFT", "SFT");
 
-  const lockedAmount = hre.ethers.parseEther("0.001");
+  await superNft.deployed();
+  console.log("Successfully deployed smart contract to: ", superNft.address);
 
-  const lock = await hre.ethers.deployContract("Lock", [unlockTime], {
-    value: lockedAmount,
-  });
-
-  await lock.waitForDeployment();
-
-  console.log(
-    `Lock with ${ethers.formatEther(
-      lockedAmount
-    )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.target}`
-  );
+  await superNft.mint("https://ipfs.io/ipfs/QmYGJpUV7xLJrYAJQyKxw6LXzCWU3LoP3QLfyJA55Pa9NL");
+  console.log("NFT successfully minted");
 }
-
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });

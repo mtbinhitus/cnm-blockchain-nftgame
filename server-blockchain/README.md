@@ -13,29 +13,25 @@ npx hardhat run scripts/deploy.js
 ```
 
 
-```
-ERC 721 standard
-```
-```
-Create account Pinata
-```
+### ERC 721 standard
+
+
+### Create account Pinata
+
 https://www.pinata.cloud/
 
-```
-Create account Pinata
-```
+### Create account Pinata
+
 https://www.pinata.cloud/
 
 
-```
-Install extentions in chrome
-```
+### Install extentions in chrome
+
 install Metamask
 
 
-```
-Connect to wallet
-```
+### Connect to wallet
+
 - Custom networks Mumbai test like binace and polygon
 
 - Test in polygon faucet
