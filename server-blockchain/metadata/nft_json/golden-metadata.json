@@ -1,0 +1,20 @@
+{
+    "name": "Diamond",
+    "description": "Legues of lengend rank cards",
+    "image": "https://ipfs.io/ipfs/Qmdm1BF1ccZ1qK9LepzBEEnpJGuZUrfmMvCLAQavUMUM4U",
+    "attributes": [
+      {
+        "trait_type": "Rank",
+        "value": "Golden"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Inspired by",
+        "value": "LOL"
+      }
+    ]
+  }
+  

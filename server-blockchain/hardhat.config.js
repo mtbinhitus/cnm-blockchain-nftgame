@@ -1,22 +1,46 @@
-require("@nomiclabs/hardhat-ethers");
-const privateKey = "7ec01c607f81cc3cef214a870cde5b5417cd63e3d9612814b3aadf10c1882919";
+require('@nomiclabs/hardhat-etherscan')
+require('@nomiclabs/hardhat-waffle')
+require('hardhat-deploy')
+require('dotenv').config()
+require('solidity-coverage')
+
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
+
+const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
+const PRIVATE_KEY = process.env.PRIVATE_KEY
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
+
 module.exports = {
-  defaultNetwork: "matic",
+  defaultNetwork: 'hardhat',
   networks: {
     hardhat: {
+      chainId: 31337,
     },
-    matic: {
-      url: "https://rpc-mumbai.maticvigil.com",
-      accounts: [privateKey]
-    }
+    goerli: {
+      url: GOERLI_RPC_URL,
+      accounts: [PRIVATE_KEY],
+      chainId: 5,
+      blockConfirmations: 5,
+    },
   },
   solidity: {
-    version: "0.8.2",
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 200
-      }
-    }
+    compilers: [
+      {
+        version: '0.8.8',
+      },
+      {
+        version: '0.6.6',
+      },
+    ],
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY,
+  },
+  namedAccounts: {
+    deployer: {
+      default: 0, // by default the 0th account will be the deployer
+    },
   },
 }

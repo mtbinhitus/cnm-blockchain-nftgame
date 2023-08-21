@@ -1,0 +1,20 @@
+{
+    "name": "Master",
+    "description": "Legues of lengend rank cards",
+    "image": "https://ipfs.io/ipfs/QmNWQ249M7gT6SxhMbcnWqmDWTfqPMfcXUxxPmrgE9SWKT",
+    "attributes": [
+      {
+        "trait_type": "Rank",
+        "value": "Master"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Inspired by",
+        "value": "LOL"
+      }
+    ]
+  }
+  

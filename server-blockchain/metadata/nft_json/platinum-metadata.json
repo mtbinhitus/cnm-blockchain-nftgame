@@ -1,0 +1,20 @@
+{
+    "name": "Platinum",
+    "description": "Legues of lengend rank cards",
+    "image": "https://ipfs.io/ipfs/QmY4GM7BUuePqpCHLF22BQcLuuJyp2vSGNd6WixDK6XJ4X",
+    "attributes": [
+      {
+        "trait_type": "Rank",
+        "value": "Platinum"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Inspired by",
+        "value": "LOL"
+      }
+    ]
+  }
+  

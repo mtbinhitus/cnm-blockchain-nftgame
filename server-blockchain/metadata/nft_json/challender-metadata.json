@@ -1,0 +1,20 @@
+{
+    "name": "Challenger",
+    "description": "Legues of lengend rank cards",
+    "image": "https://ipfs.io/ipfs/QmfNY4xkbiH5jC1PyJgzHknMadCsTrjDTh52CYWCWpS4u6",
+    "attributes": [
+      {
+        "trait_type": "Rank",
+        "value": "Challenger"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "trait_type": "Inspired by",
+        "value": "LOL"
+      }
+    ]
+  }
+  
