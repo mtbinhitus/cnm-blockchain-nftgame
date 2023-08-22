@@ -1,7 +1,7 @@
 {
     "name": "Master",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmNWQ249M7gT6SxhMbcnWqmDWTfqPMfcXUxxPmrgE9SWKT",
+    "image": "ipfs://QmNWQ249M7gT6SxhMbcnWqmDWTfqPMfcXUxxPmrgE9SWKT",
     "attributes": [
       {
         "trait_type": "Rank",

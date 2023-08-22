@@ -1,38 +1,53 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### tỷ lệ
+- Challenger: 1%
+- Grandmaster: 3%
+- Master: 5%
+- Diamond: 10%
+- Platinum: 15%
+- Golden: 15%
+- Silver: 20%
+- Bronze: 31%
 
 
-### ERC 721 standard
+
+### Cách nhận các key config
+
+#### ETHERSCAN_API_KEY
+
+Truy cập: 
+
+``` https://etherscan.io/myapikey ```
+
+- Nếu chưa có key thì Add
+
+#### PRIVATE_KEY
+
+Truy cập:
+
+```Extention Metamask -> Show detail -> Private key ```
 
 
-### Create account Pinata
+### GOERLI_RPC_URL
 
-https://www.pinata.cloud/
+Truy cập:
 
-### Create account Pinata
+``` https://dashboard.alchemy.com/apps ```
 
-https://www.pinata.cloud/
+#### subscriptionId in helper-hardhat-config
+
+Truy cập: 
+``` https://vrf.chain.link/goerli/ ```
+Tạo mới -> Sau khi deploy thì lấy contract gắn vào consumer
 
 
-### Install extentions in chrome
 
-install Metamask
+### Phải có ETH mới thực hiện được
 
+Cách nhận ETH:
 
-### Connect to wallet
+- https://coinbase.com/faucets
 
-- Custom networks Mumbai test like binace and polygon
+Cách nhận LINK (Dùng trong Subscription VRF):
 
-- Test in polygon faucet
+- https://faucets.chain.link/goerli
 

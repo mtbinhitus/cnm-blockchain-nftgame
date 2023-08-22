@@ -1,7 +1,7 @@
 {
     "name": "Bronze",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmbiW4LfQ5q3JDBnTTac6MvVVYdvjNLdPkrbGaVt9MaiTR",
+    "image": "ipfs://QmbiW4LfQ5q3JDBnTTac6MvVVYdvjNLdPkrbGaVt9MaiTR",
     "attributes": [
       {
         "trait_type": "Rank",

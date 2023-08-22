@@ -1,7 +1,7 @@
 {
     "name": "Silver",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmdpmoqKuCYaVUHAmtWYYNmXzGmcKJZ5eCHk2AkWNF6sDB",
+    "image": "ipfs://QmdpmoqKuCYaVUHAmtWYYNmXzGmcKJZ5eCHk2AkWNF6sDB",
     "attributes": [
       {
         "trait_type": "Rank",

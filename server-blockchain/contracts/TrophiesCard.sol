@@ -16,14 +16,14 @@ contract TrophiesCard is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
     mapping(uint256 => address) public s_requestIdToSender; // a mapping from requestId to the address that made that request
     uint256 private s_tokenCounter;
     string[] internal s_trophiesTokenURIs = [
-        "https://ipfs.io/ipfs/QmTndzogxLSEh5c5H3vtcBkNQs83QysVfgagmKaEvnQ2WN", // challender
-        "https://ipfs.io/ipfs/QmTqXw5hsch71pawFSs22rS1mh7DskbTjrZdi2goRZnVoH", // Grandmaster
-        "https://ipfs.io/ipfs/QmXGXWx828XYyBYyLDGXAWwgFW329WYZuvTWuni3wGJVLq", // Master
-        "https://ipfs.io/ipfs/QmZJx2qAG1VeDztHjExzmzqoF2r2wzDemaXqQAB8oQcK2X", // Diamond
-        "https://ipfs.io/ipfs/QmUtYRvG4ghCgkbwwNytsK9MrTSzvhtdTe1m73tp4cTZnq", // Platinum
-        "https://ipfs.io/ipfs/QmeCb4Zh37utZKcGfPkVaDRXhgeTpKWf9tJZreDrfCKa2a", // golden
-        "https://ipfs.io/ipfs/QmQPApzGC1fEnDAJaKVWSTjUsX7YgYm7fTeieJsYiYxKfC", // Silver
-        "https://ipfs.io/ipfs/QmbYsuBuFiKVWdFe5jRrrpaP6RLHCjxDMak3VMKCUsUQtk" // Bronze
+        "ipfs://QmSkuwBSBzw8XvTi8vz6QxSoHbP9FsgJSFwjJHzCcyE8oa", // challender
+        "ipfs://QmXyd58R8CYDys33aeJ4W1rUrZKhbQiDPuciXDVawYK8g2", // Grandmaster
+        "ipfs://Qmdkpe61wpA45Su27iyZbfhGKYFVoX7wU2itbEK5pDo4Ge", // Master
+        "ipfs://QmdE2wgcXxt1tw3aBTjCcsdXgv8qXLZyvvGjQEzVv5cEvX", // Diamond
+        "ipfs://QmdYG7hDmQ3FPVPGHM51anB4AkuJEBj78nwEjdFgQ1BhK5", // Platinum
+        "ipfs://QmdFnHfYmAXcD1jC2ckagPgygwpZtEod7BMqkGQ4MgaiXE", // golden
+        "ipfs://QmVfXFpyaiex8hSZsMhQxehZeR4LggXxiVxFdAf2dN4utF", // Silver
+        "ipfs://Qmc1gVyftmknUwWhPMX6qqDnKQrD6iEZZk18mXFtvXbGLa" // Bronze
     ]; // [Hokage, Jonin, Chunin, Genin]
 
     enum TrophiesType {

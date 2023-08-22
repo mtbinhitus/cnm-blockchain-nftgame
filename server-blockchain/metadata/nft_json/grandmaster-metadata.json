@@ -1,7 +1,7 @@
 {
     "name": "Grandmaster",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmTUeK1CqYPwhVHKwBm3g7GrFVGrXpYuW71FMfLCZJsbMD",
+    "image": "ipfs://QmTUeK1CqYPwhVHKwBm3g7GrFVGrXpYuW71FMfLCZJsbMD",
     "attributes": [
       {
         "trait_type": "Rank",

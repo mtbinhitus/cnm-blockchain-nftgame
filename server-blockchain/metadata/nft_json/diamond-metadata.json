@@ -1,7 +1,7 @@
 {
     "name": "Diamond",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmeZoVpFgSmgZpRmrFvNmmySfFMY8ok52BzPgjoABztV6c",
+    "image": "ipfs:///QmeZoVpFgSmgZpRmrFvNmmySfFMY8ok52BzPgjoABztV6c",
     "attributes": [
       {
         "trait_type": "Rank",

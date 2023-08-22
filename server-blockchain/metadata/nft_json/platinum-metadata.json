@@ -1,7 +1,7 @@
 {
     "name": "Platinum",
     "description": "Legues of lengend rank cards",
-    "image": "https://ipfs.io/ipfs/QmY4GM7BUuePqpCHLF22BQcLuuJyp2vSGNd6WixDK6XJ4X",
+    "image": "ipfs://QmY4GM7BUuePqpCHLF22BQcLuuJyp2vSGNd6WixDK6XJ4X",
     "attributes": [
       {
         "trait_type": "Rank",
