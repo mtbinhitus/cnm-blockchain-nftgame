@@ -8,7 +8,15 @@
 - Silver: 20%
 - Bronze: 31%
 
+### Lệnh
 
+``` 
+yarn hardhat compile 
+yarn hardhat deploy --network goerli
+```
+
+
+0x404f79c45D27512D05C1EBfdBA6FF4B3Ffc6b6e5
 
 ### Cách nhận các key config
 

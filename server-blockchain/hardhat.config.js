@@ -3,7 +3,7 @@ require('@nomiclabs/hardhat-waffle')
 require('hardhat-deploy')
 require('dotenv').config()
 require('solidity-coverage')
-
+const path = require("path")
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -14,17 +14,17 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 
 module.exports = {
   defaultNetwork: 'hardhat',
-  networks: {
-    hardhat: {
-      chainId: 31337,
-    },
-    goerli: {
-      url: GOERLI_RPC_URL,
-      accounts: [PRIVATE_KEY],
-      chainId: 5,
-      blockConfirmations: 5,
-    },
-  },
+  // networks: {
+  //   hardhat: {
+  //     chainId: 31337,
+  //   },
+  //   goerli: {
+  //     url: GOERLI_RPC_URL,
+  //     accounts: [PRIVATE_KEY],
+  //     chainId: 5,
+  //     blockConfirmations: 5,
+  //   },
+  // },
   solidity: {
     compilers: [
       {
@@ -42,5 +42,8 @@ module.exports = {
     deployer: {
       default: 0, // by default the 0th account will be the deployer
     },
+  },
+  paths: {
+    artifacts: path.join(__dirname, './server/build/artifacts'),
   },
 }

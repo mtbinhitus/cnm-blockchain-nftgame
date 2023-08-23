@@ -1,5 +1,3 @@
-// interact.js
-
 const API_KEY = "7u9ag44gEfuJtfihRfFlgTU4UMEV02HV";
 const PRIVATE_KEY =
   "dea7d2820b27c8ea5e7c9e54ca2a6365607373649e9de92752d8cf844559b5ad";
