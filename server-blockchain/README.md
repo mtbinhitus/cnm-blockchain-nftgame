@@ -59,3 +59,28 @@ Cách nhận LINK (Dùng trong Subscription VRF):
 
 - https://faucets.chain.link/goerli
 
+
+## API
+
+### Tạo NFT
+
+```
+POST http://localhost:8000/api/nft/mint
+
+```
+*Notice: Sau khi tạo NFT, thì phải đợi khoảng 30s-1p để blockchain cập nhật lại smartcontract.
+Nguyên nhân phải đợi là để lấy được tokenId của NFT đó (điều kiện để gửi và xem thông tin NFT)
+
+### Chuyển NFT
+```
+POST http://localhost:8000/api/nft/transfer
+
+Body: address_to ( địa chỉ ví cần chuyển )
+```
+
+### Xem thông tin NFT
+```
+GET http://localhost:8000/api/nft/info
+
+```
+
