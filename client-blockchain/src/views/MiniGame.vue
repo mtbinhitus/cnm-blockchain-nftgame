@@ -1,0 +1,275 @@
+<template>
+  <div>
+    <button class="button start" @click="handleStart">Start</button>
+    <button class="button start" @click="pause">pause</button>
+
+    <span>{{ score }}</span>
+
+    <div class="game-container" @click="jump()">
+      <div
+        class="bird"
+        :style="{ top: bird.y + 'px', left: bird.x + 'px' }"
+      ></div>
+      <div v-for="(pipe, index) in pipes" :key="index" class="pipe-col">
+        <div
+          class="pipe top-pipe"
+          :style="{
+            top: '0px',
+            left: pipe.top.x + 'px',
+            height: pipe.top.height + 'px',
+          }"
+        ></div>
+        <div
+          class="pipe bottom-pipe"
+          :style="{
+            bottom: '0px',
+            left: pipe.bottom.x + 'px',
+            height: pipe.bottom.height + 'px',
+          }"
+        ></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  data() {
+    return {
+      bird: {
+        x: 50,
+        y: 150,
+      } as any,
+      pipes: [] as any,
+
+      start: false,
+      score: 0,
+
+      jumpTimeout: null as any,
+      birdDownInterval: null as any,
+    };
+  },
+  mounted() {
+    this.generatePipes();
+    this.gameLoop();
+  },
+
+  methods: {
+    handleStart() {
+      this.start = true;
+      this.pipeMove();
+      this.jump()
+    },
+
+
+    handleCheck() {
+      // vị trí của bird
+      const bird_y = this.bird.y;
+      const pipe_top = this.pipes[0].top.height + 10;
+      const pipe_bottom = 600 - this.pipes[0].bottom.height -30;
+
+      console.log(bird_y, pipe_top, pipe_bottom)
+
+      if (pipe_top < bird_y && pipe_bottom > bird_y) {
+        this.score+=1;
+      } else {
+        this.pause()
+        alert('thua')
+      }
+
+      //kiểm tra pipe.top.y < bird.y < pipe.bottom.y
+      
+    },
+
+    pipeMove() {
+      let move = "" as any;
+      move = setInterval(() => {
+        for (let i = 0; i < this.pipes.length; i++) {
+          this.pipes[i].top.x -= 2;
+          this.pipes[i].bottom.x -= 2;
+        }
+
+        if (this.pipes[0].bottom.x == 50) {
+          this.handleCheck()
+        }
+
+        if (this.pipes[0].bottom.x <= 0) {
+          this.handleIncreaseScore();
+        }
+
+        if (!this.start) {
+          clearInterval(move);
+        }
+
+        console.log(1);
+      }, 10);
+    },
+
+    birdDown() {
+      clearInterval(this.jumpTimeout)
+      this.birdDownInterval = setInterval(() => {
+        this.bird.y += 5;
+        if (this.bird.y >= 550) {
+          clearInterval(this.jumpTimeout)
+          clearInterval(this.birdDownInterval)
+          this.pause()
+        }
+      }, 50);
+    },
+
+
+    pause() {
+      this.start = false;
+      clearInterval(this.jumpTimeout);
+      clearInterval(this.birdDownInterval)
+
+    },
+
+    jump() {
+      clearInterval(this.jumpTimeout);
+      clearInterval(this.birdDownInterval)
+
+     this.birdDownInterval = setTimeout(()=> {
+        this.birdDown()
+      }, 300)
+
+      // Thay đổi count trong 1s
+      const targetCount = this.bird.y - 50;
+      const duration = 300; // 
+      const decrementPerInterval =
+        (this.bird.y - targetCount) / (duration / 100);
+
+      this.jumpTimeout = setInterval(() => {
+        if (this.bird.y <= targetCount) {
+          clearInterval(this.jumpTimeout);
+        } else {
+          this.bird.y -= decrementPerInterval;
+        }
+      }, 100);
+
+      
+    },
+
+    handleIncreaseScore() {
+      // xóa ống đầu tiên
+      this.pipes.shift();
+
+      // Thêm ống mới phía sau
+      const x = this.pipes[8].bottom.x + 250; // Vị trí x cách nhau pipeSpacing
+      const minBottomHeight = 150; // Chiều cao tối thiểu của ống dưới
+      const maxBottomHeight = 350; // Chiều cao tối đa của ống dưới
+
+      const randomBottomHeight =
+        Math.random() * (maxBottomHeight - minBottomHeight) + minBottomHeight;
+      const topHeight = 600 - 160 - randomBottomHeight; // Chiều cao của ống trên
+
+      const topPipe = {
+        x,
+        y: 0, // Vị trí y ống trên
+        height: topHeight,
+      };
+
+      const bottomPipe = {
+        x,
+        y: 600, // Vị trí y ống dưới
+        height: randomBottomHeight,
+      };
+
+      this.pipes.push({
+        top: {
+          ...topPipe,
+        },
+        bottom: {
+          ...bottomPipe,
+        },
+      });
+    },
+
+    generatePipes() {
+      const pipeSpacing = 250; // Khoảng cách giữa các cặp ống
+
+      // Xóa các ống cũ để tạo mới
+      this.pipes = [];
+
+      for (let i = 0; i < 10; i++) {
+        const x = 400 + i * pipeSpacing; // Vị trí x cách nhau pipeSpacing
+        const minBottomHeight = 150; // Chiều cao tối thiểu của ống dưới
+        const maxBottomHeight = 350; // Chiều cao tối đa của ống dưới
+
+        const randomBottomHeight =
+          Math.random() * (maxBottomHeight - minBottomHeight) + minBottomHeight;
+        const topHeight = 600 - 160 - randomBottomHeight; // Chiều cao của ống trên
+
+        const topPipe = {
+          x,
+          y: 0, // Vị trí y ống trên
+          height: topHeight,
+        };
+
+        const bottomPipe = {
+          x,
+          y: 600, // Vị trí y ống dưới
+          height: randomBottomHeight,
+        };
+
+        this.pipes.push({
+          top: {
+            ...topPipe,
+          },
+          bottom: {
+            ...bottomPipe,
+          },
+        });
+      }
+    },
+    gameLoop() {
+      // Game loop logic, update bird and pipes positions
+      // requestAnimationFrame(this.gameLoop);
+    },
+  },
+});
+</script>
+
+<style scoped>
+.game-container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  background: url("../../public/flappybirdbg.png");
+  overflow: hidden;
+}
+
+.bird {
+  position: absolute;
+  width: 45px;
+  height: 32px;
+  background-image: url("../../public/flappybird.png");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.pipe-col {
+}
+
+.pipe {
+  position: absolute;
+  width: 80px;
+  /* height: 400px; */
+
+  /* background: red; */
+}
+
+.top-pipe {
+  background-image: url("../../public/toppipe.png");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.bottom-pipe {
+  background-image: url("../../public/bottompipe.png");
+  background-size: cover;
+  object-fit: cover;
+}
+</style>

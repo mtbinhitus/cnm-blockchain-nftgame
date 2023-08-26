@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import MiniGameVue from "./views/MiniGame.vue";
 
 import { nextTick } from "vue";
 const router = createRouter({
@@ -8,7 +9,12 @@ const router = createRouter({
       path: "/home",
       redirect: "/",
     },
-   
+
+    {
+      path: "/game",
+      component: MiniGameVue,
+      name: "game",
+    },
   ],
 
   scrollBehavior() {
@@ -26,7 +32,7 @@ router.beforeEach((routeTo, routeFrom, next) => {
 
 router.afterEach((to) => {
   nextTick(() => {
-    document.title = (to.meta.title || to.name) 
+    // document.title = to.meta.title || to.name;
   });
 });
 
