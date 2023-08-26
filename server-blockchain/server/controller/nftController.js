@@ -41,6 +41,39 @@ function convertIpfsUrl(ipfsUrl) {
   return convertedUrl;
 }
 
+function writeData(data, address) {
+  const filePath = path.join(__dirname, "../public/history.json");
+  fs.readFile(filePath, "utf8", (err, fileData) => {
+    if (err) {
+      console.error("Error reading JSON file:", err);
+      return;
+    }
+
+    let jsonData = [];
+    try {
+      jsonData = JSON.parse(fileData);
+    } catch (parseError) {
+      console.error("Error parsing JSON:", parseError);
+      return;
+    }
+
+    jsonData.unshift({ data, address });
+
+    fs.writeFile(
+      filePath,
+      JSON.stringify(jsonData, null, 2),
+      "utf8",
+      (writeErr) => {
+        if (writeErr) {
+          console.error("Error writing to JSON file:", writeErr);
+        } else {
+          console.log("Data has been written to JSON file.");
+        }
+      }
+    );
+  });
+}
+
 const nftController = {
   transferNFT: async (req, res) => {
     try {
@@ -71,13 +104,24 @@ const nftController = {
         signedTx.rawTransaction
       );
 
+      // lấy thông tin NFT:
+      const trophiesCardData = await contract.methods
+        .tokenURI(tokenIdNext - 1)
+        .call();
+      const x = convertIpfsUrl(trophiesCardData);
+
+      // ghi lịch sử vào Data
+      writeData(x, address_to);
+
       console.log("Transaction receipt sendNFT:", txReceipt);
 
       res.status(200).json({
         message: "transfer successfully",
       });
     } catch (error) {
-      res.send(error);
+      res.status(500).json({
+        error: error.message,
+      });
     }
   },
   createNFT: async (req, res) => {
@@ -112,16 +156,20 @@ const nftController = {
         message: "create NFT successfully",
       });
     } catch (error) {
-      res.send(error);
+      res.status(500).json({
+        error: error.message,
+      });
     }
   },
 
   getNftInfo: async (req, res) => {
     const tokenIdNext = await contract.methods.getTokenCounter().call();
     const trophiesCardData = await contract.methods
-      .tokenURI(tokenIdNext-1)
+      .tokenURI(tokenIdNext - 1)
       .call();
     const x = convertIpfsUrl(trophiesCardData);
+
+    // writeData(x)
 
     res.status(200).json({
       message: "create NFT successfully",
@@ -129,21 +177,46 @@ const nftController = {
     });
   },
 
-  test: async (req, res) => {
+  updateScore: async (req, res) => {
     try {
-      const id = req.body.address_to;
-
-      console.log("Count: ", count);
-
+      const score = req.body.score;
+      const address = req.body.address;
+      const filePath = path.join(__dirname, "../public/auth.json")
+  
+      // Read the JSON data from the file
+      const authJson = fs.readFileSync(filePath, 'utf8');
+      const authData = JSON.parse(authJson);
+  
+      let found = false;
+  
+      // Update the score if address already exists
+      const updatedData = authData.map(item => {
+        if (item.address == address) {
+          found = true;
+          return { ...item, score: score };
+        }
+        return item;
+      });
+  
+      // Create a new object if address doesn't exist
+      if (!found) {
+        updatedData.push({ address: address, score: score });
+      }
+  
+      // Write the updated data back to the file
+      fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2), 'utf8');
+  
       res.status(200).json({
-        message: "ok",
-        count: count,
-        id: id,
+        message: 'Score updated successfully',
       });
     } catch (error) {
-      res.send(error);
+      res.status(500).json({
+        error: error.message,
+      });
     }
   },
+
+
 };
 
 module.exports = nftController;

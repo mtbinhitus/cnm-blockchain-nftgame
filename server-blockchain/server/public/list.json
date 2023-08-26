@@ -1,0 +1,34 @@
+[
+    {
+        "key": "https://ipfs.io/ipfs/QmSkuwBSBzw8XvTi8vz6QxSoHbP9FsgJSFwjJHzCcyE8oa",
+        "name": "Challenger"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmXyd58R8CYDys33aeJ4W1rUrZKhbQiDPuciXDVawYK8g2",
+        "name": "Grandmaster"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmdkpe61wpA45Su27iyZbfhGKYFVoX7wU2itbEK5pDo4Ge",
+        "name": "Master"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdE2wgcXxt1tw3aBTjCcsdXgv8qXLZyvvGjQEzVv5cEvX",
+        "name": "Diamond"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdYG7hDmQ3FPVPGHM51anB4AkuJEBj78nwEjdFgQ1BhK5",
+        "name": "Platinum"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdFnHfYmAXcD1jC2ckagPgygwpZtEod7BMqkGQ4MgaiXE",
+        "name": "Golden"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVfXFpyaiex8hSZsMhQxehZeR4LggXxiVxFdAf2dN4utF",
+        "name": "Silver"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmc1gVyftmknUwWhPMX6qqDnKQrD6iEZZk18mXFtvXbGLa",
+        "name": "Bronze"
+    }
+]

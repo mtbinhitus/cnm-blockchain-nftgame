@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 app.use(bodyParser.urlencoded({ extended: true }));
+const path = require('path')
 
 const nftRoute = require("./router/nftRoute")
 dotenv.config();
@@ -12,6 +13,8 @@ dotenv.config();
 
 app.use(morgan("common"));
 app.use(cors());
+
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.use(express.json());
 

@@ -8,6 +8,6 @@ router.post("/transfer", nftController.transferNFT);
 
 router.get("/info", nftController.getNftInfo);
 
-router.post("/test", nftController.test);
+router.post("/update-score", nftController.updateScore);
 
 module.exports = router;
