@@ -28,8 +28,8 @@
               </router-link>
             </li>
             <li class="nav-item ms-3 p-1">
-              <router-link class="nav-link text-white" to="/misstion">
-                Misstion
+              <router-link class="nav-link text-white" to="/mission">
+                Mission
               </router-link>
             </li>
             <li class="nav-item ms-3 p-1">

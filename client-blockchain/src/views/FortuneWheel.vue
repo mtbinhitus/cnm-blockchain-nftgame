@@ -6,9 +6,10 @@
           style="width: 500px; max-width: 100%"
           :prizes="data"
           @rotateEnd="onRotateEnd"
-          :duration="15000"
+          :duration="duration"
           :prizeId="numberLucky"
           @rotateStart="onChangePrize"
+          :verify="checkSpinCount"
         />
       </div>
       <div class="x text-white mt-5 fs-4">
@@ -77,7 +78,7 @@
       <span class="text-white text-decoration-underline">Game rules</span>
     </div>
   </div>
-  <ModalReceiveGiftVue/>
+  <ModalReceiveGiftVue />
 </template>
 
 <script>
@@ -93,28 +94,41 @@ export default defineComponent({
     return {
       numberLucky: 1,
       data: DataSpin,
+      duration: 5000,
+      point: 0,
     };
+  },
+
+  created() {
+    const gameScore = localStorage.getItem('GameScore');
+    gameScore ? (this.point = Number(gameScore)) : (this.point = 0)
   },
 
   computed: {
     number_spin() {
-      return 1;
+       return Math.floor(this.point / 10);
     },
-    point() {
-        return 100;
+
+    checkSpinCount() {
+      return this.number_spin < 1 ? true : false;
     }
+
   },
 
   methods: {
     onRotateEnd(prize) {
       alert(prize.value);
     },
+
     onChangePrize(id) {
-      console.log(id);
-      setTimeout(() => {
+      if(!this.checkSpinCount){
+        localStorage.setItem('GameScore', this.point - 10);
+        this.point = this.point - 10;
+        setTimeout(() => {
         this.numberLucky = 5;
         console.log("change number");
-      }, 5000);
+      }, 2000);
+      }
     },
 
     handleShow() {
@@ -128,7 +142,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 .wheel {
   width: 100%;
   height: auto;

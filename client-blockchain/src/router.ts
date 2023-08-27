@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import MiniGameVue from "./views/MiniGame.vue";
 import HomePage from "./views/HomePage.vue";
 import FortuneWheel from "./views/FortuneWheel.vue";
-
+import Mission from "./views/Mission.vue"
 
 import { nextTick } from "vue";
 const router = createRouter({
@@ -27,6 +27,11 @@ const router = createRouter({
       path: "/wheel",
       component: FortuneWheel,
       name: "wheel",
+    },
+    {
+      path: "/mission",
+      component: Mission,
+      name: "mission",
     },
   ],
 

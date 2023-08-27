@@ -35,9 +35,24 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click="handleAcceptPopup()">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">You Lose ! your score: {{ score }}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 
-<script lang="ts">
+<script >
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -46,19 +61,22 @@ export default defineComponent({
       bird: {
         x: 50,
         y: 150,
-      } as any,
-      pipes: [] as any,
+      } ,
+      pipes: [] ,
 
       start: false,
       score: 0,
+      isGameOver: false,
 
-      jumpTimeout: null as any,
-      birdDownInterval: null as any,
+      jumpTimeout: null ,
+      birdDownInterval: null,
+
+
     };
   },
   mounted() {
     this.generatePipes();
-    this.gameLoop();
+    // this.gameLoop();
   },
 
   methods: {
@@ -66,6 +84,42 @@ export default defineComponent({
       this.start = true;
       this.pipeMove();
       this.jump();
+    },
+
+    handleAcceptPopup() {
+      // save to store
+      const gameScore = localStorage.getItem('GameScore');
+
+      if (gameScore === null) {
+      // If "GameScore" key is not present, initialize it with a default value
+      localStorage.setItem('GameScore', this.score);
+      } else {
+        const currentScore = Number(gameScore)
+        localStorage.setItem('GameScore', this.score+currentScore);
+      }
+
+      this.handleRestart()
+      this.generatePipes();
+    },
+
+    handleLose() {
+      const myModal = new bootstrap.Modal(
+        document.getElementById("exampleModal"),
+        {}
+      );
+      myModal.show()
+      
+
+    },
+
+    handleRestart() {
+      this.bird = { x: 50, y: 150 };
+      this.pipes = [];
+      this.start = false;
+      this.score = 0;
+      this.isGameOver = false;
+      clearTimeout(this.jumpTimeout);
+      clearInterval(this.birdDownInterval);
     },
 
     handleCheck() {
@@ -79,15 +133,15 @@ export default defineComponent({
       if (pipe_top < bird_y && pipe_bottom > bird_y) {
         this.score += 1;
       } else {
-        this.pause();
-        alert("thua");
+        this.handleLose()
+        // alert("thua");
       }
 
       //kiểm tra pipe.top.y < bird.y < pipe.bottom.y
     },
 
     pipeMove() {
-      let move = "" as any;
+      let move = "";
       move = setInterval(() => {
         for (let i = 0; i < this.pipes.length; i++) {
           this.pipes[i].top.x -= 2;
