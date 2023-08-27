@@ -1,12 +1,17 @@
 {
-    "name": "031 - Satan Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmcfwFPT7inwPCGhEB9crj3rYMJHh21LZxUQ2R56NQoQyo",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "031 - Satan Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/back.png",
+    "video": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

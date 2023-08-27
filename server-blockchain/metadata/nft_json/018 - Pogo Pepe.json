@@ -1,12 +1,17 @@
 {
-    "name": "018 - Pogo Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmdH6UyDWFa8zehRcY6GrhvVi7WSZgFZPayk7rhtnLEJnr",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "018 - Pogo Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/back.png",
+    "video": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

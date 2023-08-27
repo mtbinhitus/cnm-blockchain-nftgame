@@ -1,12 +1,17 @@
 {
-    "name": "014 - Proud Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUuwy5KcJrWvNd9Z7mvPLZkvPTGq1kwBbEmEwtZwDHsj5",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "014 - Proud Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/back.png",
+    "video": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "093 - Pill Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRXYMaWJqYLF9D7LTzrhuHS5vXyz8HFeDRo9MPbt7n4LV",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "093 - Pill Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/front.png",
+    "card_back": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/back.png",
+    "video": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

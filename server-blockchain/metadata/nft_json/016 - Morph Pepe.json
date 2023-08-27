@@ -1,12 +1,17 @@
 {
-    "name": "016 - Morph Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmanjJjZuKVmZrB6PBideNY3UQ7Lw1YPZZp4ymcgpVyp2r",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "016 - Morph Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/back.png",
+    "video": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

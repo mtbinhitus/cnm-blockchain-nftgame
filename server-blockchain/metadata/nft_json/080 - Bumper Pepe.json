@@ -1,12 +1,17 @@
 {
-    "name": "080 - Bumper Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVy2AdotBEuhAYEANd7ta3U22SDaiygD1hXqdcxncEEsC",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "080 - Bumper Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/back.png",
+    "video": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "047 - Mercy Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmb83JmWTZBpthKu9qy487bLhH15ySW3KAcqzDLyvqE56g",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "047 - Mercy Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/back.jpg",
+    "video": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

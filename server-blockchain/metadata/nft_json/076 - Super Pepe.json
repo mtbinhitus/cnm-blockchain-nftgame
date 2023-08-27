@@ -1,12 +1,17 @@
 {
-    "name": "076 - Super Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRXQQi3afv1W8GiWPnW4faQLs8WLijrLkUycryn4hdi3v",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "076 - Super Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/back.png",
+    "video": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

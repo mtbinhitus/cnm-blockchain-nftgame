@@ -1,12 +1,17 @@
 {
-    "name": "019 - Jump Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmSLKD9HkUDairsxWGf7qkyRMeS6LdrPMUeDAzdApkirSb",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "019 - Jump Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/back.png",
+    "video": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

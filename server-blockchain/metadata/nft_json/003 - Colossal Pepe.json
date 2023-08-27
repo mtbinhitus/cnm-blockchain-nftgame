@@ -1,12 +1,17 @@
 {
-    "name": "003 - Colossal Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmPjNinoQKTexUPty27MyFpKJV9CnKtZYPxzUqEgjCc6wE",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "003 - Colossal Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/preview.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/back.png",
+    "video": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

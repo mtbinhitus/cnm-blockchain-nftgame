@@ -1,12 +1,17 @@
 {
-    "name": "030 - Vision Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmQyvMR2Vf9FTAGHuxUxS1R2SbaGKwCefcbwASoWSzZPKw",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "030 - Vision Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/back.png",
+    "video": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "051 - Pong Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmd9BTgAckB6SuZi2c8meyRyUV3TYtcnidvPC6KtoV3RP7",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "051 - Pong Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/back.png",
+    "video": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

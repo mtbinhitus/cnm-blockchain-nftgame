@@ -1,12 +1,17 @@
 {
-    "name": "036 - Chill Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmSYLzvGLjkpfvxBjoCiXdCw4159ZSgAwWzangsp3WMUdD",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "036 - Chill Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/back.png",
+    "video": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "065 - Hodl Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmPyJQ93kmFH2PcJY122T57DVMb9LT2RgGyPCsGNgE4Cab",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "065 - Hodl Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/back.png",
+    "video": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

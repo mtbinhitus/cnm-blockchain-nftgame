@@ -1,12 +1,17 @@
 {
-    "name": "048 - Chase Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVLGfHLbzNfSwL4MeCC6xPCYXaDpFEbYkMFiZKaJFFrzk",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "048 - Chase Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/back.jpg",
+    "video": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

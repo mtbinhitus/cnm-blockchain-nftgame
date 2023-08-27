@@ -1,12 +1,17 @@
 {
-    "name": "029 - Amaze Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmboGbu4ebYmfKZako57XR7n5pLoWZwh6aJKPcL4jGTfSf",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "029 - Amaze Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/back.png",
+    "video": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

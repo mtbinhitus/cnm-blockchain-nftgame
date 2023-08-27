@@ -1,12 +1,17 @@
 {
-    "name": "008 - Now Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVALvywws7GoUfg1AhM1dHxG1AjbHJejN6VdfyYjzAMD2",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "008 - Now Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/back.png",
+    "video": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "040 - Blobby Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmSyg7rffsr1FD2ksdX623J4nnw8zKyvJuq1Y4KE3JAc2g",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "040 - Blobby Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/back.png",
+    "video": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

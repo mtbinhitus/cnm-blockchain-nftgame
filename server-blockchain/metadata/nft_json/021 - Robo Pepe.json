@@ -1,12 +1,17 @@
 {
-    "name": "021 - Robo Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmciwRxWqsDsuLkUtjRyfvkkGfxZaPFJmdrDAMZoh8Pr6C",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "021 - Robo Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/back.png",
+    "video": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "045 - Dom Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUkViRh9Bnig4YzavT5L43nERXNwGb18m5abhSueJRuAn",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "045 - Dom Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/back.jpg",
+    "video": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

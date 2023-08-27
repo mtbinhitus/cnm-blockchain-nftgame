@@ -1,12 +1,17 @@
 {
-    "name": "079 - Sub Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVMSUhwJ4vXSMgRCfG6KLDiiAe1Zg7MJPPbe1J11jYJdQ",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "079 - Sub Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/back.png",
+    "video": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

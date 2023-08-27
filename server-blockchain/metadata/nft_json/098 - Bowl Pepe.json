@@ -1,12 +1,17 @@
 {
-    "name": "098 - Bowl Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmcesmQ493Eygraeuky7Z9bPpdnG8uX8XySNNuvXYh3zbw",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "098 - Bowl Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/back.png",
+    "video": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

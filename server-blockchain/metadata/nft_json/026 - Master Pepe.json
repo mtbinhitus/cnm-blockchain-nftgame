@@ -1,12 +1,17 @@
 {
-    "name": "026 - Master Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmTE3jBu88n8C3kg5uM6VHGpsjDox13VQHNbZubXDRuEUZ",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "026 - Master Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/back.png",
+    "video": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

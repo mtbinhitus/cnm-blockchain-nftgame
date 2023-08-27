@@ -1,7 +1,13 @@
 {
     "name": "024 - Shroom Pepe",
     "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmZc9NbiPuEUSCJ8R1gu3qZJzAfLGHny4BkSDzGgoGw8Na",
+    "image": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/card.gif",
+    "animation_url": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/card.glb",  
+    "hifi_media": { 
+      "card_front": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/front.png",
+      "card_back": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/back.png",  
+      "video": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/video.mp4" 
+    },
     "attributes": [
       {
         "trait_type": "Rarity",

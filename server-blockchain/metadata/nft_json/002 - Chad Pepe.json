@@ -1,12 +1,17 @@
 {
-    "name": "002 - Chad Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVbm8mN5ccufkD8A1AWQMVui9TavmyL3XDHi41P3aw1ZT",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "002 - Chad Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/back.png",
+    "video": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

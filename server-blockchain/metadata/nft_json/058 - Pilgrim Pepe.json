@@ -1,12 +1,17 @@
 {
-    "name": "058 - Pilgrim Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmQ73Q3pS5C16xwxHynXjUfn8Ja2UgngEgNDEfpXSQvCaD",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "058 - Pilgrim Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/back.png",
+    "video": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

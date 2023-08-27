@@ -1,12 +1,17 @@
 {
-    "name": "015 - Salary Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmQBKGJRuDgQSAsEKDmMDZUfzuTg1vm5eZi4ySyj4i5sjk",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Legendary"
-      }
-    ]
-  }
-  
+  "name": "015 - Salary Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/back.png",
+    "video": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

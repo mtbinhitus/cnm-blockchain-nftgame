@@ -1,12 +1,17 @@
 {
-    "name": "086 - Fixed Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmfXGoNHDTsZkSjvZNvbAjJ9AcGVtv6N8qc2hYcwMYLtV1",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "086 - Fixed Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/back.png",
+    "video": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

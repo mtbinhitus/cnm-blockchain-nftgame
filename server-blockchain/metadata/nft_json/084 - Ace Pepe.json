@@ -1,12 +1,17 @@
 {
-    "name": "084 - Ace Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRjcqqkBDnZSgNPBAFngi92TiZyD5tJxtJFX6MdSXEkha",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "084 - Ace Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/back.png",
+    "video": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "064 - Psycho Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUe8YEaQrpZ46J9YAvVaUsAP4i2HMy45Uhadkhe6sfF1q",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "064 - Psycho Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/front.png",
+    "card_back": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/back.png",
+    "video": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

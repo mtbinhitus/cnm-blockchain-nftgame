@@ -1,12 +1,17 @@
 {
-    "name": "005 - Zealot Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qma3ys2LjDDvTKP6kJqBJGqXgRvTFbqXmd6LwcXV99uUQj",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "005 - Zealot Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/back.png",
+    "video": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

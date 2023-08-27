@@ -1,12 +1,17 @@
 {
-    "name": "054 - Shogun Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRZxDrdhuXMLnV171Qu3hEHSWoXievyjwP5DennLZd1z5",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "054 - Shogun Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/back.png",
+    "video": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

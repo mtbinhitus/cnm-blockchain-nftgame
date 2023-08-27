@@ -1,12 +1,17 @@
 {
-    "name": "042 - High Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmeXpnFDiehnEwHDZP3qKr6Kfq6qUmSyYoEGa2qPDT9Rcr",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "042 - High Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/back.png",
+    "video": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "095 - Rob Boss Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUVzWVFc1TJ7S6gJ1sbePBZFdXD2BwNAKa1ENcyEb5rx9",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "095 - Rob Boss Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/back.png",
+    "video": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

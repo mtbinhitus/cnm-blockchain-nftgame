@@ -1,12 +1,17 @@
 {
-    "name": "027 - Creamy Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmbeSW72Fi8UK6joxqDjZiMCN8Fp9X6hQf2y2g578QNtkH",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "027 - Creamy Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/back.png",
+    "video": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

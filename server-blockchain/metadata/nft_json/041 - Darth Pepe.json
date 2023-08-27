@@ -1,12 +1,17 @@
 {
-    "name": "041 - Darth Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVF3xs7Yb92vdsgucAX1cGB9PVJuR5W5GFTfS5X98gAyG",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "041 - Darth Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/back.png",
+    "video": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "061 - Berserk Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmWkYnwPSZq5Qv1UHcmPKx2gxCuKUXNum1d73qLFkYu8VL",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "061 - Berserk Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/back.png",
+    "video": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

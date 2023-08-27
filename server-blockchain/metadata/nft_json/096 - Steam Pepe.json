@@ -1,0 +1,17 @@
+{
+    "name": "096 - Steam Pepe",
+    "description": "RarePepe by Matt Furie OpenSea",
+    "image": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/card.gif",
+    "animation_url": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/card.glb",
+    "hifi_media": {
+        "card_front": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/front.png",
+        "card_back": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/back.png",
+        "video": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/video.mp4"
+    },
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        }
+    ]
+}

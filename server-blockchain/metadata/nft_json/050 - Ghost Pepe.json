@@ -1,12 +1,17 @@
 {
-    "name": "050 - Ghost Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmYLmP9yXCuJnUSG4itPcZSiVTPTuTzFvenpG1YVL5dUy8",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "050 - Ghost Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/back.jpg",
+    "video": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

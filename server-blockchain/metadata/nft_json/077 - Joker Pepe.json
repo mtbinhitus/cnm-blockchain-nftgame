@@ -1,12 +1,17 @@
 {
-    "name": "077 - Joker Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmNT3dAMqfRJLMqDLdBHjR7xbp1vftHXNoSP61S9TqNepk",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "077 - Joker Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/back.png",
+    "video": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

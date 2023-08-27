@@ -1,12 +1,17 @@
 {
-    "name": "055 - Play Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmcTYyM3hRyN9DpHjxDCTLjY6p7QNWVQ4ca3VYzK4gXPhn",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "055 - Play Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/back.png",
+    "video": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

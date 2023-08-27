@@ -1,12 +1,17 @@
 {
-    "name": "043 - Time Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmcn5DmYkGPJXPZ6Y4cWU4ZQRuspqBgnTTRNeytnCf6a4V",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "043 - Time Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/back.jpg",
+    "video": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

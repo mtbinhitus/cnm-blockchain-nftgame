@@ -1,12 +1,17 @@
 {
-    "name": "069 - Pepe Epep",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmNLtSt6n4G8yeLChqRbXy3mdJduCViHpXLkqak2rr2p6E",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "069 - Pepe Epep",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/back.png",
+    "video": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

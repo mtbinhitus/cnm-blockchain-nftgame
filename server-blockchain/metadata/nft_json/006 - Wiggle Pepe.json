@@ -1,12 +1,17 @@
 {
-    "name": "006 - Wiggle Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmQhbgvXT6dsyZLzERx5g3PRctYi43XJUUNr7CBdbg2kPb",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "006 - Wiggle Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/back.png",
+    "video": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

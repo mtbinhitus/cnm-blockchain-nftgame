@@ -1,12 +1,17 @@
 {
-    "name": "091 - Dope Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmX8uwEiPGSnYDLXaRCb2ecTHPwvTdji2cVyPd7A6qcJa9",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "091 - Dope Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/back.png",
+    "video": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

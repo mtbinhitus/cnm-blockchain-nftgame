@@ -1,0 +1,17 @@
+{
+    "name": "057 - Alien Pepe",
+    "description": "RarePepe by Matt Furie OpenSea",
+    "image": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/card.gif",
+    "animation_url": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/card.glb",
+    "hifi_media": {
+        "card_front": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/front.png",
+        "card_back": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/back.png",
+        "video": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/video.mp4"
+    },
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        }
+    ]
+}

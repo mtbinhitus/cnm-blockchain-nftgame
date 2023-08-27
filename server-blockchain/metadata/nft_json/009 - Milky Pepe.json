@@ -1,12 +1,17 @@
 {
-    "name": "009 - Milky Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmdKrDJQuRCBXtCk9UvuKwruKyetZHqGxNqMh6roRdShTq",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "009 - Milky Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/back.png",
+    "video": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

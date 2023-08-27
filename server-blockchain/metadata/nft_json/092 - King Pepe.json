@@ -1,12 +1,17 @@
 {
-    "name": "092 - King Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmPytiWND5jVFkC3pt5zsSU9VKaWjBDvLTN547DjPTE6Kt",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "092 - King Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/back.png",
+    "video": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

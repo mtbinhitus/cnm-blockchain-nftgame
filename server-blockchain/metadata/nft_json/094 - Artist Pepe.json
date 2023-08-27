@@ -1,12 +1,17 @@
 {
-    "name": "094 - Artist Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmfUggRBxuFNMFGn2cLZFZNqN4FpyUDpFe3Sa6e6KBvtpf",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "094 - Artist Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/back.png",
+    "video": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

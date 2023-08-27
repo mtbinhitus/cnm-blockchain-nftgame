@@ -1,12 +1,17 @@
 {
-    "name": "073 - Relic Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmfTxir41potPqGpocQEGqheqF8d1kxUR5Gstd5mSL5HaB",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "073 - Relic Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/back.png",
+    "video": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

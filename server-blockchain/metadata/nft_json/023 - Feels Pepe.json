@@ -1,12 +1,17 @@
 {
-    "name": "023 - Feels Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmdaRZSCeS66mQSQvcYNzv9btYHPSB4Re3ZgVNwEWqP5RB",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "023 - Feels Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/back.png",
+    "video": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

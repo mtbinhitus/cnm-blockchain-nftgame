@@ -1,12 +1,17 @@
 {
-    "name": "087 - Crazy Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVdnycCsXqLi4SdXcRMTPrzC3xZ1TzonNvAT1MsbxkkjN",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "087 - Crazy Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/back.png",
+    "video": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "059 - Samsara Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmbwkGvTGyiXRqTubkCdP7ZAt9SMAxV1uscsEhYajPheLT",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "059 - Samsara Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/back.png",
+    "video": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

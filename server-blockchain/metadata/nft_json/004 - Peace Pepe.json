@@ -1,12 +1,17 @@
 {
-    "name": "004 - Peace Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmcbNQDgUSgT7sL41RCiLwpajmcSpyd5rscChYsi6Dxk3i",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "004 - Peace Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/preview.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/back.png",
+    "video": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

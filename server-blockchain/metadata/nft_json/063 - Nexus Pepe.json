@@ -1,12 +1,17 @@
 {
-    "name": "063 - Nexus Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmf8LBo8cJumbqkF1n85svnKoAhU93vxy1uR9EnSdQc5wn",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "063 - Nexus Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/back.png",
+    "video": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

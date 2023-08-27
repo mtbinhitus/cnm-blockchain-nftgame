@@ -1,12 +1,17 @@
 {
-    "name": "001 - Moses Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVPTSDKccLkapmNe87JhCrep6YMcX7EFLDsMUYvdprWpp",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "001 - Moses Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/back.png",
+    "video": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

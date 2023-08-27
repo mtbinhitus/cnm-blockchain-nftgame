@@ -1,12 +1,17 @@
 {
-    "name": "082 - Metal Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qme8hRVmAQSvH3myRSreXdx9qXET3jP2SA5c5R7ykEXh6J",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "082 - Metal Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/back.png",
+    "video": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

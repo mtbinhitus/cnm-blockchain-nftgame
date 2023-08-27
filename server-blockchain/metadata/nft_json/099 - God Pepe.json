@@ -1,12 +1,17 @@
 {
-    "name": "099 - God Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmdgHCMkb9TSMAwhMvVd4aHaLgLmJhR39nmJk7yz4SNdKy",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "099 - God Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/back.png",
+    "video": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

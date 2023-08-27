@@ -1,12 +1,17 @@
 {
-    "name": "067 - Anon Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmS6jtNKH4BjAvd4V8BRV2JQYBzT4mTybctakjFhSFjqdb",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "067 - Anon Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/back.png",
+    "video": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

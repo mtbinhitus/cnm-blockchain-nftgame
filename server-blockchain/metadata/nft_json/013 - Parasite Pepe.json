@@ -1,12 +1,17 @@
 {
-    "name": "013 - Parasite Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmZnCLzN977J1DkYLzRSLCu1kpT9uoCPXZqKTh7Qfd54eu",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Legendary"
-      }
-    ]
-  }
-  
+  "name": "013 - Parasite Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/back.png",
+    "video": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

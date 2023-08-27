@@ -1,12 +1,17 @@
 {
-    "name": "007 - Sir Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmacLLaJBqz7k3FbAeiiGNpPQsK1vGRk4UnyWCd4FQAz4r",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "007 - Sir Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/back.png",
+    "video": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

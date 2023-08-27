@@ -1,12 +1,17 @@
 {
-    "name": "046 - Lonely Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRBYGKrGWXNz1CRwubR7buNtGw3TS4hFNTcu1Ec54ziA7",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "046 - Lonely Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/front.jpg",
+    "card_back": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/back.jpg",
+    "video": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "033 - Fire Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmad5LYH4Wgsj8HSBdyguSxNn9TDbh7TPwzZRXcT2QFDfV",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "033 - Fire Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/back.png",
+    "video": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "088 - Wheel Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVkK5MBGeEMmTNiwxaDpRLx4LCcVARKxEFvbTzWM1wPmz",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "088 - Wheel Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/back.png",
+    "video": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

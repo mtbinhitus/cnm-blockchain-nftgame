@@ -1,12 +1,17 @@
 {
-    "name": "097 - 8Bit Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmbRtaFr2UKzq5XtiqpHYaBTrvLfeaGgeNBcG1FDtwQPxp",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "097 - 8Bit Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/back.png",
+    "video": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

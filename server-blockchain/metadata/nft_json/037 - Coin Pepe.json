@@ -1,12 +1,17 @@
 {
-    "name": "037 - Coin Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmfGvTpuw683t6UdiSptLasJLr9RZzyb5FGDv25LKsNG3D",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "037 - Coin Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/back.png",
+    "video": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

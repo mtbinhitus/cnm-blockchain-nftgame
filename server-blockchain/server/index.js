@@ -28,5 +28,5 @@ app.use("/api/nft", nftRoute)
 
 
 app.listen( 8000, () => {
-  console.log(`Example app listening on port`);
+  console.log(`Example app listening on port`, 8000);
 });

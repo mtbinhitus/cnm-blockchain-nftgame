@@ -6,7 +6,8 @@ const Web3 = require("web3");
 const PRIVATE_KEY =
   "b6c1dc049bde4d0015332ad02ef4cee0d9bff31bccd91ac0d42543a79e2b029e";
 
-const CONTRACT_ADDRESS = "0x404f79c45D27512D05C1EBfdBA6FF4B3Ffc6b6e5";
+// New contract
+const CONTRACT_ADDRESS = "0x3d049824057A31001AF525BBe9f2Ede1768c1f49";
 
 const API_URL =
   "https://eth-goerli.g.alchemy.com/v2/7u9ag44gEfuJtfihRfFlgTU4UMEV02HV";
@@ -15,7 +16,7 @@ const ACCOUNT_ADDRESS = "0x87832Ac75e086bb8A4E4fcc513D156F529C98E2B";
 
 const filePath = path.join(
   __dirname,
-  `../build/artifacts/contracts/PepeCard.sol/PepeCard.json`
+  `../build/artifacts/contracts/PepeCards.sol/PepeCards.json`
 );
 
 const contractJson = fs.readFileSync(filePath, "utf8");
@@ -28,9 +29,6 @@ const web3 = new Web3(API_URL);
 
 const contract = new web3.eth.Contract(contractAbi, CONTRACT_ADDRESS);
 
-// const sendNFT = async (address_to) => {};
-
-// senNFT(1, "0x33739B1802B981D04c2c6BcD1637963438dc057E");
 
 function convertIpfsUrl(ipfsUrl) {
   const ipfsHash = ipfsUrl.split("ipfs://")[1];
@@ -75,6 +73,48 @@ function writeData(data, address) {
 }
 
 const nftController = {
+  transferUser: async (req, res) => {
+    try {
+
+      const gasPrice = await web3.eth.getGasPrice();
+      const nonce = await web3.eth.getTransactionCount(ACCOUNT_ADDRESS);
+      const address_to = req.body.address_to;
+      const address_from = req.body.address_from;
+      const token_nft = req.body.token_nft;
+
+      const txObject = {
+        from: ACCOUNT_ADDRESS,
+        to: CONTRACT_ADDRESS,
+        gas: 210000, // Số gas bạn muốn sử dụng
+        gasPrice: gasPrice,
+        nonce: nonce,
+        data: contract.methods
+          .transferFrom(address_from, address_to, token_nft)
+          .encodeABI(), // Gọi hàm transferFrom() để chuyển NFT
+      };
+
+      // Ký giao dịch với private key
+      const signedTx = await web3.eth.accounts.signTransaction(
+        txObject,
+        PRIVATE_KEY
+      );
+
+      // Gửi giao dịch đã ký
+      const txReceipt = await web3.eth.sendSignedTransaction(
+        signedTx.rawTransaction
+      );
+
+      console.log("Transaction receipt sendNFT:", txReceipt);
+
+      res.status(200).json({
+        message: "transfer successfully",
+      });
+
+    } catch (error) {
+      res.status(500).json({
+        error: error.message,
+      });}
+  },
   transferNFT: async (req, res) => {
     try {
       const gasPrice = await web3.eth.getGasPrice();

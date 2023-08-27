@@ -1,12 +1,17 @@
 {
-    "name": "090 - Top Hat Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmbwjciczhYWZp4vCRDvTT2ceF3cJFPAirTocKhUnNyVkc",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "090 - Top Hat Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/back.png",
+    "video": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "020 - Rascal Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVfmg1pDS4r4kj6Kfyh5ZREoMYdm69AffQXzi63G4BLw3",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "020 - Rascal Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/back.png",
+    "video": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

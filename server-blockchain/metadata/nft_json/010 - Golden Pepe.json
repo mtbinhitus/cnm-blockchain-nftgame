@@ -1,12 +1,17 @@
 {
-    "name": "010 - Golden Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmPT3sp3h5Um6FVKWUQKBZDmiKvNq5B4WzGAi5QQU1k27P",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "010 - Golden Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/back.png",
+    "video": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

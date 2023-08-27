@@ -1,12 +1,17 @@
 {
-    "name": "066 - Yakuza Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmdzaEeixRt2Mn3JVoFaLZM737tZUxzR2JFccTonF3FAYa",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "066 - Yakuza Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/back.png",
+    "video": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

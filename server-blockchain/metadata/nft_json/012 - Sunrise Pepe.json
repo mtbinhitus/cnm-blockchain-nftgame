@@ -1,12 +1,17 @@
 {
-    "name": "012 - Sunrise Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmVpjFt4ztiKwY2YHZNxH75AMGabaxoE7EAUcaGJaenbL7",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "012 - Sunrise Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/back.png",
+    "video": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

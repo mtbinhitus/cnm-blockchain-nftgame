@@ -1,12 +1,17 @@
 {
-    "name": "078 - Count Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmeBBqdBAAgWWtCrHjB3sjy2wDjUEZ8tU9By1BNuzNALg7",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "078 - Count Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/back.png",
+    "video": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

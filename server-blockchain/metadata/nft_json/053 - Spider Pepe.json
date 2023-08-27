@@ -1,12 +1,17 @@
 {
-    "name": "053 - Spider Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://Qmf4qRwM6gGWmFA2o9HzxKZxH3G7snhLwei4gdkS3UdYFy",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "053 - Spider Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/back.png",
+    "video": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

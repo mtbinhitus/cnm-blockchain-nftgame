@@ -1,12 +1,17 @@
 {
-    "name": "011 - Reset Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmaPrg2BiYafxYb4riAPKjvLFWAHMKAdDbs3kqcKzqFAVm",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "011 - Reset Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/back.png",
+    "video": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "062 - Cured Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmNajNaBsjXPtNZbF9ekFTWMKpDZt89Kj5ovEHdkJyrVkz",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Legendary"
-      }
-    ]
-  }
-  
+  "name": "062 - Cured Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/back.png",
+    "video": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

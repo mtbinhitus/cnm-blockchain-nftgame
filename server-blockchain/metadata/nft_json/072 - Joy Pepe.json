@@ -1,12 +1,17 @@
 {
-    "name": "072 - Joy Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmY7HEfhyXSsGej3sqb31PLCGxovFSXHh4GZpUwvHbigh7",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "072 - Joy Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/front.png",
+    "card_back": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/back.png",
+    "video": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

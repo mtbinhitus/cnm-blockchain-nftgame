@@ -1,12 +1,17 @@
 {
-    "name": "038 - Raid Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmRyphHUx4F34bSjmZjXH4LgG4MQUi5gZyp2xiWxYWei6z",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "038 - Raid Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/back.png",
+    "video": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

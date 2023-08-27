@@ -1,12 +1,17 @@
 {
-    "name": "074 - Prison Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUVLFPsPrsZN1PTL4dafd2KqukEN4mt1KMUyDr7MQGK8W",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "074 - Prison Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/back.png",
+    "video": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

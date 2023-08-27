@@ -1,12 +1,17 @@
 {
-    "name": "071 - Magic Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUSN25XqyHK8tCZPDCSB8zh3SmRcv9gyKf1a1HSMmHsDD",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Rare"
-      }
-    ]
-  }
-  
+  "name": "071 - Magic Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/back.png",
+    "video": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

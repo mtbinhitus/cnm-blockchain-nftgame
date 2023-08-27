@@ -1,12 +1,17 @@
 {
-    "name": "085 - Dance Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmUpNFag696k8bgDtkZR73rF6qs32cgEV4hdwnD3duy1jW",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Epic"
-      }
-    ]
-  }
-  
+  "name": "085 - Dance Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/back.png",
+    "video": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
-    "name": "017 - Roller Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmYXwcF99jkXLXYva9o6pBF2EhNypbDJMp3rUVcUpVuawa",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Uncommon"
-      }
-    ]
-  }
-  
+  "name": "017 - Roller Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/back.png",
+    "video": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

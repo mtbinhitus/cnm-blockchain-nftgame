@@ -1,12 +1,17 @@
 {
-    "name": "089 - Waltz Pepe",
-    "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmcrpewBw6uiJeoUeAPYWnfymM7X3vUMPh51PnBNwjwkEe",
-    "attributes": [
-      {
-        "trait_type": "Rarity",
-        "value": "Common"
-      }
-    ]
-  }
-  
+  "name": "089 - Waltz Pepe",
+  "description": "RarePepe by Matt Furie OpenSea",
+  "image": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/card.gif",
+  "animation_url": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/card.glb",
+  "hifi_media": {
+    "card_front": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/front.png",
+    "card_back": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/back.png",
+    "video": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/video.mp4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,7 +1,13 @@
 {
     "name": "022 - Mind Pepe",
     "description": "RarePepe by Matt Furie OpenSea",
-    "image": "ipfs://QmQibsMtAXHtQANscvBTsxx1adYcAArQsCHHyo4NA3pYfp",
+    "image": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/card.gif",
+    "animation_url": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/card.glb",  
+    "hifi_media": { 
+      "card_front": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/front.png",
+      "card_back": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/back.png",  
+      "video": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/video.mp4" 
+    },
     "attributes": [
       {
         "trait_type": "Rarity",
