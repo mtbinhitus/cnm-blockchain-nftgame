@@ -2,9 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import MiniGameVue from "./views/MiniGame.vue";
 import HomePage from "./views/HomePage.vue";
 import FortuneWheel from "./views/FortuneWheel.vue";
-
+import Mission from "./views/Mission.vue"
+import NotFound from "./components/ErrorPage.vue";
 
 import { nextTick } from "vue";
+import { authStore } from "./stores/authStore";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -17,6 +19,7 @@ const router = createRouter({
       path: "/game",
       component: MiniGameVue,
       name: "game",
+      meta: { authRequired: true },
     },
     {
       path: "/",
@@ -27,6 +30,19 @@ const router = createRouter({
       path: "/wheel",
       component: FortuneWheel,
       name: "wheel",
+      meta: { authRequired: true },
+    },
+    {
+      path: "/mission",
+      component: Mission,
+      name: "mission",
+      meta: { authRequired: true },
+    },
+
+    {
+      path: "/:pathMatch(.*)*",
+      name: "Not found",
+      component: NotFound,
     },
   ],
 
@@ -40,6 +56,13 @@ router.beforeEach((routeTo, routeFrom, next) => {
   const authRequired = routeTo.matched.some((route) => route.meta.authRequired);
   if (!authRequired) {
     return next();
+  }
+  
+  if(authStore().is_authen) {
+    return next();
+  } else {
+    router.push({ path: "/" });
+    alert("Please connect with Metamask wallet")
   }
 });
 

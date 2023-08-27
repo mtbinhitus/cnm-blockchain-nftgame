@@ -35,30 +35,49 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">You Lose</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 
-<script lang="ts">
+<script >
+import { authStore } from "@/stores/authStore";
+import  axios from "axios";
 import { defineComponent } from "vue";
-
 export default defineComponent({
   data() {
     return {
       bird: {
         x: 50,
         y: 150,
-      } as any,
-      pipes: [] as any,
+      } ,
+      pipes: [] ,
 
       start: false,
       score: 0,
+      isGameOver: false,
 
-      jumpTimeout: null as any,
-      birdDownInterval: null as any,
+      jumpTimeout: null ,
+      birdDownInterval: null,
+
+
     };
   },
   mounted() {
     this.generatePipes();
-    this.gameLoop();
+    // this.gameLoop();
   },
 
   methods: {
@@ -68,26 +87,51 @@ export default defineComponent({
       this.jump();
     },
 
+
+    handleLose() {
+      const myModal = new bootstrap.Modal(
+        document.getElementById("exampleModal"),
+        {}
+      );
+      myModal.show()
+
+      this.updateScore();
+      this.handleRestart();
+      this.generatePipes();
+      
+
+    },
+
+    handleRestart() {
+      this.bird = { x: 50, y: 150 };
+      this.pipes = [];
+      this.start = false;
+      this.score = 0;
+      this.isGameOver = false;
+      clearTimeout(this.jumpTimeout);
+      clearInterval(this.birdDownInterval);
+    },
+
     handleCheck() {
       // vị trí của bird
       const bird_y = this.bird.y;
       const pipe_top = this.pipes[0].top.height + 10;
       const pipe_bottom = 600 - this.pipes[0].bottom.height - 30;
 
-      console.log(bird_y, pipe_top, pipe_bottom);
+      // console.log(bird_y, pipe_top, pipe_bottom);
 
       if (pipe_top < bird_y && pipe_bottom > bird_y) {
         this.score += 1;
       } else {
-        this.pause();
-        alert("thua");
+        this.handleLose()
+        // alert("thua");
       }
 
       //kiểm tra pipe.top.y < bird.y < pipe.bottom.y
     },
 
     pipeMove() {
-      let move = "" as any;
+      let move = "";
       move = setInterval(() => {
         for (let i = 0; i < this.pipes.length; i++) {
           this.pipes[i].top.x -= 2;
@@ -106,8 +150,21 @@ export default defineComponent({
           clearInterval(move);
         }
 
-        console.log(1);
       }, 10);
+    },
+
+    updateScore() {
+      console.log(this.score, '---score--');
+
+      const current_score = authStore().score;      
+      const address = authStore().address;
+      axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`, {
+        score: this.score + current_score,
+        address: address,
+      })
+
+      authStore().score = current_score + this.score;
+      // axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/static/auth`)
     },
 
     birdDown() {

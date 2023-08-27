@@ -4,15 +4,15 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">congrats you received: {{ gift.name }}</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body d-flex justify-content-center">
+        <img :src="gift.image" alt="" class="d-block">
       </div>
-      <div class="modal-footer">
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-primary">Accept</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -21,7 +21,9 @@
 <script>
 import { defineComponent } from "vue";
 
-export default defineComponent({});
+export default defineComponent({
+  props: ["gift"]
+});
 </script>
 
 <style></style>

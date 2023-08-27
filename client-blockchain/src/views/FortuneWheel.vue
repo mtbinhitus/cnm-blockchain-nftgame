@@ -6,9 +6,10 @@
           style="width: 500px; max-width: 100%"
           :prizes="data"
           @rotateEnd="onRotateEnd"
-          :duration="15000"
+          :duration="duration"
           :prizeId="numberLucky"
           @rotateStart="onChangePrize"
+          :verify="checkSpinCount"
         />
       </div>
       <div class="x text-white mt-5 fs-4">
@@ -39,37 +40,11 @@
           </tr>
         </thead>
         <tbody class="text-center">
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Challenger</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
-          </tr>
-          <tr>
-            <td>0x78282787428h2vs82342</td>
-            <td>Diamond</td>
+          <tr v-for="(item, index) in listHistory" :key="index">
+            <td>{{ item.address }}</td>
+            <td>
+              <convert-gift-name :link="item.data" />
+            </td>
           </tr>
         </tbody>
       </table>
@@ -77,7 +52,7 @@
       <span class="text-white text-decoration-underline">Game rules</span>
     </div>
   </div>
-  <ModalReceiveGiftVue/>
+  <ModalReceiveGiftVue :gift="gift" />
 </template>
 
 <script>
@@ -86,35 +61,136 @@ import "vue-fortune-wheel/style.css";
 import { defineComponent } from "vue";
 import { DataSpin } from "../data/data.js";
 import ModalReceiveGiftVue from "@/components/ModalReceiveGift.vue";
+import axios from "axios";
+import { dataStore } from "@/stores/dataStore";
+import ConvertGiftName from "@/components/ConvertGiftName.vue";
+import { authStore } from "@/stores/authStore";
 
 export default defineComponent({
-  components: { FortuneWheel, ModalReceiveGiftVue },
+  components: { FortuneWheel, ModalReceiveGiftVue, ConvertGiftName },
   data() {
     return {
       numberLucky: 1,
       data: DataSpin,
+      duration: 45000, // 25s spin
+      duration_fetch: 35000,
+      listHistory: [],
+      gift: {
+        name: "",
+        image: "",
+      },
     };
+  },
+
+  created() {
+    this.fetchHistory();
+    dataStore().fetch();
   },
 
   computed: {
     number_spin() {
-      return 1;
+      return Math.floor(this.point / 10);
     },
+
     point() {
-        return 100;
-    }
+      return authStore().score;
+    },
+
+    checkSpinCount() {
+      return this.number_spin < 1 ? true : false;
+    },
   },
 
   methods: {
     onRotateEnd(prize) {
-      alert(prize.value);
+      this.handleShow();
+      this.handleTransfer();
     },
+
+    fetchHistory() {
+      return new Promise((resolve, reject) => {
+        axios
+          .get(`${import.meta.env.VITE_APP_BASE_HOST}/static/history.json`)
+          .then(({ data }) => {
+            this.listHistory = data;
+            resolve(data);
+          });
+      });
+    },
+
+    updateScore() {
+      const address = authStore().address;
+      return new Promise((resolve, reject) => {
+        axios
+          .post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`, {
+            score: this.point - 10,
+            address: address,
+          })
+          .then(() => {
+            authStore().getInfo();
+          });
+      });
+    },
+
     onChangePrize(id) {
-      console.log(id);
-      setTimeout(() => {
-        this.numberLucky = 5;
-        console.log("change number");
-      }, 5000);
+      this.handleCreateNft();
+      if (!this.checkSpinCount) {
+        this.updateScore();
+
+        setTimeout(() => {
+          // this.numberLucky = 5;
+          this.handleGetInfoNFT();
+        }, this.duration_fetch);
+      }
+    },
+
+    handleCreateNft() {
+      // setTimeout(() => {
+      //   console.log("create complete")
+      // }, 20000);
+      return new Promise((resolve, reject) => {
+        axios
+          .post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/mint`)
+          .then(() => resolve(true))
+          .catch((err) => reject(err));
+      });
+    },
+
+    handleTransfer() {
+      const address = authStore().address;
+      axios.post(`${import.meta.env}/api/nft/transfer`, {
+        address_to: address,
+      })
+    },
+
+    async handleGetInfoNFT() {
+      const dataN = await axios.get(
+        `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/info`
+      );
+      const Link = dataN.data.trophiesCardData;
+      const Data = await axios.get(Link);
+
+      console.log(Data.data, "----fetch data info---");
+
+      this.gift.name = Data.data.name;
+      this.gift.image = this.convertIpfsUrl(Data.data.image);
+
+      const x = this.data.find((i) => i.value == Data.data.name.toLowerCase());
+
+      console.log('x:', x)
+
+      if (x) {
+        this.numberLucky = x.id;
+      } 
+    },
+
+    convertIpfsUrl(ipfsUrl) {
+      const ipfsHash = ipfsUrl.split("ipfs://")[1];
+      if (!ipfsHash) {
+        return null; // Không phải định dạng ipfs:// hợp lệ
+      }
+      const convertedUrl = `https://ipfs.io/ipfs/${ipfsHash}`;
+      return convertedUrl;
     },
 
     handleShow() {
@@ -122,13 +198,13 @@ export default defineComponent({
         document.getElementById("exampleModal"),
         {}
       );
-      myModal.show()
+      myModal.show();
     },
   },
 });
 </script>
 
-<style>
+<style scoped>
 .wheel {
   width: 100%;
   height: auto;

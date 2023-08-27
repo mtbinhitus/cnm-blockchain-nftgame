@@ -6,6 +6,7 @@ export const DataSpin = [
     bgColor: "#33FFFF",
     name: "challenger",
     probability: 100 / 8,
+    
   },
   {
     id: 2,

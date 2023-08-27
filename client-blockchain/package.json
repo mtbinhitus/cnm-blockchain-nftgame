@@ -11,6 +11,8 @@
     "lint-fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "pinia": "^2.1.6",
     "tailgrids": "^2.0.1",
     "vue": "^3.2.37",
     "vue-axios": "^3.4.1",
