@@ -37,18 +37,24 @@
                 Spin Bonus
               </router-link>
             </li>
+            <!-- <li class="nav-item ms-3 p-1">
+              <router-link class="nav-link text-white" to="/marketplace">
+                Marketplace
+              </router-link>
+            </li> -->
           </ul>
 
           <div class="btn btn-success" @click="connectWithMetaMask">
             <i class="fa-solid fa-wallet me-2"></i>
             <span v-if="!isConnected">Connect to METAMASK Wallet</span>
-            <span v-else>{{ address }}</span>
+            <router-link to="/collection" v-else class="text-white" style="text-decoration: none;">
+            <span>{{ address }}</span>
+            </router-link>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <!-- <VueMetamask userMessage="msg" @onComplete="connectWallet" ref="metamask" :initConnect="false"/>  -->
 </template>
 
 <script>
@@ -72,7 +78,6 @@ export default defineComponent({
         try {
           // Request account access
           const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-
           if (accounts.length > 0) {
             this.isConnected = true;
             this.address = accounts[0];

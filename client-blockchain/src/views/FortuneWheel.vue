@@ -72,8 +72,8 @@ export default defineComponent({
     return {
       numberLucky: 1,
       data: DataSpin,
-      duration: 45000, // 25s spin
-      duration_fetch: 35000,
+      duration: 60000, // 1p30s spin
+      duration_fetch: 50000,
       listHistory: [],
       gift: {
         name: "",
@@ -158,7 +158,7 @@ export default defineComponent({
 
     handleTransfer() {
       const address = authStore().address;
-      axios.post(`${import.meta.env}/api/nft/transfer`, {
+      axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/transfer`, {
         address_to: address,
       })
     },
@@ -167,7 +167,7 @@ export default defineComponent({
       const dataN = await axios.get(
         `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/info`
       );
-      const Link = dataN.data.trophiesCardData;
+      const Link = dataN.data.pepeCardData;
       const Data = await axios.get(Link);
 
       console.log(Data.data, "----fetch data info---");
@@ -217,16 +217,10 @@ export default defineComponent({
 .wheel_font-size--1,
 .wheel_font-size--2,
 .wheel_font-size--3,
-.wheel_font-size--4 {
-  font-size: 8px;
-}
+.wheel_font-size--4,
 .wheel_font-size--5,
-.wheel_font-size--6 {
-  font-size: 10px;
-}
-.wheel_font-size--7,
-.wheel_font-size--8 {
-  font-size: 8px;
+.wheel_font-size--6  {
+  font-size: 2px;
 }
 
 .lucky {

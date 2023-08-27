@@ -27,13 +27,5 @@ export const authStore = defineStore({
           });
       });
     },
-    // fetch() {
-    //     return new Promise((resolve, reject) => {
-    //         axios.get(`${import.meta.env.VITE_APP_BASE_HOST}/static/list.json`).then(({data}) => {
-    //             this.list = data;
-    //             resolve(data)
-    //         })
-    //     })
-    // }
   },
 });

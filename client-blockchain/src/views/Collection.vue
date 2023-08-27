@@ -1,0 +1,83 @@
+<template>
+  <div class="container">
+    <div class="card p-3">
+      <h4 class="title text-uppercase ms-3">Collection</h4>
+      <span class="ms-3 border-bottom pb-3">
+        {{ collection.length }} - NFT in your collection.
+      </span>
+
+      <div class="card-items row">
+       <NftCard v-for="(item, index) in collection" :key="index" :item="item" @click="redirectToNftDetail(index)"/>
+      </div>
+    </div>
+    <loading v-if="loading"/>
+  </div>
+
+</template>
+
+<script>
+import { authStore } from "@/stores/authStore";
+import { defineComponent } from "vue";
+import axios from "axios";
+import NftCard from "@/components/NftCard.vue";
+import Loading from "@/components/Loading.vue";
+import { nftStore } from "@/stores/nftStore";
+
+export default defineComponent({
+  components: { NftCard, Loading },
+  data() 
+    {
+    return {
+      loading: false,
+      // collection: [],
+    };
+  },
+  computed: {
+    collection() {
+      return nftStore().list;
+    }
+  },
+  created() {
+    this.fetchDataOpenSea();
+  },
+  methods: {
+    redirectToNftDetail(index) {
+      this.$router.push({
+        path: `/collection/${index}`
+      })
+    },
+    fetchDataOpenSea() {
+      this.loading = true;
+      const config = {
+        Accept: "application/json",
+      };
+
+      const WALLET_ADDRESS = authStore().address;
+      const BASE_URL = import.meta.env.VITE_APP_GOERLI_ALCHEMY;
+
+      const url = `${BASE_URL}/getNFTs/?owner=${WALLET_ADDRESS}`
+      return new Promise((resolve, reject) => {
+        axios.get(url, config).then(({data}) => {
+        // this.collection = data.ownedNfts  ;
+        nftStore().list = data.ownedNfts;
+        this.loading = false;
+        resolve(data);
+      }).catch((err) => {
+        this.loading = false;
+        reject(err)
+      })
+      })
+    },
+  },
+});
+</script>
+
+<style scoped>
+.card {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+</style>
