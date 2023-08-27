@@ -1,0 +1,12 @@
+{
+    "name": "020 - Rascal Pepe",
+    "description": "RarePepe by Matt Furie OpenSea",
+    "image": "ipfs://QmVfmg1pDS4r4kj6Kfyh5ZREoMYdm69AffQXzi63G4BLw3",
+    "attributes": [
+      {
+        "trait_type": "Rarity",
+        "value": "Epic"
+      }
+    ]
+  }
+  

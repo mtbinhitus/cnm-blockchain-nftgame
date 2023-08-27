@@ -4,18 +4,18 @@ const path = require("path");
 const Web3 = require("web3");
 
 const PRIVATE_KEY =
-  "dea7d2820b27c8ea5e7c9e54ca2a6365607373649e9de92752d8cf844559b5ad";
+  "b6c1dc049bde4d0015332ad02ef4cee0d9bff31bccd91ac0d42543a79e2b029e";
 
 const CONTRACT_ADDRESS = "0x404f79c45D27512D05C1EBfdBA6FF4B3Ffc6b6e5";
 
 const API_URL =
   "https://eth-goerli.g.alchemy.com/v2/7u9ag44gEfuJtfihRfFlgTU4UMEV02HV";
 
-const ACCOUNT_ADDRESS = "0xA6fae02810B4CCA54d7D3219c4878905A5FFdC22";
+const ACCOUNT_ADDRESS = "0x87832Ac75e086bb8A4E4fcc513D156F529C98E2B";
 
 const filePath = path.join(
   __dirname,
-  `../build/artifacts/contracts/TrophiesCard.sol/TrophiesCard.json`
+  `../build/artifacts/contracts/PepeCard.sol/PepeCard.json`
 );
 
 const contractJson = fs.readFileSync(filePath, "utf8");
@@ -105,10 +105,10 @@ const nftController = {
       );
 
       // lấy thông tin NFT:
-      const trophiesCardData = await contract.methods
+      const pepeCardData = await contract.methods
         .tokenURI(tokenIdNext - 1)
         .call();
-      const x = convertIpfsUrl(trophiesCardData);
+      const x = convertIpfsUrl(pepeCardData);
 
       // ghi lịch sử vào Data
       writeData(x, address_to);
@@ -164,16 +164,16 @@ const nftController = {
 
   getNftInfo: async (req, res) => {
     const tokenIdNext = await contract.methods.getTokenCounter().call();
-    const trophiesCardData = await contract.methods
+    const pepeCardData = await contract.methods
       .tokenURI(tokenIdNext - 1)
       .call();
-    const x = convertIpfsUrl(trophiesCardData);
+    const x = convertIpfsUrl(pepeCardData);
 
     // writeData(x)
 
     res.status(200).json({
       message: "create NFT successfully",
-      trophiesCardData: x,
+      pepeCardData: x,
     });
   },
 

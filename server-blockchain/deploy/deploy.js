@@ -31,7 +31,7 @@ module.exports = async function({ getNamedAccounts, deployments }) {
   ]
 
   log('Deploying...')
-  const trophiesCard = await deploy('TrophiesCard', {
+  const pepeCard = await deploy('PepeCards', {
     from: deployer,
     args: args,
     log: true,
@@ -44,6 +44,6 @@ module.exports = async function({ getNamedAccounts, deployments }) {
     process.env.ETHERSCAN_API_KEY
   ) {
     log('Verifying...')
-    await verify(trophiesCard.address, args)
+    await verify(pepeCard.address, args)
   }
 }

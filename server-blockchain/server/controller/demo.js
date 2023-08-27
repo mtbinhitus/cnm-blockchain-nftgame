@@ -14,7 +14,7 @@ const API_URL = process.env.API_URL;
 
 const ACCOUNT_ADDRESS = process.env.ACCOUNT_ADDRESS;
 
-const filePath = path.join(__dirname, `../build/artifacts/contracts/TrophiesCard.sol/TrophiesCard.json`)
+const filePath = path.join(__dirname, `../build/artifacts/contracts/PepeCard.sol/PepeCard.json`)
 
 const contractJson = fs.readFileSync(filePath, "utf8");
 

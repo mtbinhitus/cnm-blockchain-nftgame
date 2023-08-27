@@ -1,0 +1,12 @@
+{
+    "name": "037 - Coin Pepe",
+    "description": "RarePepe by Matt Furie OpenSea",
+    "image": "ipfs://QmfGvTpuw683t6UdiSptLasJLr9RZzyb5FGDv25LKsNG3D",
+    "attributes": [
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      }
+    ]
+  }
+  
