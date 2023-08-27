@@ -4,9 +4,11 @@ import HomePage from "./views/HomePage.vue";
 import FortuneWheel from "./views/FortuneWheel.vue";
 import Mission from "./views/Mission.vue"
 import NotFound from "./components/ErrorPage.vue";
-
 import { nextTick } from "vue";
 import { authStore } from "./stores/authStore";
+import Collection from "./views/Collection.vue";
+import NftDetail from "./views/NftDetail.vue";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -36,6 +38,18 @@ const router = createRouter({
       path: "/mission",
       component: Mission,
       name: "mission",
+      meta: { authRequired: true },
+    },
+    {
+      path: "/collection",
+      component: Collection,
+      name: "collection",
+      meta: { authRequired: true },
+    },
+    {
+      path: "/collection/:id",
+      component: NftDetail,
+      name: "nft detail",
       meta: { authRequired: true },
     },
 

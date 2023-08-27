@@ -40,7 +40,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">You Lose</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Your score in this round: {{ score_current }}</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
      
@@ -63,7 +63,7 @@ export default defineComponent({
         x: 50,
         y: 150,
       } ,
-      pipes: [] ,
+      pipes: [],
 
       start: false,
       score: 0,
@@ -71,6 +71,9 @@ export default defineComponent({
 
       jumpTimeout: null ,
       birdDownInterval: null,
+
+
+      score_current: 0,
 
 
     };
@@ -89,6 +92,7 @@ export default defineComponent({
 
 
     handleLose() {
+      
       const myModal = new bootstrap.Modal(
         document.getElementById("exampleModal"),
         {}
@@ -123,6 +127,7 @@ export default defineComponent({
       if (pipe_top < bird_y && pipe_bottom > bird_y) {
         this.score += 1;
       } else {
+        this.score_current = this.score;
         this.handleLose()
         // alert("thua");
       }

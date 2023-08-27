@@ -72,8 +72,8 @@ export default defineComponent({
     return {
       numberLucky: 1,
       data: DataSpin,
-      duration: 45000, // 25s spin
-      duration_fetch: 35000,
+      duration: 90000, // 1p30s spin
+      duration_fetch: 80000,
       listHistory: [],
       gift: {
         name: "",
@@ -158,7 +158,7 @@ export default defineComponent({
 
     handleTransfer() {
       const address = authStore().address;
-      axios.post(`${import.meta.env}/api/nft/transfer`, {
+      axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/transfer`, {
         address_to: address,
       })
     },
