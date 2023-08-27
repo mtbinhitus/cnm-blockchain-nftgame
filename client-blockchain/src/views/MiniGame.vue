@@ -1,9 +1,14 @@
 <template>
-  <div>
-    <button class="button start" @click="handleStart">Start</button>
-    <button class="button start" @click="pause">pause</button>
-
-    <span>{{ score }}</span>
+  <div class="wrap">
+    <div class="top-game d-flex mb-3">
+      <div class="btn-gr">
+        <button class="btn btn-success " @click="handleStart">Start</button>
+        <button class="btn btn-primary ms-3" @click="pause">pause</button>
+      </div>
+      <div class="score ms-5">
+        <h2 class="text-danger ">{{ score }}</h2>
+      </div>
+    </div>
 
     <div class="game-container" @click="jump()">
       <div
@@ -60,27 +65,25 @@ export default defineComponent({
     handleStart() {
       this.start = true;
       this.pipeMove();
-      this.jump()
+      this.jump();
     },
-
 
     handleCheck() {
       // vị trí của bird
       const bird_y = this.bird.y;
       const pipe_top = this.pipes[0].top.height + 10;
-      const pipe_bottom = 600 - this.pipes[0].bottom.height -30;
+      const pipe_bottom = 600 - this.pipes[0].bottom.height - 30;
 
-      console.log(bird_y, pipe_top, pipe_bottom)
+      console.log(bird_y, pipe_top, pipe_bottom);
 
       if (pipe_top < bird_y && pipe_bottom > bird_y) {
-        this.score+=1;
+        this.score += 1;
       } else {
-        this.pause()
-        alert('thua')
+        this.pause();
+        alert("thua");
       }
 
       //kiểm tra pipe.top.y < bird.y < pipe.bottom.y
-      
     },
 
     pipeMove() {
@@ -92,7 +95,7 @@ export default defineComponent({
         }
 
         if (this.pipes[0].bottom.x == 50) {
-          this.handleCheck()
+          this.handleCheck();
         }
 
         if (this.pipes[0].bottom.x <= 0) {
@@ -108,36 +111,34 @@ export default defineComponent({
     },
 
     birdDown() {
-      clearInterval(this.jumpTimeout)
+      clearInterval(this.jumpTimeout);
       this.birdDownInterval = setInterval(() => {
         this.bird.y += 5;
         if (this.bird.y >= 550) {
-          clearInterval(this.jumpTimeout)
-          clearInterval(this.birdDownInterval)
-          this.pause()
+          clearInterval(this.jumpTimeout);
+          clearInterval(this.birdDownInterval);
+          this.pause();
         }
       }, 50);
     },
 
-
     pause() {
       this.start = false;
       clearInterval(this.jumpTimeout);
-      clearInterval(this.birdDownInterval)
-
+      clearInterval(this.birdDownInterval);
     },
 
     jump() {
       clearInterval(this.jumpTimeout);
-      clearInterval(this.birdDownInterval)
+      clearInterval(this.birdDownInterval);
 
-     this.birdDownInterval = setTimeout(()=> {
-        this.birdDown()
-      }, 300)
+      this.birdDownInterval = setTimeout(() => {
+        this.birdDown();
+      }, 300);
 
       // Thay đổi count trong 1s
       const targetCount = this.bird.y - 50;
-      const duration = 300; // 
+      const duration = 300; //
       const decrementPerInterval =
         (this.bird.y - targetCount) / (duration / 100);
 
@@ -148,8 +149,6 @@ export default defineComponent({
           this.bird.y -= decrementPerInterval;
         }
       }, 100);
-
-      
     },
 
     handleIncreaseScore() {
@@ -271,5 +270,12 @@ export default defineComponent({
   background-image: url("../../public/bottompipe.png");
   background-size: cover;
   object-fit: cover;
+}
+
+.wrap {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 </style>

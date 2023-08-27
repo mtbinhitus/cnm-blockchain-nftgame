@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MiniGameVue from "./views/MiniGame.vue";
-import HomePage from "./views/HomePage.vue"
+import HomePage from "./views/HomePage.vue";
+import FortuneWheel from "./views/FortuneWheel.vue";
+
+
 import { nextTick } from "vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +22,11 @@ const router = createRouter({
       path: "/",
       component: HomePage,
       name: "home",
+    },
+    {
+      path: "/wheel",
+      component: FortuneWheel,
+      name: "wheel",
     },
   ],
 
