@@ -1,16 +1,109 @@
 <template>
   <div class="container">
-    <div class="text-danger">home page</div>
+    <h1 style="font-size: 5em;" class=" text-center">Welcome to Project of team ...</h1>
+    <h2 class="text-danger text-center" style="font-size: 3em;">Blockchain...</h2>
+
+    <div class="text-center btn-gr">
+      <button class="button-57 m-4" role="button" @click="redirectTo('wheel')"><span class="text">Spin Bonus</span><span>Go !</span></button>
+      <button class="button-57 m-4 btn-0" role="button" @click="redirectTo('game')"><span class="text">Mini Game</span><span>Go !</span></button>
+    </div>
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner.vue"
 export default {
-  components: {Banner}
+  components: {Banner},
+  methods: {
+    redirectTo(to) {
+      this.$router.push({path: `/${to}`})
+    }
+  }
 }
 </script>
 
-<style>
+<style scoped>
 
+.btn-gr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-57 {
+
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.5em;
+  line-height: 1em;
+  padding: 1em 2em 1em;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.btn-0 {
+  border: 3px solid greenyellow;
+  color: greenyellow;
+}
 </style>
+
+
+<!-- HTML !-->
+
+
+
+<!-- HTML !-->

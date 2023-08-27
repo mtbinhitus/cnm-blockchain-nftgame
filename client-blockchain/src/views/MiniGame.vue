@@ -36,11 +36,11 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click="handleAcceptPopup()">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">You Lose ! your score: {{ score }}</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">You Lose</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
      
@@ -53,8 +53,9 @@
 </template>
 
 <script >
+import { authStore } from "@/stores/authStore";
+import  axios from "axios";
 import { defineComponent } from "vue";
-
 export default defineComponent({
   data() {
     return {
@@ -86,21 +87,6 @@ export default defineComponent({
       this.jump();
     },
 
-    handleAcceptPopup() {
-      // save to store
-      const gameScore = localStorage.getItem('GameScore');
-
-      if (gameScore === null) {
-      // If "GameScore" key is not present, initialize it with a default value
-      localStorage.setItem('GameScore', this.score);
-      } else {
-        const currentScore = Number(gameScore)
-        localStorage.setItem('GameScore', this.score+currentScore);
-      }
-
-      this.handleRestart()
-      this.generatePipes();
-    },
 
     handleLose() {
       const myModal = new bootstrap.Modal(
@@ -108,6 +94,10 @@ export default defineComponent({
         {}
       );
       myModal.show()
+
+      this.updateScore();
+      this.handleRestart();
+      this.generatePipes();
       
 
     },
@@ -128,7 +118,7 @@ export default defineComponent({
       const pipe_top = this.pipes[0].top.height + 10;
       const pipe_bottom = 600 - this.pipes[0].bottom.height - 30;
 
-      console.log(bird_y, pipe_top, pipe_bottom);
+      // console.log(bird_y, pipe_top, pipe_bottom);
 
       if (pipe_top < bird_y && pipe_bottom > bird_y) {
         this.score += 1;
@@ -160,8 +150,21 @@ export default defineComponent({
           clearInterval(move);
         }
 
-        console.log(1);
       }, 10);
+    },
+
+    updateScore() {
+      console.log(this.score, '---score--');
+
+      const current_score = authStore().score;      
+      const address = authStore().address;
+      axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`, {
+        score: this.score + current_score,
+        address: address,
+      })
+
+      authStore().score = current_score + this.score;
+      // axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/static/auth`)
     },
 
     birdDown() {
