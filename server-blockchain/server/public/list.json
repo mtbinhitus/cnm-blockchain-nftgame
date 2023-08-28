@@ -1,6 +1,398 @@
 [
     {
+        "key": "https://ipfs.io/ipfs/QmS8QeupuHXavLWWaPMHxn4LLq6UrZi7RQyU7N2hgH4tBB",
+        "name": "001 - Moses Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmUYYsYXb47Ria5CFwu19bJrxKFfXLdfQUw97a3eG3uZsS",
+        "name": "002 - Chad Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNaEPHV4evAXt8Jbn5jpKjpUQC2v8oNEYN6BBAw1Ueyfj",
+        "name": "003 - Colossal Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmf7feqUtUKQtgzLWg2h1Qn1iVWqSdxoNUtCF9PcEeKADJ",
+        "name": "004 - Peace Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmRvWa4NLcLeLVu64Fya1LruVV7SdnKqrDF2s5xNdwdDm6",
+        "name": "005 - Zealot Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmPLUP71SorxqYRehSsxTdcdTC8dVDMDsbQUz5y15qJAhd",
+        "name": "006 - Wiggle Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmYN643zj1hAov7Dhh3dRbo8K6km3BpThQHm2Ehb1h9gkE",
+        "name": "007 - Sir Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNm3vTZxSyQmgfWu5Ygkh2RRSgW52zaKanRZ3FnFJU556",
+        "name": "008 - Now Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmV42aEb7rKSdGihv78eEdF1cEekaUxT1kZxRVhhbhB8b4",
+        "name": "009 - Milky Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWZcLgoE5pBrwwnTJJhwzQpWK4Yyuqwx6Un4uJBD42v7N",
+        "name": "010 - Golden Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmeVescHij6nw9xZeDxbqW13ALud4A2C6jUEL3z5gnUH6P",
+        "name": "011 - Reset Pepe - Uncommon"
+    },    
+    {
+        "key": "https://ipfs.io/ipfs/QmdpZJ7eaLxEamMEmUB6yeghwww9jWRnL5MSUc1U76Mu5a",
+        "name": "012 - Sunrise Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNh7SEP1gjmA75A5hcixerFcPatgKV3w8vkJmc8a4nPKn",
+        "name": "013 - Parasite Pepe - Legendary"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmeDKcxP29ewhXJYpyWg6hbs7vi7WD17g5UoYdjad9HjEq",
+        "name": "014 - Proud Pepe - Epic"
+    },    
+    {
+        "key": "https://ipfs.io/ipfs/QmUBQNJDb2NjFDP75dbWbiPnoNm7JTAqon1oJv95RoAb6o",
+        "name": "015 - Salary Pepe - Legendary"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWMN3pmwqkxgY6Co7Wno3vfTaMWAD4enHNrdiY8DTkbYp",
+        "name": "016 - Morph Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNrfjerZXC5TLrzF2gnWYjNfzutrXxERCR6FaUkQcVntM",
+        "name": "017 - Roller Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmW7x3cVgYC7a58e2TXGUpQmH1orfmUfQuTwH57DyVNS4t",
+        "name": "018 - Pogo Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdywyJP1dobtPeBeRDpNJyMuBgttUme2sayHvmYHdjqgq",
+        "name": "019 - Jump Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmP9TGhe1rEiib92QjACCurgsCkChSSjn4EtyRp2Nu7zQK",
+        "name": "020 - Rascal Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTazwAb8SWmy97foYdj4ZpxGvMmEVaQ5roJdL5WuK4eqd",
+        "name": "021 - Robo Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmSp4vAYEZ16SL3E3ins35oGxmthJSKLHaqHetvA7XuErL",
+        "name": "022 - Mind Pepe - Legendary"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmZXkeFfTzXS56tTN2A6Ww84BUrza2dMXuKF5axPk2Djxt",
+        "name": "023 - Feels Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmPwEGESJgwyP9mZwPEqTvYKAFyoE4q1DBwAKuBW2WzXYH",
+        "name": "024 - Shroom Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmQLN6N2n6GHDE17JVXk1E8CSpHhFNkr5JFH7tMBJjoFc8",
+        "name": "025 - Free Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmbo6XYE8SfpTD9xRxcdjvriE8ohF7UohYcdSkmG9Yw1XH",
+        "name": "026 - Master Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmRaThsFc3XRYYpD4DP5vvWCTyih7AsirXA2rUwZXv8YDk",
+        "name": "027 - Creamy Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmb1xgxbvfvaLJL5Qzt53DZjim2VLCrtwnvJ5gT3Kw4fxu",
+        "name": "028 - Rave Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmSvtUEXaktcuXU3JGdHtKW8KE6EkFLZRGfPagWvjDnrE1",
+        "name": "029 - Amaze Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmY2kAGtgwKgA8hkxGJ5ut7zkKB6BQbUAvMxzzZbDn8pk2",
+        "name": "030 - Vision Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdTVKHcTTikMgBRotxov4GrXiK9eo6fgFXqKQbBzjXBnP",
+        "name": "031 - Satan Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVqfRw7DdH77tBUAMzq9ahtGixy1T7RQ9bfh4F3WbxGHs",
+        "name": "032 - Jesus Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVLfEHxiK8knfA3vYR8Lr6YfCeGPqWoXtBnq76sNFS3zw",
+        "name": "033 - Fire Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNcx7BoHev3HAmPXpGHq99CK5ePRfr6oxVGDneNkzLP5J",
+        "name": "034 - Golf Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmUbvK3fSjnheemcwwLJnUcPjKpxPdEoFAgAeyRom3dpAV",
+        "name": "035 - Genius Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmfYnyYCNHeWCq7u7NEN7W6BLowKtFTV3ETAcGxhfc7tRz",
+        "name": "036 - Chill Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTr1aPojNkdWeoY1ZcKaHDUy32QCin68tcbZiBzpWgZJx",
+        "name": "037 - Coin Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmPTATpHmU25kx7XCsA41m2G6pv13x1RSXd8rgdFu63z91",
+        "name": "038 - Raid Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmcoK4RUvemZR4YQTqvhTgG6YdvQdWtTasQNFwqfW6akv2",
+        "name": "039 - Zero Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmbb1obB9mtsBCzFHrwwmshgCHNiARnLtnK1HYHxaUb1MM",
+        "name": "040 - Blobby Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWprDQWLDaR35PciFzs3vvuCLmk3myGTbGcmMc3mzKrdL",
+        "name": "041 - Darth Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdCch1rGyujVBxesGDG57uHaPSxJ9LiFK6HThzS6oB7GR",
+        "name": "042 - High Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmRwNeEHZbAMLgPTBBU2i99y5b4Q9ag4YYWXcSWT6Mu7Sn",
+        "name": "043 - Time Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVgbZD3fQromjchN3pkRSuXfv6XQtnRZh7cUQpH1QhrVU",
+        "name": "044 - Moon Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWe851iDeMo9QUA93BwtofGrNeLBmVo3RSBQ3acRJp1Y8",
+        "name": "045 - Dom Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmSB9URtQjCqwWEx7Pq3aEun35ZZ3ou3GXMR55h5NAMxCJ",
+        "name": "046 - Lonely Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmPNwGbboCvykUyvBVcCTCSL9H31GAUgAhRwmTfKaUnwkB",
+        "name": "047 - Mercy Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmfK6ax8mZoVyFHVMWFNWaXy4L6ULTcV7ZdsanHFYrupnb",
+        "name": "048 - Chase Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmauN2giNLo2VRDCb2RgVmh4BJvbLA2FNb5ud7viqoe3hU",
+        "name": "049 - Awaken Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmZ1R5dAnfHCnbdo8S9dpDyMZy42kuGSAPcdPA9tyi3wpr",
+        "name": "050 - Ghost Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmYenSkUReJzEWSpQuzTyyUFgoJVsA6jYEg4Ad6a1oEB9t",
+        "name": "051 - Pong Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmREwJCJrfX9oGEGWU6mmmazFCjJWuPu37knN2yfqjjiCE",
+        "name": "052 - Savage Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVJ4FaDJJYs7R4DniTrNmG7jD2NBUBttWYzAsmLG7Y6qD",
+        "name": "053 - Spider Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNvcLYsoAbfMdmuMDeVe6GSEfnf4sjQci3tTVAiCpGWnV",
+        "name": "054 - Shogun Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmQx8SeFX9kD9UKu5cYZeE5eiYGHYFVW7nAYha7KeK4EMx",
+        "name": "055 - Play Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmYQGJh1dAje6F5cXMDGo2UU6ZgfoH5EPZ5MwHRD4GWwU5",
+        "name": "056 - Kaneda Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qme8S5oJsb93Toh8xYUEt5Mwk7EE7h2NgvCq9ugJ7hyJbS",
+        "name": "057 - Alien Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmYztwSdku84dVDAMtKmtwyUc1PfzJEZiEprQSxYHHoEpd",
+        "name": "058 - Pilgrim Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmcVbQim6aNZKLAaUSNuCKAZzD5jNQZfakfNsj7oGoH6ia",
+        "name": "059 - Samsara Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTp9xkLdWzEXRRPGLFYUajttSZs1edMrraDd8hmaYFjHx",
+        "name": "060 - GOAT Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTVQ3BYTqker6DKv7hwv4EGhznXXK5tV9iwgppoHDt2jw",
+        "name": "061 - Berserk Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmZeZuwNgg1uyZYSaXAzmXYYNEWPSWPdrXvGakChoaa6sg",
+        "name": "062 - Cured Pepe - Legendary"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmSssW2HC1vMbh31YbFnnCTxvTY9jpikKd1obYm2y4NZzb",
+        "name": "063 - Nexus Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmV41XEh6S1Ggh1Gr9w81gW4K2BSMi7PzvEDtQL5Y9daEh",
+        "name": "064 - Psycho Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmb97k9QPVQSsidymo3h5FTyDknPqfmdjPJQv4mWwBQodF",
+        "name": "065 - Hodl Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmPyVgsexxhqTUme5pA9ts3mgweAsLGwZuJEjL9p7ULE8x",
+        "name": "066 - Yakuza Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmcN9CFvCUWkCyzYHQ7oxWVs7WJEMsbx2cvd86pTM8nhbb",
+        "name": "067 - Anon Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmbXnW7ZcZ1rpyKjiad9kh8gq3JR35b64SeJyLurXHwsXT",
+        "name": "068 - Rodeo Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmcC2CUKyDkznWbt9id8U75HfFwcghG86b7GeVEr1zqsSQ",
+        "name": "069 - Pepe Epep - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdYndSmF5fRE685Vqc2TTX5Bvat9UhEYzkw6s9cSD2LmL",
+        "name": "070 - 1Pull Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmUdUwoZrxFJJqkyw1b6AN8iUJS8BG1UqR8RxAeAcnszV2",
+        "name": "071 - Magic Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmXCt67tNf5UKBgC14HPEkpSq4CetnDrzQVejtTv17MybL",
+        "name": "072 - Joy Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmeKoXSgJKYUaGdBnytzLcCdDdzVGXkoeTBviLahQ7aQ7Z",
+        "name": "073 - Relic Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWcpqypNfcijeX9YVg1D7Z4BMNVKyo7Cws4mLMAr8Q5kz",
+        "name": "074 - Prison Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTWvjfhEfY6vMBBJ97MNRctYDoicUSYQup6Nnz8bH6uNC",
+        "name": "075 - P1000 Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmeUf2vbdzxf3NMSukWmmpou5Me5A1LNqmfPEh85ZFs3iT",
+        "name": "076 - Super Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmUTiDcGQBy1VZHdMfZ9ivKv6EucTQmkA1rxWsXwEyUE3a",
+        "name": "077 - Joker Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmckXYFAba4u8aabD9k7oawB2YadnoZoYDhjjV4PHEem3B",
+        "name": "078 - Count Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmQwfLythU2SAc4JMT3i8oYmvHRkezt12aYhdofKWJQTdD",
+        "name": "079 - Sub Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmT5jyG4JpkKzfm9CJHGWyhx1ChmDz9ijNvFfe1Ng5sTKt",
+        "name": "080 - Bumper Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmdRqpRtYFg8rAVtQWG4QwKuTHdNj64KiHorbpUCVj3jFW",
+        "name": "081 - Space Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTxz9xAJLAkwZ4W9xd8CfK6TyPZ4BrRL1CEcbDAjvQREP",
+        "name": "082 - Metal Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNV28rLaPUi3sY2FxRwiVtRjvadDWtcRSveF8mFEyYTKu",
+        "name": "083 - Shit Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVo26u8PCcpE597BJd46HSHPwUMKEVoop8EBcqxuX7kTA",
+        "name": "084 - Ace Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmS2WcFMV4ePBre8ZGKddFhkniGZwKcJxKmMLc4q9Sb8cd",
+        "name": "085 - Dance Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmeczoF5VVpdoLw1nQQW4bQqsAtK6HKdi4odNhwBtp9BY1",
+        "name": "086 - Fixed Pepe - Epic"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmfNuaKqG2wtVdjC5RxuJyKkSgumVMjatwb57XR7tncN84",
+        "name": "087 - Crazy Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWFBvHSUNUDjk7K17GEfxBYzeFcWQokUNPLqUDq8hMCds",
+        "name": "088 - Wheel Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTVmoh5qTuiC13hTbArtCZHdS5zJF6zcCW8bJokVvgz8Z",
+        "name": "089 - Waltz Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmVkZwj3EremdLwu2xvpEwHNa9qa6cmytbUo88rXv8cX23",
+        "name": "090 - Top Hat Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmZFJjas2QMp29AwcvSQBueMEKKZUnoFKMmJuYnKTwHhGt",
+        "name": "091 - Dope Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWAtf7VM8qNDwmUiNKu9KyCyrjvipm681b75VHHjJaAzE",
+        "name": "092 - King Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTCyWtcXyZmHzszwhejW2F4G1ApjN7BFKcghm65mb23fv",
+        "name": "093 - Pill Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmXNaqJtSdwYomEgV5tyM1oszgy8Lzh4waGiisaUtPcRsr",
+        "name": "094 - Artist Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmTWLoSxTuns4V69Gn4U41ZguC31CoiUysUVVZzge2YUpu",
+        "name": "095 - Rob Boss Pepe - Rare"
+    },
+    {
         "key": "https://ipfs.io/ipfs/QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9",
-        "name": "Rarity"
+        "name": "096 - Steam Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmYN3Rp4Lur6C9Rp91W7ywTsUeJwUt64MySvZQP3Mtnj39",
+        "name": "097 - 8Bit Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmXPd2Db9LPcTbu4Mf223Sqrg1VaUADGvo3HuzBCJy9vhU",
+        "name": "098 - Bowl Pepe - Common"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmWCDtK8kXopJnsEq9TGVWeCAJd6gJ6JwgWoEpqnVoj94A",
+        "name": "099 - God Pepe - Uncommon"
     }
 ]

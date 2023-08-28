@@ -21,7 +21,8 @@ export default defineComponent({
   computed: {
     image_convert() {
       const img = this.item.metadata.image;
-
+      if (img.includes('https://ipfs.io/ipfs/'))
+        return img;
       const ipfsHash = img.split("ipfs://")[1];
       if (!ipfsHash) {
         return "https://placehold.jp/150x150.png"; // Không phải định dạng ipfs:// hợp lệ

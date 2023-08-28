@@ -72,8 +72,8 @@ export default defineComponent({
     return {
       numberLucky: 1,
       data: DataSpin,
-      duration: 60000, // 1p30s spin
-      duration_fetch: 50000,
+      duration: 90000, // 1p30s spin
+      duration_fetch: 80000,
       listHistory: [],
       gift: {
         name: "",
@@ -175,7 +175,7 @@ export default defineComponent({
       this.gift.name = Data.data.name;
       this.gift.image = this.convertIpfsUrl(Data.data.image);
 
-      const x = this.data.find((i) => i.value == Data.data.name.toLowerCase());
+      const x = this.data.find((i) => i.value.toLowerCase() == Data.data.attributes[0].value.toLowerCase());
 
       console.log('x:', x)
 
@@ -186,6 +186,8 @@ export default defineComponent({
 
     convertIpfsUrl(ipfsUrl) {
       const ipfsHash = ipfsUrl.split("ipfs://")[1];
+      if (ipfsUrl.includes('https://ipfs.io/ipfs/'))
+        return ipfsUrl;
       if (!ipfsHash) {
         return null; // Không phải định dạng ipfs:// hợp lệ
       }
