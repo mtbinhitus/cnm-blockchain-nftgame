@@ -1,6 +1,18 @@
 [
     {
-        "key": "https://ipfs.io/ipfs/QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9",
-        "name": "064 - Psycho Pepe"
-    }
+        "key": "https://ipfs.io/ipfs/QmS8QeupuHXavLWWaPMHxn4LLq6UrZi7RQyU7N2hgH4tBB",
+        "name": "001 - Moses Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmUYYsYXb47Ria5CFwu19bJrxKFfXLdfQUw97a3eG3uZsS",
+        "name": "002 - Chad Pepe - Rare"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/QmNaEPHV4evAXt8Jbn5jpKjpUQC2v8oNEYN6BBAw1Ueyfj",
+        "name": "003 - Colossal Pepe - Uncommon"
+    },
+    {
+        "key": "https://ipfs.io/ipfs/Qmf7feqUtUKQtgzLWg2h1Qn1iVWqSdxoNUtCF9PcEeKADJ",
+        "name": "004 - Peace Pepe - Rare"
+    },
 ]

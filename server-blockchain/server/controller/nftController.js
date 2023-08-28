@@ -85,7 +85,7 @@ const nftController = {
       const txObject = {
         from: ACCOUNT_ADDRESS,
         to: CONTRACT_ADDRESS,
-        gas: 210000, // Số gas bạn muốn sử dụng
+        gas: 500000, // Số gas bạn muốn sử dụng
         gasPrice: gasPrice,
         nonce: nonce,
         data: contract.methods
@@ -125,7 +125,7 @@ const nftController = {
       const txObject = {
         from: ACCOUNT_ADDRESS,
         to: CONTRACT_ADDRESS,
-        gas: 210000, // Số gas bạn muốn sử dụng
+        gas: 500000, // Số gas bạn muốn sử dụng
         gasPrice: gasPrice,
         nonce: nonce,
         data: contract.methods
@@ -172,7 +172,7 @@ const nftController = {
       const txObject = {
         from: ACCOUNT_ADDRESS,
         to: CONTRACT_ADDRESS,
-        gas: 210000, // Số gas bạn muốn sử dụng
+        gas: 500000, // Số gas bạn muốn sử dụng
         gasPrice: gasPrice,
         nonce: nonce,
         data: contract.methods.requestNFT().encodeABI(), // Gọi hàm requestNFT()

@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <h1 style="font-size: 5em;" class=" text-center">Welcome to Project of team ...</h1>
-    <h2 class="text-danger text-center" style="font-size: 3em;">Blockchain...</h2>
 
     <div class="text-center btn-gr">
       <button class="button-57 m-4" role="button" @click="redirectTo('wheel')"><span class="text">Spin Bonus</span><span>Go !</span></button>

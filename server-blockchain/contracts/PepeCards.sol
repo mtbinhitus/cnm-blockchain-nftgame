@@ -216,7 +216,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         uint256 cumulativeSum = 0;
         uint8[5] memory chanceArray = getChanceArray();
 
-        // loop through chanceArray: [10,25, 50, 100]
+        // loop through chanceArray: [5, 20, 40, 65, 100]
         for (uint256 i = 0; i < chanceArray.length; i++) {
             if (
                 randomNumber >= cumulativeSum && randomNumber < chanceArray[i]
