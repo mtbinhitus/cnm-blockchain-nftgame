@@ -10,6 +10,7 @@
           :prizeId="numberLucky"
           @rotateStart="onChangePrize"
           :verify="checkSpinCount"
+          :canvas="canvasOptions"
         />
       </div>
       <div class="x text-white mt-5 fs-4">
@@ -78,6 +79,9 @@ export default defineComponent({
       gift: {
         name: "",
         image: "",
+      },
+      canvasOptions: {
+        textLength: 20,
       },
     };
   },
@@ -160,7 +164,7 @@ export default defineComponent({
       const address = authStore().address;
       axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/transfer`, {
         address_to: address,
-      })
+      });
     },
 
     async handleGetInfoNFT() {
@@ -175,19 +179,21 @@ export default defineComponent({
       this.gift.name = Data.data.name;
       this.gift.image = this.convertIpfsUrl(Data.data.image);
 
-      const x = this.data.find((i) => i.value.toLowerCase() == Data.data.attributes[0].value.toLowerCase());
+      const x = this.data.find(
+        (i) =>
+          i.value.toLowerCase() == Data.data.attributes[0].value.toLowerCase()
+      );
 
-      console.log('x:', x)
+      console.log("x:", x);
 
       if (x) {
         this.numberLucky = x.id;
-      } 
+      }
     },
 
     convertIpfsUrl(ipfsUrl) {
       const ipfsHash = ipfsUrl.split("ipfs://")[1];
-      if (ipfsUrl.includes('https://ipfs.io/ipfs/'))
-        return ipfsUrl;
+      if (ipfsUrl.includes("https://ipfs.io/ipfs/")) return ipfsUrl;
       if (!ipfsHash) {
         return null; // Không phải định dạng ipfs:// hợp lệ
       }
@@ -221,7 +227,7 @@ export default defineComponent({
 .wheel_font-size--3,
 .wheel_font-size--4,
 .wheel_font-size--5,
-.wheel_font-size--6  {
+.wheel_font-size--6 {
   font-size: 2px;
 }
 

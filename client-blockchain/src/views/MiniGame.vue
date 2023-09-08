@@ -2,11 +2,11 @@
   <div class="wrap">
     <div class="top-game d-flex mb-3">
       <div class="btn-gr">
-        <button class="btn btn-success " @click="handleStart">Start</button>
+        <button class="btn btn-success" @click="handleStart">Start</button>
         <button class="btn btn-primary ms-3" @click="pause">pause</button>
       </div>
       <div class="score ms-5">
-        <h2 class="text-danger ">{{ score }}</h2>
+        <h2 class="text-danger">{{ score }}</h2>
       </div>
     </div>
 
@@ -36,25 +36,40 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Your score in this round: {{ score_current }}</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-     
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Accept</button>
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Your score in this round: {{ score_current }}
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+            Accept
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
-<script >
+<script>
 import { authStore } from "@/stores/authStore";
-import  axios from "axios";
+import axios from "axios";
 import { defineComponent } from "vue";
 export default defineComponent({
   data() {
@@ -62,20 +77,17 @@ export default defineComponent({
       bird: {
         x: 50,
         y: 150,
-      } ,
+      },
       pipes: [],
 
       start: false,
       score: 0,
       isGameOver: false,
 
-      jumpTimeout: null ,
+      jumpTimeout: null,
       birdDownInterval: null,
 
-
       score_current: 0,
-
-
     };
   },
   mounted() {
@@ -90,20 +102,16 @@ export default defineComponent({
       this.jump();
     },
 
-
     handleLose() {
-      
       const myModal = new bootstrap.Modal(
         document.getElementById("exampleModal"),
         {}
       );
-      myModal.show()
+      myModal.show();
 
       this.updateScore();
       this.handleRestart();
       this.generatePipes();
-      
-
     },
 
     handleRestart() {
@@ -128,7 +136,7 @@ export default defineComponent({
         this.score += 1;
       } else {
         this.score_current = this.score;
-        this.handleLose()
+        this.handleLose();
         // alert("thua");
       }
 
@@ -154,19 +162,18 @@ export default defineComponent({
         if (!this.start) {
           clearInterval(move);
         }
-
       }, 10);
     },
 
     updateScore() {
-      console.log(this.score, '---score--');
+      console.log(this.score, "---score--");
 
-      const current_score = authStore().score;      
+      const current_score = authStore().score;
       const address = authStore().address;
       axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`, {
         score: this.score + current_score,
         address: address,
-      })
+      });
 
       authStore().score = current_score + this.score;
       // axios.post(`${import.meta.env.VITE_APP_BASE_HOST}/static/auth`)
@@ -304,11 +311,13 @@ export default defineComponent({
 
 .bird {
   position: absolute;
-  width: 45px;
-  height: 32px;
-  background-image: url("../../public/flappybird.png");
-  background-size: cover;
-  object-fit: cover;
+  width: 64px;
+  height: 64px;
+  /* background-image: url("../../public/flappybird.png"); */
+  background-image: url("../../wojak_fly.gif");
+  /* background-size: cover;
+  object-fit: cover; */
+  background-size: 100% 100%;
 }
 
 .pipe-col {
@@ -323,21 +332,21 @@ export default defineComponent({
 }
 
 .top-pipe {
-  background-image: url("../../public/toppipe.png");
-  background-size: cover;
-  background-position: bottom center;
+  background-image: url("../../pepe_dance_2.gif");
+  background-size: 100% 100%;
+  /* object-fit: 100% 100%; */
+  /* background-position: bottom center; */
 }
 
 .bottom-pipe {
-  background-image: url("../../public/bottompipe.png");
-  background-size: cover;
-  object-fit: cover;
+  background-image: url("../../pepe_dance.gif");
+  background-size: 100% 100%;
+  /* object-fit: 100% 100%; */
 }
 
 .wrap {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  flex-direction: column;
+  align-items: center;
 }
 </style>

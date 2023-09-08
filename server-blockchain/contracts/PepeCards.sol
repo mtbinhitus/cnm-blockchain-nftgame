@@ -212,7 +212,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
 
     function getPepeRarity(
         uint256 randomNumber
-    ) public pure returns (PepeType) {
+    ) public pure returns (PepeType rarity) {
         uint256 cumulativeSum = 0;
         uint8[5] memory chanceArray = getChanceArray();
 
@@ -258,7 +258,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
                     seed,
                     tokenId,
                     block.timestamp,
-                    block.difficulty
+                    block.prevrandao
                 )
             )
         );
