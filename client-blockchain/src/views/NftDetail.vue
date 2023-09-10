@@ -89,7 +89,7 @@ export default defineComponent({
 
     dateTime() {
       const format = "YYYY-MM-DD HH:mm:ss";
-      const dateTime = moment(this.detail.metadata.timeLastUpdated);
+      const dateTime = moment(this.detail.timeLastUpdated);
 
       return dateTime.format(format);
     },
