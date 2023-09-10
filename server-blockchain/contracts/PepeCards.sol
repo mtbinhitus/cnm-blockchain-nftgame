@@ -15,10 +15,9 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
     uint256 internal immutable i_mintFee;
     mapping(uint256 => address) public s_requestIdToSender; // a mapping from requestId to the address that made that request
     uint256 private s_tokenCounter;
-    uint256[] internal offset = [0, 37, 65, 86, 95, 99];
+    uint256[] internal offset = [0, 36, 65, 86, 95, 98];
     string[] internal s_pepeTokenURIs = [
-        "ipfs://QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9",
-        "ipfs://QmV41XEh6S1Ggh1Gr9w81gW4K2BSMi7PzvEDtQL5Y9daEh",
+        "ipfs://QmV41XEh6S1Ggh1Gr9w81gW4K2BSMi7PzvEDtQL5Y9daEh", // common index 0
         "ipfs://QmWMN3pmwqkxgY6Co7Wno3vfTaMWAD4enHNrdiY8DTkbYp",
         "ipfs://QmTWvjfhEfY6vMBBJ97MNRctYDoicUSYQup6Nnz8bH6uNC",
         "ipfs://QmTCyWtcXyZmHzszwhejW2F4G1ApjN7BFKcghm65mb23fv",
@@ -53,7 +52,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         "ipfs://QmbXnW7ZcZ1rpyKjiad9kh8gq3JR35b64SeJyLurXHwsXT",
         "ipfs://QmfYnyYCNHeWCq7u7NEN7W6BLowKtFTV3ETAcGxhfc7tRz",
         "ipfs://QmcN9CFvCUWkCyzYHQ7oxWVs7WJEMsbx2cvd86pTM8nhbb",
-        "ipfs://QmQx8SeFX9kD9UKu5cYZeE5eiYGHYFVW7nAYha7KeK4EMx",
+        "ipfs://QmQx8SeFX9kD9UKu5cYZeE5eiYGHYFVW7nAYha7KeK4EMx", // common index 35
+        "ipfs://QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9", // uncommon index 36
         "ipfs://QmfK6ax8mZoVyFHVMWFNWaXy4L6ULTcV7ZdsanHFYrupnb",
         "ipfs://QmNrfjerZXC5TLrzF2gnWYjNfzutrXxERCR6FaUkQcVntM",
         "ipfs://Qme8S5oJsb93Toh8xYUEt5Mwk7EE7h2NgvCq9ugJ7hyJbS",
@@ -81,8 +81,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         "ipfs://QmNcx7BoHev3HAmPXpGHq99CK5ePRfr6oxVGDneNkzLP5J",
         "ipfs://QmVLfEHxiK8knfA3vYR8Lr6YfCeGPqWoXtBnq76sNFS3zw",
         "ipfs://QmcVbQim6aNZKLAaUSNuCKAZzD5jNQZfakfNsj7oGoH6ia",
-        "ipfs://QmWCDtK8kXopJnsEq9TGVWeCAJd6gJ6JwgWoEpqnVoj94A",
-        "ipfs://QmPLUP71SorxqYRehSsxTdcdTC8dVDMDsbQUz5y15qJAhd",
+        "ipfs://QmWCDtK8kXopJnsEq9TGVWeCAJd6gJ6JwgWoEpqnVoj94A", // uncommon index 64
+        "ipfs://QmPLUP71SorxqYRehSsxTdcdTC8dVDMDsbQUz5y15qJAhd", // rare index 65
         "ipfs://QmNm3vTZxSyQmgfWu5Ygkh2RRSgW52zaKanRZ3FnFJU556",
         "ipfs://QmWe851iDeMo9QUA93BwtofGrNeLBmVo3RSBQ3acRJp1Y8",
         "ipfs://QmSssW2HC1vMbh31YbFnnCTxvTY9jpikKd1obYm2y4NZzb",
@@ -102,8 +102,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         "ipfs://QmeKoXSgJKYUaGdBnytzLcCdDdzVGXkoeTBviLahQ7aQ7Z",
         "ipfs://QmWZcLgoE5pBrwwnTJJhwzQpWK4Yyuqwx6Un4uJBD42v7N",
         "ipfs://QmPNwGbboCvykUyvBVcCTCSL9H31GAUgAhRwmTfKaUnwkB",
-        "ipfs://QmSvtUEXaktcuXU3JGdHtKW8KE6EkFLZRGfPagWvjDnrE1",
-        "ipfs://QmSB9URtQjCqwWEx7Pq3aEun35ZZ3ou3GXMR55h5NAMxCJ",
+        "ipfs://QmSvtUEXaktcuXU3JGdHtKW8KE6EkFLZRGfPagWvjDnrE1", // rare index 85
+        "ipfs://QmSB9URtQjCqwWEx7Pq3aEun35ZZ3ou3GXMR55h5NAMxCJ", // epic index 86
         "ipfs://QmS2WcFMV4ePBre8ZGKddFhkniGZwKcJxKmMLc4q9Sb8cd",
         "ipfs://QmeDKcxP29ewhXJYpyWg6hbs7vi7WD17g5UoYdjad9HjEq",
         "ipfs://QmVqfRw7DdH77tBUAMzq9ahtGixy1T7RQ9bfh4F3WbxGHs",
@@ -111,11 +111,11 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         "ipfs://QmcC2CUKyDkznWbt9id8U75HfFwcghG86b7GeVEr1zqsSQ",
         "ipfs://QmeczoF5VVpdoLw1nQQW4bQqsAtK6HKdi4odNhwBtp9BY1",
         "ipfs://QmUbvK3fSjnheemcwwLJnUcPjKpxPdEoFAgAeyRom3dpAV",
-        "ipfs://QmP9TGhe1rEiib92QjACCurgsCkChSSjn4EtyRp2Nu7zQK",
-        "ipfs://QmUBQNJDb2NjFDP75dbWbiPnoNm7JTAqon1oJv95RoAb6o",
+        "ipfs://QmP9TGhe1rEiib92QjACCurgsCkChSSjn4EtyRp2Nu7zQK", // epic index 94
+        "ipfs://QmUBQNJDb2NjFDP75dbWbiPnoNm7JTAqon1oJv95RoAb6o", // legendary index 95
         "ipfs://QmNh7SEP1gjmA75A5hcixerFcPatgKV3w8vkJmc8a4nPKn",
         "ipfs://QmZeZuwNgg1uyZYSaXAzmXYYNEWPSWPdrXvGakChoaa6sg",
-        "ipfs://QmSp4vAYEZ16SL3E3ins35oGxmthJSKLHaqHetvA7XuErL"
+        "ipfs://QmSp4vAYEZ16SL3E3ins35oGxmthJSKLHaqHetvA7XuErL" // legendary index 98
     ]; // [LEGENDARY, EPIC, RARE, UNCOMMON, COMMON]
 
     enum PepeType {
@@ -195,7 +195,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
 
         _safeMint(nftOwner, tokenId); // finally, mint the NFT using _safeMint function
 
-        // set Token URI of that particular NFT
+        // set Token URI of that particular NFT offset = [0, 36, 65, 86, 95, 98]
         if (pepeType == PepeType.COMMON) index = index + offset[0];
         else if (pepeType == PepeType.UNCOMMON) index = index + offset[1];
         else if (pepeType == PepeType.RARE) index = index + offset[2];
@@ -241,8 +241,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
     function getRandomCardByRarity(
         PepeType pepeType
     ) public view returns (uint256) {
-        // common:start->hết 7mb: 37 files
-        // uncommon:8mb->hết 10mb: 28 files
+        // common:start->hết 7mb: 36 files
+        // uncommon:8mb->hết 10mb: 29 files
         // rare:11mb->hết 13mb: 21 files
         // epic:14mb->hết 14mb: 9 files
         // legendary:15mb->end: 4 files
@@ -264,8 +264,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         );
 
         // Check type to get chance of type nft
-        if (pepeType == PepeType.COMMON) return randomNumber % 37;
-        else if (pepeType == PepeType.UNCOMMON) return randomNumber % 28;
+        if (pepeType == PepeType.COMMON) return randomNumber % 36;
+        else if (pepeType == PepeType.UNCOMMON) return randomNumber % 29;
         else if (pepeType == PepeType.RARE) return randomNumber % 21;
         else if (pepeType == PepeType.EPIC) return randomNumber % 9;
         else if (pepeType == PepeType.LEGENDARY) return randomNumber % 4;

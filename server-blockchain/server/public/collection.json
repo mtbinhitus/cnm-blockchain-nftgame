@@ -1,0 +1,1685 @@
+[
+    {
+        "name": "001 - Moses Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/back.png",
+            "video": "https://ipfs.io/ipfs/QmdgUkdWu5sdUahWEL7Cfxep96c1JzNf1hL14rvcy7sZkV/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "002 - Chad Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/back.png",
+            "video": "https://ipfs.io/ipfs/QmfJJTMjypnjXZweJmj1Ya5xuvX2uddKnVU6Ada6bUGj5L/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "003 - Colossal Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/preview.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/back.png",
+            "video": "https://ipfs.io/ipfs/QmZHTLpjfABLsZmFVrfqvVSqXzT8nv7g1Zy3u1nhempVkx/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "004 - Peace Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/preview.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/back.png",
+            "video": "https://ipfs.io/ipfs/QmV5dxToXcD1S7TZo8JzoWdkNML6v1ToiFgnyvMUMFEzYL/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "005 - Zealot Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/back.png",
+            "video": "https://ipfs.io/ipfs/QmTnfJYF2G1FsPfBz7BiAR5xzeZeyZxay7NnE9ZVbwHAbu/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "006 - Wiggle Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/back.png",
+            "video": "https://ipfs.io/ipfs/QmXC5TT1zfxyYNjbBsBoMZ5uTBD2Gabqd6sYWSbo5km36b/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "007 - Sir Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/back.png",
+            "video": "https://ipfs.io/ipfs/QmeuChauQch678h8AMqgBkF4nWeknjfFg2q21ccSvR2Q7x/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "008 - Now Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/back.png",
+            "video": "https://ipfs.io/ipfs/QmT5STPrDAzQrcbRWfoeD86dEfirLE2aptRGz6DVu2PsTi/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "009 - Milky Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/back.png",
+            "video": "https://ipfs.io/ipfs/QmS8socM1LMv5hZviXQSeew8P5bwGusKWpnSLzwhACvyE9/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "010 - Golden Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/back.png",
+            "video": "https://ipfs.io/ipfs/QmeD1zpQoN2aro8VbEWueMfZisw7ggY8Na9XnjGfA5JsHB/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "011 - Reset Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/back.png",
+            "video": "https://ipfs.io/ipfs/QmR679Jd8BrzZCZ4on25QSFn3vPuWUZf5cGiiNohVfCh4Y/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "012 - Sunrise Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/back.png",
+            "video": "https://ipfs.io/ipfs/QmU3pCWfbVow5SFpQKT6te5oEad22TfyN9QVRDzNWwnFkF/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Rare"
+            }
+        ]
+    },
+    {
+        "name": "013 - Parasite Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/back.png",
+            "video": "https://ipfs.io/ipfs/QmQ9KAueaKtd2ZBdfqviGbaXtzZHMkaXg6ppeEtGcdTtHN/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Legendary"
+            }
+        ]
+    },
+    {
+        "name": "014 - Proud Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/back.png",
+            "video": "https://ipfs.io/ipfs/QmUky4YMxV75v6CuhCor6M91Yu4m8NvPcFjM83gbe2vJEm/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Epic"
+            }
+        ]
+    },
+    {
+        "name": "015 - Salary Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/back.png",
+            "video": "https://ipfs.io/ipfs/QmbP9ksq6Lna5Ap9d6NezeWmqucWAGp4fa17q1nHK1W22M/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Legendary"
+            }
+        ]
+    },
+    {
+        "name": "016 - Morph Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/back.png",
+            "video": "https://ipfs.io/ipfs/QmcMYyjRS9N9yyoCgzrYok9HSGXVZr51g1ur4tSmcjjt8V/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Common"
+            }
+        ]
+    },
+    {
+        "name": "017 - Roller Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/back.png",
+            "video": "https://ipfs.io/ipfs/QmYF327qMNq83QjeKZmjHCNYHy5XcbWKbp3YzsuHi4dNjQ/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "018 - Pogo Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/back.png",
+            "video": "https://ipfs.io/ipfs/QmP9fdBbPXtPw3B5wjmB564igFZjWmKRfuCuVk6zyTfngF/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Common"
+            }
+        ]
+    },
+    {
+        "name": "019 - Jump Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/back.png",
+            "video": "https://ipfs.io/ipfs/QmZdS6vp4EqK1q5TzhCvNU6qFfL1QocoKmMu9ugf4JonG1/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Common"
+            }
+        ]
+    },
+    {
+        "name": "020 - Rascal Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/back.png",
+            "video": "https://ipfs.io/ipfs/QmYnTSLWMCKnG7bPzSREKFEn4Thmg53EPTFyP8dPouAfW9/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Epic"
+            }
+        ]
+    },
+    {
+        "name": "021 - Robo Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/back.png",
+            "video": "https://ipfs.io/ipfs/QmY6fRxZFC7VtSPUZqAfzKZATwTReBfqh9ZR3ogM6mnQZL/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Epic"
+            }
+        ]
+    },
+    {
+        "name": "022 - Mind Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/back.png",
+            "video": "https://ipfs.io/ipfs/QmfPdni7bX33jFsaQ1weroQj1egzUMWf1ghp4PYHLJkVia/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Legendary"
+            }
+        ]
+    },
+    {
+        "name": "023 - Feels Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/back.png",
+          "video": "https://ipfs.io/ipfs/QmQjWhc2G7vRS1BgyAGP7scvK1GsjN6tFcAi5jijvZySLW/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "024 - Shroom Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/card.glb",  
+        "hifi_media": { 
+          "card_front": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/front.png",
+          "card_back": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/back.png",  
+          "video": "https://ipfs.io/ipfs/Qmd2L4VB2a5fsi6x9PfQtjJwDAoHJix5or2jSTkaPcn2AY/video.mp4" 
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "025 - Free Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbgaXrPgFUJhyLsZk2pd2PFv68QWwx2NtNBFYXbYMkek5/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbgaXrPgFUJhyLsZk2pd2PFv68QWwx2NtNBFYXbYMkek5/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbgaXrPgFUJhyLsZk2pd2PFv68QWwx2NtNBFYXbYMkek5/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbgaXrPgFUJhyLsZk2pd2PFv68QWwx2NtNBFYXbYMkek5/back.png",
+          "video": "https://ipfs.io/ipfs/QmbgaXrPgFUJhyLsZk2pd2PFv68QWwx2NtNBFYXbYMkek5/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "026 - Master Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/back.png",
+          "video": "https://ipfs.io/ipfs/QmRThpvLvPmoYLfC3bdt3Dp6z92cvP8FZXd1kiky2ft1L8/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "027 - Creamy Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/back.png",
+          "video": "https://ipfs.io/ipfs/QmQoG1z6hARFiKonBQtbEyfmAmnfi5uWiQK5TTLHC8okpP/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "028 - Rave Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmNo2nMFy5WkB4P5W3a8w6c9tim2ebgcUWcKk5myNbaH2C/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmNo2nMFy5WkB4P5W3a8w6c9tim2ebgcUWcKk5myNbaH2C/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmNo2nMFy5WkB4P5W3a8w6c9tim2ebgcUWcKk5myNbaH2C/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmNo2nMFy5WkB4P5W3a8w6c9tim2ebgcUWcKk5myNbaH2C/back.png",
+          "video": "https://ipfs.io/ipfs/QmNo2nMFy5WkB4P5W3a8w6c9tim2ebgcUWcKk5myNbaH2C/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "029 - Amaze Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/back.png",
+          "video": "https://ipfs.io/ipfs/QmfPM93oAawa1raHbzuRXJ7LAj9M8dX9hjM6xNrimcF9pX/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "030 - Vision Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/back.png",
+          "video": "https://ipfs.io/ipfs/QmQK1R6su3REdttXgNeH2fw8xTyhrWBeELJMrgg92ELRPw/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "031 - Satan Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/back.png",
+          "video": "https://ipfs.io/ipfs/QmSsm1wmgT2KfQHCWEXghnmeEQKBcQaA9raXGXe3gjpmvh/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "032 - Jesus Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qmde35m8PctWqkvmh3FeFrsdJsa2N8uGdpMsZHRRae8CoH/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qmde35m8PctWqkvmh3FeFrsdJsa2N8uGdpMsZHRRae8CoH/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/Qmde35m8PctWqkvmh3FeFrsdJsa2N8uGdpMsZHRRae8CoH/front.png",
+          "card_back": "https://ipfs.io/ipfs/Qmde35m8PctWqkvmh3FeFrsdJsa2N8uGdpMsZHRRae8CoH/back.png",
+          "video": "https://ipfs.io/ipfs/Qmde35m8PctWqkvmh3FeFrsdJsa2N8uGdpMsZHRRae8CoH/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "033 - Fire Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/back.png",
+          "video": "https://ipfs.io/ipfs/QmYdRdWV4dyMhACnv7xmV7W13mGFkfEQXka1rPJq6evFRr/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "034 - Golf Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmWsH1tRH5Ud4Crsx96dp89amduHeenNTDwod8K8PTrQt4/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmWsH1tRH5Ud4Crsx96dp89amduHeenNTDwod8K8PTrQt4/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmWsH1tRH5Ud4Crsx96dp89amduHeenNTDwod8K8PTrQt4/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmWsH1tRH5Ud4Crsx96dp89amduHeenNTDwod8K8PTrQt4/back.png",
+          "video": "https://ipfs.io/ipfs/QmWsH1tRH5Ud4Crsx96dp89amduHeenNTDwod8K8PTrQt4/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "035 - Genius Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmcPnR4TgDfcPuWLgb1nswNUrLsojMDyAsLDFa7FqDjzUh/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmcPnR4TgDfcPuWLgb1nswNUrLsojMDyAsLDFa7FqDjzUh/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmcPnR4TgDfcPuWLgb1nswNUrLsojMDyAsLDFa7FqDjzUh/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmcPnR4TgDfcPuWLgb1nswNUrLsojMDyAsLDFa7FqDjzUh/back.png",
+          "video": "https://ipfs.io/ipfs/QmcPnR4TgDfcPuWLgb1nswNUrLsojMDyAsLDFa7FqDjzUh/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "036 - Chill Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/back.png",
+          "video": "https://ipfs.io/ipfs/QmZcFovDGQFbQWeqyyBmFvAxrp4GdvYZm5kAXws38YwAQN/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "037 - Coin Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/back.png",
+          "video": "https://ipfs.io/ipfs/QmP8q2QDRC4kAu4Z4coDbPManbLhXCbChsntoQmmhrqxXq/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "038 - Raid Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/back.png",
+          "video": "https://ipfs.io/ipfs/QmNc7nw8A7fSFdb9K98XEDJBA57ENx1R5a3cf5xzJhFrML/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "039 - Zero Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfYgHprTrjS9EzbQBxBZ8iP5td84NnB2zoKEUX7Z4khD9/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfYgHprTrjS9EzbQBxBZ8iP5td84NnB2zoKEUX7Z4khD9/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmfYgHprTrjS9EzbQBxBZ8iP5td84NnB2zoKEUX7Z4khD9/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmfYgHprTrjS9EzbQBxBZ8iP5td84NnB2zoKEUX7Z4khD9/back.png",
+          "video": "https://ipfs.io/ipfs/QmfYgHprTrjS9EzbQBxBZ8iP5td84NnB2zoKEUX7Z4khD9/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "040 - Blobby Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/back.png",
+          "video": "https://ipfs.io/ipfs/QmcCN7s1GUiaSAbZR31WESVfkfu9VEGMKF5bDYyQ3ZbM3m/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "041 - Darth Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/back.png",
+          "video": "https://ipfs.io/ipfs/QmWnWXKFdpM86FAKBzPcbVbVZGxbPV5ybyCck6vUBY2NCA/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "042 - High Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/back.png",
+          "video": "https://ipfs.io/ipfs/QmeNcD5f51Aa9rY4mmrnWzw1B9kPTd2EaW4sZpL7Dugpqx/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "043 - Time Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmQXPr36TG5ST79rHmJ9G3xZNP7g2DscSZnEuzzPQwzCvM/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "044 - Moon Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQF1YH1Tca7q7SZXJtrP2pye7KTsTSfJekPRw452dFsnx/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQF1YH1Tca7q7SZXJtrP2pye7KTsTSfJekPRw452dFsnx/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQF1YH1Tca7q7SZXJtrP2pye7KTsTSfJekPRw452dFsnx/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmQF1YH1Tca7q7SZXJtrP2pye7KTsTSfJekPRw452dFsnx/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmQF1YH1Tca7q7SZXJtrP2pye7KTsTSfJekPRw452dFsnx/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "045 - Dom Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmRnBzkSGcdqz3pr1tbHecZMjRkEwj2V5nHjZcBm1aPFrV/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "046 - Lonely Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmNuukUAiDVBci74uhCvVwr9Wb1gGVtPkwMJ7PFYEx1fiD/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "047 - Mercy Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/back.jpg",
+          "video": "https://ipfs.io/ipfs/Qma2yxEHRZidwBG96vX7QNXXhH1jvf7rKh5w3D6nezXfbd/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "048 - Chase Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmQViEYqtnCupe1NZdGGtKyrMbRyn8p19SLTfwHvcmvbtS/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "049 - Awaken Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZC8R9NV3ifzDc8zX1crADiVB4pH5w3vGVCJzmBU6HQwG/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZC8R9NV3ifzDc8zX1crADiVB4pH5w3vGVCJzmBU6HQwG/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmZC8R9NV3ifzDc8zX1crADiVB4pH5w3vGVCJzmBU6HQwG/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmZC8R9NV3ifzDc8zX1crADiVB4pH5w3vGVCJzmBU6HQwG/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmZC8R9NV3ifzDc8zX1crADiVB4pH5w3vGVCJzmBU6HQwG/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "050 - Ghost Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/front.jpg",
+          "card_back": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/back.jpg",
+          "video": "https://ipfs.io/ipfs/QmSjTV7hjJxtYk4rtopTeURMxz3DwtdxtDjUHaD9g6w2FH/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "051 - Pong Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/back.png",
+          "video": "https://ipfs.io/ipfs/QmYQik1M1TLgAimyiFg48W1GURA9AcqX28heUdWDJ5UCAm/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "052 - Savage Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/back.png",
+          "video": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "053 - Spider Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/back.png",
+          "video": "https://ipfs.io/ipfs/QmdEFyGQfkC4uN6M15KLF3J8UZ5xd6YC8tGBzxdk31qqMJ/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "054 - Shogun Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/back.png",
+          "video": "https://ipfs.io/ipfs/QmPcMhR88LWjCf8REMxJJvr3VoF269Rm7VGJ9S3ShDCxAP/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "055 - Play Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/back.png",
+          "video": "https://ipfs.io/ipfs/QmR5LSsLUvacyfiRbL5KRuL1kGhC9zeoWy4umNccNcnZEa/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "056 - Kaneda Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmW79dmgL9SNNXLpX7XTnf8bWHDzu1BbQAuvcBt1EQAt1h/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmW79dmgL9SNNXLpX7XTnf8bWHDzu1BbQAuvcBt1EQAt1h/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmW79dmgL9SNNXLpX7XTnf8bWHDzu1BbQAuvcBt1EQAt1h/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmW79dmgL9SNNXLpX7XTnf8bWHDzu1BbQAuvcBt1EQAt1h/back.png",
+          "video": "https://ipfs.io/ipfs/QmW79dmgL9SNNXLpX7XTnf8bWHDzu1BbQAuvcBt1EQAt1h/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "057 - Alien Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/back.png",
+            "video": "https://ipfs.io/ipfs/QmQ8QikXGBTCFZjbkmNTLdmoJKdDW8YdAF11pGQdrE5RjS/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "058 - Pilgrim Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/back.png",
+          "video": "https://ipfs.io/ipfs/QmRwMiPAnew7zVbBDdNrQbiMbmcTSyo3X2ziKGfXYceehD/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "059 - Samsara Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/back.png",
+          "video": "https://ipfs.io/ipfs/QmdhMUtHQV91joVvvBpi3oYSNRNycxf31X9u5vo4EE2YS2/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "060 - GOAT Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdgzoQRjGQ4Rso7vJhydfnA343hWhNk1UtWd3uAmAsY1R/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdgzoQRjGQ4Rso7vJhydfnA343hWhNk1UtWd3uAmAsY1R/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmdgzoQRjGQ4Rso7vJhydfnA343hWhNk1UtWd3uAmAsY1R/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmdgzoQRjGQ4Rso7vJhydfnA343hWhNk1UtWd3uAmAsY1R/back.png",
+          "video": "https://ipfs.io/ipfs/QmdgzoQRjGQ4Rso7vJhydfnA343hWhNk1UtWd3uAmAsY1R/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "061 - Berserk Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/back.png",
+          "video": "https://ipfs.io/ipfs/QmTYmKR8FQesxN71Xy44o6NAATM1CTWR14e9gkM7o6yntE/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "062 - Cured Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/back.png",
+          "video": "https://ipfs.io/ipfs/QmVjR6bKjwnB4dLdm1Yti19Pjuz2HTnuuWAFdUuMeU9RFL/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Legendary"
+          }
+        ]
+      },
+      {
+        "name": "063 - Nexus Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/back.png",
+          "video": "https://ipfs.io/ipfs/QmQa33GkdmUPGemtJsxvXhGPHYParhYHYvFFPFmG5JZmxy/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "064 - Psycho Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/front.png",
+          "card_back": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/back.png",
+          "video": "https://ipfs.io/ipfs/Qmbiucn8sViYcmaZY8B5wi7rDPHXfm9v6rjbEjVrB7Yt7U/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "065 - Hodl Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/back.png",
+          "video": "https://ipfs.io/ipfs/QmasaxMB11g77owDriQ1rhxXZvBt75epMV2FjYAkHp6bHr/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "066 - Yakuza Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/back.png",
+          "video": "https://ipfs.io/ipfs/QmWt38wpckzxJnkhHwrAmxq3FfLDMJSRi4ScSzXjy6N299/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "067 - Anon Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/back.png",
+          "video": "https://ipfs.io/ipfs/QmXw7GuKxZppmWLCeQcRJPPFxf2tSAKPm4zQu3mJWmV3jR/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "068 - Rodeo Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQQCKHrQ7MJzFr4kbi8MuqJZEcnc1qkiyZzGyQvEy5Aug/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQQCKHrQ7MJzFr4kbi8MuqJZEcnc1qkiyZzGyQvEy5Aug/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQQCKHrQ7MJzFr4kbi8MuqJZEcnc1qkiyZzGyQvEy5Aug/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQQCKHrQ7MJzFr4kbi8MuqJZEcnc1qkiyZzGyQvEy5Aug/back.png",
+          "video": "https://ipfs.io/ipfs/QmQQCKHrQ7MJzFr4kbi8MuqJZEcnc1qkiyZzGyQvEy5Aug/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "069 - Pepe Epep",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/back.png",
+          "video": "https://ipfs.io/ipfs/QmasvEUy94Ue9PxGcdTMaU7b5jnAPHXinjmRgxxziD9E2j/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "070 - 1Pull Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfTbaHb2FzFYsFcgrQndH3UtHGGHiZ223CwAa5jSHgDe8/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfTbaHb2FzFYsFcgrQndH3UtHGGHiZ223CwAa5jSHgDe8/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmfTbaHb2FzFYsFcgrQndH3UtHGGHiZ223CwAa5jSHgDe8/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmfTbaHb2FzFYsFcgrQndH3UtHGGHiZ223CwAa5jSHgDe8/back.png",
+          "video": "https://ipfs.io/ipfs/QmfTbaHb2FzFYsFcgrQndH3UtHGGHiZ223CwAa5jSHgDe8/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "071 - Magic Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/back.png",
+          "video": "https://ipfs.io/ipfs/QmSkorxCEcd1b3y14bRYzTUVgMHoUxRBBjP2b3yn2mpvnp/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "072 - Joy Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/front.png",
+          "card_back": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/back.png",
+          "video": "https://ipfs.io/ipfs/Qmb1HyadvAJuafXkUxnB8jEwhCBLAznuACbxUNNHpXVYBP/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "073 - Relic Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/back.png",
+          "video": "https://ipfs.io/ipfs/QmZ53QpB4XSNhYQJiuhEKSZp1EUXL8gex1iktNWPMUqxbr/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "074 - Prison Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/back.png",
+          "video": "https://ipfs.io/ipfs/QmYsYEixdiQJszA9G61yTpaAzUUGxBVf9sWbakESXeLv1A/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "075 - P1000 Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmZQFDNCe8tJ1WkisHA1S9dgcScGa2WZdV4Subfypp5uL9/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmZQFDNCe8tJ1WkisHA1S9dgcScGa2WZdV4Subfypp5uL9/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmZQFDNCe8tJ1WkisHA1S9dgcScGa2WZdV4Subfypp5uL9/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmZQFDNCe8tJ1WkisHA1S9dgcScGa2WZdV4Subfypp5uL9/back.png",
+          "video": "https://ipfs.io/ipfs/QmZQFDNCe8tJ1WkisHA1S9dgcScGa2WZdV4Subfypp5uL9/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "076 - Super Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/back.png",
+          "video": "https://ipfs.io/ipfs/QmRH3mzHamcMjC6TU8hLtMu8kjTV1DD2FdqEMqrL7zEjdp/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "077 - Joker Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/back.png",
+          "video": "https://ipfs.io/ipfs/QmQzzq7iTw2qiQD7gBd66mcyE87XSMrh2BTkvnUWnmsWgU/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "078 - Count Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/back.png",
+          "video": "https://ipfs.io/ipfs/QmbkxX5hynJYcsVpkQ5P9EgevnrZrEShPCAXT5GwRnkeCn/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "079 - Sub Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/back.png",
+          "video": "https://ipfs.io/ipfs/QmPgTFrPNWmWvjp3y5MiAcQ5s6kyDcCnNm5oPctQ8AAc36/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "080 - Bumper Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/back.png",
+          "video": "https://ipfs.io/ipfs/QmRE7jYamWSojgMycQKrtfgWKrQEDVMKYn9fMDeFnsDFHa/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "081 - Space Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbVopC5WeWczERnf5jgsnYUBQ3RYNbdqE4wuTmasxWYE1/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbVopC5WeWczERnf5jgsnYUBQ3RYNbdqE4wuTmasxWYE1/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbVopC5WeWczERnf5jgsnYUBQ3RYNbdqE4wuTmasxWYE1/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbVopC5WeWczERnf5jgsnYUBQ3RYNbdqE4wuTmasxWYE1/back.png",
+          "video": "https://ipfs.io/ipfs/QmbVopC5WeWczERnf5jgsnYUBQ3RYNbdqE4wuTmasxWYE1/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "082 - Metal Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/back.png",
+          "video": "https://ipfs.io/ipfs/QmPmZQBiPGzeX4G75BKmdD1eemfsSFFBuEF63qZXNUqetY/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "083 - Shit Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmPJ4Uw8qNYYbsYCuKD42YwUthT1BasK9PvYu3h5gpZz2q/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmPJ4Uw8qNYYbsYCuKD42YwUthT1BasK9PvYu3h5gpZz2q/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmPJ4Uw8qNYYbsYCuKD42YwUthT1BasK9PvYu3h5gpZz2q/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmPJ4Uw8qNYYbsYCuKD42YwUthT1BasK9PvYu3h5gpZz2q/back.png",
+          "video": "https://ipfs.io/ipfs/QmPJ4Uw8qNYYbsYCuKD42YwUthT1BasK9PvYu3h5gpZz2q/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "084 - Ace Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/back.png",
+          "video": "https://ipfs.io/ipfs/QmcXaZAFP7erM2VaaX5egSQ9BZ4SH5GNwPBuvwvo5Edxzh/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "085 - Dance Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/back.png",
+          "video": "https://ipfs.io/ipfs/QmNXTAE6Z5U62uDoRfukTyhwyfjrzuuwyFbZPboi6f3Fdf/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "086 - Fixed Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/back.png",
+          "video": "https://ipfs.io/ipfs/QmXpKUp9i4JeKrJjXmiB12BNwqUBY6qHpR3QwA622s2E7k/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Epic"
+          }
+        ]
+      },
+      {
+        "name": "087 - Crazy Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/back.png",
+          "video": "https://ipfs.io/ipfs/QmNTZ1UHt47HzcHJUYSUCEQRiLoHWHB2qdFpGvGGCsRMeq/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "088 - Wheel Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/back.png",
+          "video": "https://ipfs.io/ipfs/QmdZtaPUugihNxUsuPTpvQbQb3jZe6XrhyHQcJEtEqv5vd/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "089 - Waltz Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/back.png",
+          "video": "https://ipfs.io/ipfs/QmXjNNDryjMZNccAH1ay1KWnhx8KCf5ichoxtMpiJDqURZ/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "090 - Top Hat Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/back.png",
+          "video": "https://ipfs.io/ipfs/QmUkunnJ7wgNBhRGYMu9m9ZkLM7SqmRgMRkkFpZ5dZJpsa/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "091 - Dope Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/back.png",
+          "video": "https://ipfs.io/ipfs/QmSAaPe19P66XdshK1Jm4QDE8LHTomgzTn2W8J47qWavA4/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "092 - King Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/back.png",
+          "video": "https://ipfs.io/ipfs/QmbF95tJc9WsdyoZ3zqrv9VcmLPLDHDAh2xUtPEYeGMhTS/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "093 - Pill Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/front.png",
+          "card_back": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/back.png",
+          "video": "https://ipfs.io/ipfs/Qmf4jehmJBtucECd4CpZkFMHKhRCKzvxay3YRmkkQe6bq4/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "094 - Artist Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/back.png",
+          "video": "https://ipfs.io/ipfs/QmfXzcfc6AC4rz7VNu1b5gZSKR1CnPJBHfT6RMfr6wDt83/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "095 - Rob Boss Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/back.png",
+          "video": "https://ipfs.io/ipfs/QmbYMyToJADb8Gt1Gy9AQ1X3pfHwcmiigrbQkzGGKkxXa4/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Rare"
+          }
+        ]
+      },
+      {
+        "name": "096 - Steam Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/card.glb",
+        "hifi_media": {
+            "card_front": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/front.png",
+            "card_back": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/back.png",
+            "video": "https://ipfs.io/ipfs/QmYUu4YoXbAzTJo5M88s4GQ4KQJeCHqkZZjBwvdG9vCtSk/video.mp4"
+        },
+        "attributes": [
+            {
+                "trait_type": "Rarity",
+                "value": "Uncommon"
+            }
+        ]
+    },
+    {
+        "name": "097 - 8Bit Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/back.png",
+          "video": "https://ipfs.io/ipfs/QmefDJH2DNEQAFeGAMrrrDoUetcJcGYrrZZXRTP8UyFDhW/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      },
+      {
+        "name": "098 - Bowl Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/back.png",
+          "video": "https://ipfs.io/ipfs/QmbY1Gs92eN8a7jnsNtpdufQ8uRUKiPz6bQh4vsSiaK9bX/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Common"
+          }
+        ]
+      },
+      {
+        "name": "099 - God Pepe",
+        "description": "RarePepe by Matt Furie OpenSea",
+        "image": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/card.gif",
+        "animation_url": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/card.glb",
+        "hifi_media": {
+          "card_front": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/front.png",
+          "card_back": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/back.png",
+          "video": "https://ipfs.io/ipfs/QmbuZqmTvJpkAEZawEdtqyjNXjrH2CcjUtuPVPnrSjmQSt/video.mp4"
+        },
+        "attributes": [
+          {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+          }
+        ]
+      }    
+]
