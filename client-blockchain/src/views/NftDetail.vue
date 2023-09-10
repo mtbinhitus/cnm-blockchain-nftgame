@@ -1,8 +1,9 @@
 <template>
   <div class="container">
+    <Loading v-if="loading" />
     <div class="card p-3">
       <h4 class="title text-uppercase ms-3"></h4>
-      <div class="row">
+      <div v-if="!loading" class="row">
         <div class="col-lg-4 lg-12">
           <div class="image p-3 border rounded">
             <img :src="image_convert" alt="" class="w-100 rounded" />
@@ -14,37 +15,23 @@
           </div>
           <div class="mt-3">
             <span class="d-block">
-              <strong>description: </strong>{{ detail.description }}</span
-            >
+              <strong>description: </strong>{{ detail.description }}</span>
             <span class="d-block mt-2">
-              <strong>last updated: </strong>{{ dateTime }}</span
-            >
+              <strong>last updated: </strong>{{ dateTime }}</span>
           </div>
           <div class="content mt-4 border-top pt-3">
             <h5 class="text-uppercase">Contract:</h5>
-            <span class="d-block mt-3"
-              ><strong>Address:</strong> {{ detail.contract.address }}</span
-            >
-            <span class="d-block mt-2"
-              ><strong>Name:</strong> {{ detail.contractMetadata.name }}</span
-            >
-            <span class="d-block mt-2"
-              ><strong>Symbol:</strong>
-              {{ detail.contractMetadata.symbol }}</span
-            >
-            <span class="d-block mt-2"
-              ><strong>tokenType:</strong>
-              {{ detail.contractMetadata.tokenType }}</span
-            >
+            <span class="d-block mt-3"><strong>Address:</strong> {{ detail.contract.address }}</span>
+            <span class="d-block mt-2"><strong>Name:</strong> {{ detail.contractMetadata.name }}</span>
+            <span class="d-block mt-2"><strong>Symbol:</strong>
+              {{ detail.contractMetadata.symbol }}</span>
+            <span class="d-block mt-2"><strong>tokenType:</strong>
+              {{ detail.contractMetadata.tokenType }}</span>
           </div>
 
           <div class="attributeds mt-4 border-top pt-3">
             <h5 class="text-uppercase">attributes</h5>
-            <div
-              class="row mt-3"
-              v-for="(attribute, index) in detail.metadata.attributes"
-              :key="index"
-            >
+            <div class="row mt-3" v-for="(attribute, index) in detail.metadata.attributes" :key="index">
               <div class="col-4">
                 <span> {{ attribute.trait_type }}: </span>
               </div>
@@ -56,7 +43,6 @@
         </div>
       </div>
     </div>
-    <loading v-if="loading" />
   </div>
 </template>
 
@@ -73,6 +59,7 @@ export default defineComponent({
   data() {
     return {
       detail: {},
+      loading: true,
     };
   },
   computed: {
@@ -94,15 +81,29 @@ export default defineComponent({
       return dateTime.format(format);
     },
   },
-  created() {
-    const id = this.$route.params.id;
-
-    this.detail = nftStore().list.find((item, index) => {
-      return index == Number(id);
-    });
+  async created() {
+    this.loading = true;
+    await this.fetchDataOpenSea();
   },
   methods: {
-    fetchDataOpenSea() {},
+    fetchDataOpenSea() {
+      if (nftStore().list.length == 0) {
+        nftStore().fetch().then((res) => {
+          const id = this.$route.params.id;
+          this.detail = nftStore().list.find((item, index) => {
+            return index == Number(id);
+          });
+          this.loading = false;
+        }).catch(err => this.loading = false);
+      }
+      else {
+        const id = this.$route.params.id;
+        this.detail = nftStore().list.find((item, index) => {
+          return index == Number(id);
+        });
+        this.loading = false;
+      }
+    },
   },
 });
 </script>

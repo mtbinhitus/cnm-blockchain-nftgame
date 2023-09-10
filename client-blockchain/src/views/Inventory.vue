@@ -15,7 +15,7 @@
         />
       </div>
     </div>
-    <loading v-if="loading" />
+    <Loading v-if="loading" />
   </div>
 </template>
 
@@ -51,25 +51,9 @@ export default defineComponent({
     },
     fetchDataOpenSea() {
       this.loading = true;
-      const config = {
-        Accept: "application/json",
-      };
-
-      const WALLET_ADDRESS = authStore().address;
-      const BASE_URL = import.meta.env.VITE_APP_GOERLI_ALCHEMY;
-      const CONTRACT = import.meta.env.VITE_APP_CONTRACT;
-      const url = `${BASE_URL}/getNFTs/?owner=${WALLET_ADDRESS}&contractAddresses[]=${CONTRACT}`
-      return new Promise((resolve, reject) => {
-        axios.get(url, config).then(({data}) => {
-        // this.collection = data.ownedNfts  ;
-        nftStore().list = data.ownedNfts.reverse();
-        this.loading = false;
-        resolve(data);
-      }).catch((err) => {
-        this.loading = false;
-        reject(err)
-      })
-      })
+      nftStore().fetch().then(res => this.loading = false).catch(err => {
+        this.loading = false
+      });
     },
   },
 });
