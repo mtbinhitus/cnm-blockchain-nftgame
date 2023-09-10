@@ -5,7 +5,7 @@
                 Collection
             </h4>
             <span class="ms-3 pb-3" :style="{ color: 'white', 'font-size': '24px' }">
-                We have {{ collection.length }} wonderful Pepe
+                We have {{ collection.length }} wonderful Pepes for You
             </span>
 
             <div class="card-items row">
@@ -20,7 +20,6 @@
                         </div>
                     </div>
                 </div>
-                <NftCard />
             </div>
         </div>
         <Loading v-if="loading" />

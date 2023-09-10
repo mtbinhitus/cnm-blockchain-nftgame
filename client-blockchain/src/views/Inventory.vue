@@ -8,7 +8,7 @@
         Inventory
       </h4>
       <span class="ms-3 pb-3" :style="{ color: 'white', 'font-size': '24px' }">
-        You have {{ inventory.length }} wonderful Pepe
+        You have {{ inventory.length }} wonderful Pepes
       </span>
 
       <div class="card-items row">

@@ -7,7 +7,7 @@ const PRIVATE_KEY =
   "b6c1dc049bde4d0015332ad02ef4cee0d9bff31bccd91ac0d42543a79e2b029e";
 
 // New contract
-const CONTRACT_ADDRESS = "0x3d049824057A31001AF525BBe9f2Ede1768c1f49";
+const CONTRACT_ADDRESS = "0xf9e31406c3C03753e0c835D8786Ae88233f90458";
 
 const API_URL =
   "https://eth-goerli.g.alchemy.com/v2/7u9ag44gEfuJtfihRfFlgTU4UMEV02HV";
@@ -176,7 +176,7 @@ const nftController = {
         gasPrice: gasPrice,
         nonce: nonce,
         data: contract.methods.requestNFT().encodeABI(), // Gọi hàm requestNFT()
-        value: web3.utils.toWei("0.02", "ether"), // Số lượng Ether bạn muốn gửi
+        value: web3.utils.toWei("0.002", "ether"), // Số lượng Ether bạn muốn gửi
       };
 
       // Ký giao dịch với private key
