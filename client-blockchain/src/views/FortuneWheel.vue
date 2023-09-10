@@ -134,8 +134,8 @@ export default defineComponent({
     },
 
     onChangePrize(id) {
-      this.handleCreateNft();
       if (!this.checkSpinCount) {
+        this.handleCreateNft();
         this.updateScore();
 
         setTimeout(() => {
