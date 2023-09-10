@@ -5,7 +5,7 @@
       <h4 class="title text-uppercase ms-3"></h4>
       <div v-if="!loading" class="row">
         <div class="col-lg-4 lg-12">
-          <div class="image p-3 border rounded">
+          <div class="image p-3">
             <img :src="image_convert" alt="" class="w-100 rounded" />
           </div>
         </div>
@@ -83,13 +83,13 @@ export default defineComponent({
   },
   async created() {
     this.loading = true;
-    await this.fetchDataOpenSea();
+    const id = this.$route.params.id;
+    await this.fetchDataOpenSea(id);
   },
   methods: {
-    fetchDataOpenSea() {
+    fetchDataOpenSea(id) {
       if (nftStore().list.length == 0) {
         nftStore().fetch().then((res) => {
-          const id = this.$route.params.id;
           this.detail = nftStore().list.find((item, index) => {
             return index == Number(id);
           });
@@ -97,7 +97,6 @@ export default defineComponent({
         }).catch(err => this.loading = false);
       }
       else {
-        const id = this.$route.params.id;
         this.detail = nftStore().list.find((item, index) => {
           return index == Number(id);
         });
@@ -111,5 +110,15 @@ export default defineComponent({
 <style scoped>
 img {
   background: #dee2e6;
+}
+
+.card.p-3 {
+  background: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  --bs-card-border-radius: 0px;
+}
+
+.image.p-3 {
+  background: white;
 }
 </style>

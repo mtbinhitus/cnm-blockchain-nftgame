@@ -108,9 +108,7 @@ export default {
     gameStatus() {
       if (this.gameFailed) {
         const current_score = authStore().score;
-        console.log("curr", current_score);
         const address = authStore().address;
-        console.log("address", address);
 
         axios.post(
           `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`,
@@ -121,13 +119,13 @@ export default {
         );
 
         authStore().score = current_score + 1;
-      }
-      return "😞";
-      if (this.gameWon) {
-        const current_score = authStore().score;
-        console.log("curr", current_score);
-        const address = authStore().address;
+        console.log("score", authStore().score);
         console.log("address", address);
+
+        return "😞";
+      } else if (this.gameWon) {
+        const current_score = authStore().score;
+        const address = authStore().address;
 
         axios.post(
           `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`,
@@ -138,10 +136,13 @@ export default {
         );
 
         authStore().score = current_score + 20;
+        console.log("curr", authStore().score);
+        console.log("address", address);
 
         return "😎";
+      } else {
+        return "🙂";
       }
-      return "🙂";
     },
   },
   watch: {
@@ -317,7 +318,7 @@ body {
 .v-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -354,9 +355,8 @@ header {
 
 main {
   background-color: $tile-color;
-  border-radius: $border-radius;
   font-family: "Ubuntu Mono", monospace;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0 20px 20px 20px;
 }
 

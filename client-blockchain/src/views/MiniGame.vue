@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <div class="game-container" @click="jump()">
+    <div class="game-container" @click="start ? jump() : null">
       <div
         class="bird"
         :style="{ top: bird.y + 'px', left: bird.x + 'px' }"

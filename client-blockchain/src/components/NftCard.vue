@@ -1,12 +1,12 @@
 <template>
   <div class="card-item col-lg-3 col-6">
-    <div class="item-body border rounded shadow">
+    <div class="item-body shadow">
+      <div class="content p-3"></div>
       <div class="">
         <img :src="image_convert" alt="" />
       </div>
       <div class="content p-3">
         <h6 class="text-uppercase">{{ item.title }}</h6>
-        <span>{{ item.description }}</span>
       </div>
     </div>
   </div>
@@ -21,8 +21,7 @@ export default defineComponent({
   computed: {
     image_convert() {
       const img = this.item.metadata.image;
-      if (img.includes('https://ipfs.io/ipfs/'))
-        return img;
+      if (img.includes("https://ipfs.io/ipfs/")) return img;
       const ipfsHash = img.split("ipfs://")[1];
       if (!ipfsHash) {
         return "https://placehold.jp/150x150.png"; // Không phải định dạng ipfs:// hợp lệ
@@ -49,5 +48,14 @@ img {
   cursor: pointer;
 }
 .item-body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-uppercase {
+  font-weight: 600;
 }
 </style>

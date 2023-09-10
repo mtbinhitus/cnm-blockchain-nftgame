@@ -200,6 +200,7 @@ export default defineComponent({
 header {
   display: none;
 }
+
 /*header::before {
   content: "";
   position: absolute;
@@ -226,6 +227,7 @@ header {
     display: block;
     z-index: 10;
     background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
   }
 }
 
