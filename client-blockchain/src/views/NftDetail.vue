@@ -2,44 +2,66 @@
   <div class="container">
     <Loading v-if="loading" />
     <div class="card p-3">
-      <h4 class="title text-uppercase ms-3"></h4>
       <div v-if="!loading" class="row">
-        <div class="col-lg-4 lg-12">
+        <div class="col-lg-4 lg-12" :style="{ margin: 'auto' }">
           <div class="image p-3">
             <img :src="image_convert" alt="" class="w-100 rounded" />
           </div>
         </div>
         <div class="col-lg-8 p-3">
-          <div class="title">
+          <div class="title" :style="{ color: 'white' }">
             <h3>{{ detail.title }}</h3>
           </div>
           <div class="mt-3">
-            <span class="d-block">
-              <strong>description: </strong>{{ detail.description }}</span>
-            <span class="d-block mt-2">
-              <strong>last updated: </strong>{{ dateTime }}</span>
+            <span class="d-block" :style="{ color: 'white' }">
+              <strong>Description: </strong>{{ detail.description }}</span
+            >
+            <span class="d-block mt-2" :style="{ color: 'white' }">
+              <strong>Last updated: </strong>{{ dateTime }}</span
+            >
           </div>
           <div class="content mt-4 border-top pt-3">
-            <h5 class="text-uppercase">Contract:</h5>
-            <span class="d-block mt-3"><strong>Address:</strong> {{ detail.contract.address }}</span>
-            <span class="d-block mt-2"><strong>Name:</strong> {{ detail.contractMetadata.name }}</span>
-            <span class="d-block mt-2"><strong>Symbol:</strong>
-              {{ detail.contractMetadata.symbol }}</span>
-            <span class="d-block mt-2"><strong>tokenType:</strong>
-              {{ detail.contractMetadata.tokenType }}</span>
+            <h4 class="text-uppercase" :style="{ color: 'white' }">Contract</h4>
+            <span class="d-block mt-3" :style="{ color: 'white' }"
+              ><strong>Address:</strong> {{ detail.contract.address }}</span
+            >
+            <span class="d-block mt-2" :style="{ color: 'white' }"
+              ><strong>Name:</strong> {{ detail.contractMetadata.name }}</span
+            >
+            <span class="d-block mt-2" :style="{ color: 'white' }"
+              ><strong>Symbol:</strong>
+              {{ detail.contractMetadata.symbol }}</span
+            >
+            <span class="d-block mt-2" :style="{ color: 'white' }"
+              ><strong>Token type:</strong>
+              {{ detail.contractMetadata.tokenType }}</span
+            >
           </div>
 
           <div class="attributeds mt-4 border-top pt-3">
-            <h5 class="text-uppercase">attributes</h5>
-            <div class="row mt-3" v-for="(attribute, index) in detail.metadata.attributes" :key="index">
-              <div class="col-4">
-                <span> {{ attribute.trait_type }}: </span>
+            <h4 class="text-uppercase" :style="{ color: 'white' }">
+              Attributes
+            </h4>
+            <div
+              class="row mt-3"
+              v-for="(attribute, index) in detail.metadata.attributes"
+              :key="index"
+            >
+              <div class="d-block" :style="{ color: 'white' }">
+                <span
+                  ><strong>{{ attribute.trait_type }}: </strong>
+                  {{ attribute.value }}</span
+                >
               </div>
-              <div class="col-8">
-                <span>{{ attribute.value }}</span>
-              </div>
+              <!-- <div class="col-1" :style="{ color: 'white' }">
+                <span :style="{ color: 'white' }">{{ attribute.value }}</span>
+              </div> -->
             </div>
           </div>
+
+          <router-link to="/inventory" class="btn btn-primary mt-3">
+            Back to Inventory
+          </router-link>
         </div>
       </div>
     </div>
@@ -89,14 +111,16 @@ export default defineComponent({
   methods: {
     fetchDataOpenSea(id) {
       if (nftStore().list.length == 0) {
-        nftStore().fetch().then((res) => {
-          this.detail = nftStore().list.find((item, index) => {
-            return index == Number(id);
-          });
-          this.loading = false;
-        }).catch(err => this.loading = false);
-      }
-      else {
+        nftStore()
+          .fetch()
+          .then((res) => {
+            this.detail = nftStore().list.find((item, index) => {
+              return index == Number(id);
+            });
+            this.loading = false;
+          })
+          .catch((err) => (this.loading = false));
+      } else {
         this.detail = nftStore().list.find((item, index) => {
           return index == Number(id);
         });
@@ -120,5 +144,17 @@ img {
 
 .image.p-3 {
   background: white;
+}
+
+.btn {
+  width: 80%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 3px solid white;
+  border-radius: 0px;
+  color: white;
+}
+
+.btn:hover {
+  background: black;
 }
 </style>

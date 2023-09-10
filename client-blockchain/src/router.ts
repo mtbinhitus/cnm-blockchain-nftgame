@@ -47,7 +47,7 @@ const router = createRouter({
       meta: { authRequired: true },
     },
     {
-      path: "/Inventory",
+      path: "/inventory",
       component: Inventory,
       name: "Inventory",
       meta: { authRequired: true },
