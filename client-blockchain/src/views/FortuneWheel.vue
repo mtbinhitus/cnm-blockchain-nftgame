@@ -28,9 +28,6 @@
     </div>
 
     <div class="history">
-      <h3 class="title text-uppercase text-center mb-5 text-danger fs-2">
-        History
-      </h3>
       <table
         class="table table-striped table-primary table-bordered border-primary"
       >
@@ -50,7 +47,7 @@
         </tbody>
       </table>
 
-      <span class="text-white text-decoration-underline">Game rules</span>
+      <!-- <span class="text-white text-decoration-underline">Game rules</span> -->
     </div>
   </div>
   <ModalReceiveGiftVue :gift="gift" />

@@ -258,7 +258,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
                     seed,
                     tokenId,
                     block.timestamp,
-                    block.prevrandao
+                    block.difficulty
                 )
             )
         );

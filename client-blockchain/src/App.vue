@@ -4,8 +4,8 @@ import Header from "@/components/Header.vue";
 </script>
 
 <template>
-  <div class="k7">
-    <div class="container">
+  <div class="k7" id="k7">
+    <div class="container" id="container">
       <Header />
       <router-view />
     </div>
@@ -13,12 +13,15 @@ import Header from "@/components/Header.vue";
 </template>
 <style scoped>
 .k7 {
-  background-image: url("https://www.jaxon.gg/wp-content/uploads/2022/07/Summoners-Rift-e1658690646915.jpeg");
-  /* background-image: url("wallpaper.jpg"); */
+  /* background-image: url("https://www.jaxon.gg/wp-content/uploads/2022/07/Summoners-Rift-e1658690646915.jpeg");*/
+  background-image: url("/wallpaper.jpg");
   background-size: 100% 100%; /* Adjust the background size as needed */
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   overflow: auto;
+}
+.container {
+  height: 100%;
 }
 </style>

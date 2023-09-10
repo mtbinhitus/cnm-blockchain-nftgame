@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-import MiniGameVue from "./views/MiniGame.vue";
+import MinigameVue from "./views/MiniGame.vue";
+import MinigameVue2 from "./views/Minigame2.vue";
 import HomePage from "./views/HomePage.vue";
 import FortuneWheel from "./views/FortuneWheel.vue";
-import Mission from "./views/Mission.vue"
+import Mission from "./views/Mission.vue";
 import NotFound from "./components/ErrorPage.vue";
 import { nextTick } from "vue";
 import { authStore } from "./stores/authStore";
-import Collection from "./views/Collection.vue";
+import Inventory from "./views/Inventory.vue";
 import NftDetail from "./views/NftDetail.vue";
 
 const router = createRouter({
@@ -16,11 +17,16 @@ const router = createRouter({
       path: "/home",
       redirect: "/",
     },
-
     {
-      path: "/game",
-      component: MiniGameVue,
-      name: "game",
+      path: "/minigame",
+      component: MinigameVue,
+      name: "minigame",
+      meta: { authRequired: true },
+    },
+    {
+      path: "/minigame2",
+      component: MinigameVue2,
+      name: "minigame2",
       meta: { authRequired: true },
     },
     {
@@ -41,13 +47,13 @@ const router = createRouter({
       meta: { authRequired: true },
     },
     {
-      path: "/collection",
-      component: Collection,
-      name: "collection",
+      path: "/Inventory",
+      component: Inventory,
+      name: "Inventory",
       meta: { authRequired: true },
     },
     {
-      path: "/collection/:id",
+      path: "/inventory/:id",
       component: NftDetail,
       name: "nft detail",
       meta: { authRequired: true },
@@ -71,12 +77,12 @@ router.beforeEach((routeTo, routeFrom, next) => {
   if (!authRequired) {
     return next();
   }
-  
-  if(authStore().is_authen) {
+
+  if (authStore().is_authen) {
     return next();
   } else {
     router.push({ path: "/" });
-    alert("Please connect with Metamask wallet")
+    alert("Please connect with Metamask wallet");
   }
 });
 

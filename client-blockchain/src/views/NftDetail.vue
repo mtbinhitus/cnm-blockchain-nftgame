@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="card p-3">
-      <h4 class="title text-uppercase ms-3">{{}}</h4>
+      <h4 class="title text-uppercase ms-3"></h4>
       <div class="row">
         <div class="col-lg-4 lg-12">
           <div class="image p-3 border rounded">
@@ -78,8 +78,7 @@ export default defineComponent({
   computed: {
     image_convert() {
       const img = this.detail.metadata.image;
-      if (img.includes('https://ipfs.io/ipfs/'))
-              return img;
+      if (img.includes("https://ipfs.io/ipfs/")) return img;
       const ipfsHash = img.split("ipfs://")[1];
       if (!ipfsHash) {
         return "https://placehold.jp/150x150.png"; // Không phải định dạng ipfs:// hợp lệ

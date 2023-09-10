@@ -3,7 +3,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <button
+        <!-- <button
           class="navbar-toggler"
           type="button"
           data-mdb-toggle="collapse"
@@ -13,7 +13,7 @@
           aria-label="Toggle navigation"
         >
           <i class="fas fa-bars"></i>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active p-1">
@@ -22,9 +22,8 @@
               </router-link>
             </li>
             <li class="nav-item ms-3 p-1">
-              <!-- <a class="nav-link text-white" href="#"></a> -->
-              <router-link class="nav-link text-white" to="/game">
-                Mini Game
+              <router-link class="nav-link text-white" to="/collection">
+                Collection
               </router-link>
             </li>
             <li class="nav-item ms-3 p-1">
@@ -34,19 +33,20 @@
             </li>
             <li class="nav-item ms-3 p-1">
               <router-link class="nav-link text-white" to="/wheel">
-                Spin Bonus
+                Fortune Wheel
               </router-link>
             </li>
             <li class="nav-item ms-3 p-1">
-              <router-link class="nav-link text-white" to="/collection">
-                Collection
+              <!-- <a class="nav-link text-white" href="#"></a> -->
+              <router-link class="nav-link text-white" to="/inventory">
+                Inventory
               </router-link>
             </li>
           </ul>
 
           <div class="btn btn-success" @click="connectWithMetaMask">
             <i class="fa-solid fa-wallet me-2"></i>
-            <span v-if="!isConnected">Connect to METAMASK Wallet</span>
+            <span v-if="!isConnected">Connect to your MetaMask wallet</span>
             <span v-else class="text-white" style="text-decoration: none">
               {{ address }}
             </span>
@@ -152,7 +152,7 @@ export default defineComponent({
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Select an Account</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Select an account</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -198,9 +198,9 @@ export default defineComponent({
 
 <style scoped>
 header {
-  z-index: 10;
+  display: none;
 }
-header::before {
+/*header::before {
   content: "";
   position: absolute;
   top: 0;
@@ -208,13 +208,28 @@ header::before {
   width: 100vw;
   height: 60px;
   background: rgba(0, 0, 0, 0.243);
-}
+}*/
 .nav-link:hover {
-  color: red !important;
+  color: white;
 }
 .nav-item:hover {
-  background: rgba(248, 248, 196, 0.214);
-  border-radius: 8px;
-  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.2s;
+}
+
+#navbarExample01 {
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  header {
+    display: block;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.btn.btn-success {
+  border-radius: 0px;
 }
 </style>

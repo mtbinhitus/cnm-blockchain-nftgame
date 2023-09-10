@@ -8,6 +8,9 @@
     },
     "ignoreDeprecations": "5.0"
   },
+  "vueCompilerOptions": {
+    "plugins": ["@vue/language-plugin-pug"]
+  },
 
   "references": [
     {

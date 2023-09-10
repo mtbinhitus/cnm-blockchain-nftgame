@@ -71,6 +71,7 @@
 import { authStore } from "@/stores/authStore";
 import axios from "axios";
 import { defineComponent } from "vue";
+
 export default defineComponent({
   data() {
     return {
@@ -90,6 +91,7 @@ export default defineComponent({
       score_current: 0,
     };
   },
+
   mounted() {
     this.generatePipes();
     // this.gameLoop();
@@ -292,6 +294,7 @@ export default defineComponent({
         });
       }
     },
+
     gameLoop() {
       // Game loop logic, update bird and pipes positions
       // requestAnimationFrame(this.gameLoop);
@@ -305,7 +308,7 @@ export default defineComponent({
   position: relative;
   width: 1000px;
   height: 600px;
-  background: url("../../public/flappybirdbg.png");
+  background: url("/flappybirdbg.png");
   overflow: hidden;
 }
 
@@ -313,8 +316,8 @@ export default defineComponent({
   position: absolute;
   width: 64px;
   height: 64px;
-  /* background-image: url("../../public/flappybird.png"); */
-  background-image: url("../../wojak_fly.gif");
+  /* background-image: url("/flappybird.png"); */
+  background-image: url("/wojak_fly.gif");
   /* background-size: cover;
   object-fit: cover; */
   background-size: 100% 100%;
@@ -332,14 +335,14 @@ export default defineComponent({
 }
 
 .top-pipe {
-  background-image: url("../../pepe_dance_2.gif");
+  background-image: url("/pepe_dance_2.gif");
   background-size: 100% 100%;
   /* object-fit: 100% 100%; */
   /* background-position: bottom center; */
 }
 
 .bottom-pipe {
-  background-image: url("../../pepe_dance.gif");
+  background-image: url("/pepe_dance.gif");
   background-size: 100% 100%;
   /* object-fit: 100% 100%; */
 }
