@@ -32,7 +32,7 @@
         src="/wojak-finish.gif"
         alt="Ad Image"
         @click="resetClickCount"
-        :style="{ padding: '10px', width: '100%', height: '100%' }"
+        :style="{ width: '100%', height: '100%' }"
       />
     </div>
 
@@ -41,7 +41,7 @@
         src="/pepe-finish.gif"
         alt="Ad Image"
         @click="resetClickCount2"
-        :style="{ padding: '10px', width: '100%', height: '100%' }"
+        :style="{ width: '100%', height: '100%' }"
       />
     </div>
   </div>

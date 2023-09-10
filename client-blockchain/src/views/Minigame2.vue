@@ -318,7 +318,7 @@ body {
 .v-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -355,9 +355,8 @@ header {
 
 main {
   background-color: $tile-color;
-  border-radius: $border-radius;
   font-family: "Ubuntu Mono", monospace;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0 20px 20px 20px;
 }
 

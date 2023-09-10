@@ -14,15 +14,21 @@
         />
       </div>
       <div class="x text-white mt-5 fs-4">
-        <span class="d-flex justify-content-center"
+        <span
+          class="d-flex justify-content-center"
+          :style="{ 'font-weight': 600 }"
           >Your point:
-          <h4 class="ms-3 fs-2">{{ point }}</h4>
+          <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">{{ point }}</h4>
         </span>
       </div>
       <div class="x text-white mt-2 fs-4">
-        <span class="d-flex justify-content-center"
+        <span
+          class="d-flex justify-content-center"
+          :style="{ 'font-weight': 600 }"
           >Number spin:
-          <h4 class="ms-3 fs-2">{{ number_spin }}</h4>
+          <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">
+            {{ number_spin }}
+          </h4>
         </span>
       </div>
     </div>

@@ -1,10 +1,13 @@
 <template>
   <div class="container">
     <div class="card p-3">
-      <h4 class="title text-uppercase ms-3" :style="{ color: 'white' }">
+      <h4
+        class="title text-uppercase ms-3"
+        :style="{ color: 'white', 'font-size': '30px' }"
+      >
         Inventory
       </h4>
-      <span class="ms-3 pb-3" :style="{ color: 'white' }">
+      <span class="ms-3 pb-3" :style="{ color: 'white', 'font-size': '24px' }">
         You have {{ inventory.length }} wonderful Pepe
       </span>
 
@@ -60,18 +63,21 @@ export default defineComponent({
       const WALLET_ADDRESS = authStore().address;
       const BASE_URL = import.meta.env.VITE_APP_GOERLI_ALCHEMY;
       const CONTRACT = import.meta.env.VITE_APP_CONTRACT;
-      const url = `${BASE_URL}/getNFTs/?owner=${WALLET_ADDRESS}&contractAddresses[]=${CONTRACT}`
+      const url = `${BASE_URL}/getNFTs/?owner=${WALLET_ADDRESS}&contractAddresses[]=${CONTRACT}`;
       return new Promise((resolve, reject) => {
-        axios.get(url, config).then(({data}) => {
-        // this.collection = data.ownedNfts  ;
-        nftStore().list = data.ownedNfts.reverse();
-        this.loading = false;
-        resolve(data);
-      }).catch((err) => {
-        this.loading = false;
-        reject(err)
-      })
-      })
+        axios
+          .get(url, config)
+          .then(({ data }) => {
+            // this.collection = data.ownedNfts  ;
+            nftStore().list = data.ownedNfts.reverse();
+            this.loading = false;
+            resolve(data);
+          })
+          .catch((err) => {
+            this.loading = false;
+            reject(err);
+          });
+      });
     },
   },
 });

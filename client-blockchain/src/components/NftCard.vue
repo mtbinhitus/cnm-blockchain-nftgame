@@ -1,6 +1,7 @@
 <template>
   <div class="card-item col-lg-3 col-6">
     <div class="item-body shadow">
+      <div class="content p-3"></div>
       <div class="">
         <img :src="image_convert" alt="" />
       </div>
@@ -48,5 +49,13 @@ img {
 }
 .item-body {
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-uppercase {
+  font-weight: 600;
 }
 </style>
