@@ -108,9 +108,7 @@ export default {
     gameStatus() {
       if (this.gameFailed) {
         const current_score = authStore().score;
-        console.log("curr", current_score);
         const address = authStore().address;
-        console.log("address", address);
 
         axios.post(
           `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`,
@@ -121,13 +119,13 @@ export default {
         );
 
         authStore().score = current_score + 1;
-      }
-      return "😞";
-      if (this.gameWon) {
-        const current_score = authStore().score;
-        console.log("curr", current_score);
-        const address = authStore().address;
+        console.log("score", authStore().score);
         console.log("address", address);
+
+        return "😞";
+      } else if (this.gameWon) {
+        const current_score = authStore().score;
+        const address = authStore().address;
 
         axios.post(
           `${import.meta.env.VITE_APP_BASE_HOST}/api/nft/update-score`,
@@ -138,10 +136,13 @@ export default {
         );
 
         authStore().score = current_score + 20;
+        console.log("curr", authStore().score);
+        console.log("address", address);
 
         return "😎";
+      } else {
+        return "🙂";
       }
-      return "🙂";
     },
   },
   watch: {

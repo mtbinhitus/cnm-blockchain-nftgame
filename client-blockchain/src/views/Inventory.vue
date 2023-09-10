@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <div class="card p-3">
-      <h4 class="title text-uppercase ms-3">Inventory</h4>
-      <span class="ms-3 border-bottom pb-3">
-        {{ inventory.length }} - NFT in your inventory.
+      <h4 class="title text-uppercase ms-3" :style="{ color: 'white' }">
+        Inventory
+      </h4>
+      <span class="ms-3 pb-3" :style="{ color: 'white' }">
+        You have {{ inventory.length }} wonderful Pepe
       </span>
 
       <div class="card-items row">
@@ -85,5 +87,11 @@ export default defineComponent({
 }
 .card::-webkit-scrollbar {
   display: none;
+}
+
+.card.p-3 {
+  background: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  --bs-card-border-radius: 0px;
 }
 </style>

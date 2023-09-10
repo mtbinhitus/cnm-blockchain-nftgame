@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <div class="card p-3">
+    <div class="card p-3" v-if="detail">
       <h4 class="title text-uppercase ms-3"></h4>
       <div class="row">
         <div class="col-lg-4 lg-12">
-          <div class="image p-3 border rounded">
+          <div class="image p-3">
             <img :src="image_convert" alt="" class="w-100 rounded" />
           </div>
         </div>
@@ -96,13 +96,14 @@ export default defineComponent({
   },
   created() {
     const id = this.$route.params.id;
-
-    this.detail = nftStore().list.find((item, index) => {
-      return index == Number(id);
-    });
+    this.fetchDataOpenSea(id);
   },
   methods: {
-    fetchDataOpenSea() {},
+    fetchDataOpenSea(id) {
+      this.detail = nftStore().list.find((item, index) => {
+        return index === Number(id);
+      });
+    },
   },
 });
 </script>
@@ -110,5 +111,15 @@ export default defineComponent({
 <style scoped>
 img {
   background: #dee2e6;
+}
+
+.card.p-3 {
+  background: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  --bs-card-border-radius: 0px;
+}
+
+.image.p-3 {
+  background: white;
 }
 </style>
