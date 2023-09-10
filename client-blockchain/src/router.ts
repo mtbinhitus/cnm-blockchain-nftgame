@@ -68,7 +68,7 @@ const router = createRouter({
     {
       path: "/collection/:id",
       component: CollectionDetail,
-      name: "nft detail",
+      name: "collect detail",
     },
 
     {

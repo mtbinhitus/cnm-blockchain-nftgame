@@ -70,6 +70,7 @@ export default defineComponent({
           .then(({ data }) => {
             // this.collection = data.ownedNfts  ;
             nftStore().list = data.ownedNfts.reverse();
+            console.log(data);
             this.loading = false;
             resolve(data);
           })

@@ -3,7 +3,7 @@
     <Loading v-if="loading" />
     <div class="card p-3">
       <div v-if="!loading" class="row">
-        <div class="col-lg-4 lg-12" :style="{ margin: 'auto' }">
+        <div class="col-lg-4 lg-12" :style="{ margin: '2vh auto' }">
           <div class="image p-3">
             <img :src="image_convert" alt="" class="w-100 rounded" />
           </div>
@@ -58,6 +58,12 @@
               </div> -->
             </div>
           </div>
+          <div class="model border-top pt-3">
+            <h4 class="text-uppercase" :style="{ color: 'white' }">
+              3D Viewer
+            </h4>
+            <model-viewer v-if="isMounted" :src="detail.metadata.animation_url" ar shadow-intensity="1" autoplay camera-controls touch-action="pan-y"></model-viewer>
+          </div>
 
           <router-link to="/inventory" class="btn btn-primary mt-3">
             Back to Inventory
@@ -75,15 +81,19 @@ import axios from "axios";
 import Loading from "@/components/Loading.vue";
 import { nftStore } from "@/stores/nftStore";
 import moment from "moment";
-
 export default defineComponent({
   components: { Loading },
   data() {
     return {
       detail: {},
       loading: true,
+      isMounted: false,
     };
   },
+  mounted() {
+     this.isMounted = true;
+     this.loadComponent()    
+   },
   computed: {
     image_convert() {
       const img = this.detail.metadata.image;
@@ -101,6 +111,9 @@ export default defineComponent({
       const dateTime = moment(this.detail.timeLastUpdated);
 
       return dateTime.format(format);
+    },
+    loadComponent() {
+      return () => import('@google/model-viewer/dist/model-viewer')
     },
   },
   async created() {
@@ -157,4 +170,16 @@ img {
 .btn:hover {
   background: black;
 }
+
+.model-view-css-fix{
+  object-fit: contain;
+  height: 45vh;
+  width:auto;  
+}
+
+model-viewer {
+  width: 45vh;
+  height: 45vh;
+  margin: auto;
+} 
 </style>
