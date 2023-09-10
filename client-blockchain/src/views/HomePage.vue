@@ -9,7 +9,7 @@
           <img :src="currentImage" alt="Ad Image" @click="incrementCounter" />
         </div>
         <div class="counter-container">
-          <p :style="{ color: 'white', margin: '0' }">
+          <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
             You have punched Pepe: {{ clickCount }}
           </p>
         </div>
@@ -20,7 +20,7 @@
           <img :src="currentImage2" alt="Ad Image" @click="incrementCounter2" />
         </div>
         <div class="counter-container">
-          <p :style="{ color: 'white', margin: '0' }">
+          <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
             You have punched Wojak: {{ clickCount2 }}
           </p>
         </div>

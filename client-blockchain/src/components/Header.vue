@@ -232,6 +232,12 @@ header {
 }
 
 .btn.btn-success {
+  background: rgba(0, 0, 0, 0.4);
+  border: 3px solid white;
   border-radius: 0px;
+}
+
+.btn.btn-success:hover {
+  background: black;
 }
 </style>
