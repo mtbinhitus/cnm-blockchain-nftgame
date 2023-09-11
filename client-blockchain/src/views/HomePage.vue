@@ -27,19 +27,25 @@
       </div>
     </div>
 
-    <div class="centered-content" v-if="showSecondCentered">
+    <div
+      class="centered-content2"
+      v-if="showSecondCentered"
+      :style="{ width: '100%', height: '620px' }"
+    >
       <img
         src="/wojak-finish.gif"
-        alt="Ad Image"
         @click="resetClickCount"
         :style="{ width: '100%', height: '100%' }"
       />
     </div>
 
-    <div class="centered-content" v-if="showThirdCentered">
+    <div
+      class="centered-content3"
+      v-if="showThirdCentered"
+      :style="{ width: '100%', height: '620px' }"
+    >
       <img
         src="/pepe-finish.gif"
-        alt="Ad Image"
         @click="resetClickCount2"
         :style="{ width: '100%', height: '100%' }"
       />
@@ -131,8 +137,7 @@ export default {
 
 <style scoped>
 .centered-content {
-  width: 1000px;
-  height: 500px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
@@ -145,11 +150,13 @@ export default {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .image-container {
   width: 100%;
-  height: 90%;
+  height: 620px;
   display: flex;
   justify-content: center;
   align-items: center;

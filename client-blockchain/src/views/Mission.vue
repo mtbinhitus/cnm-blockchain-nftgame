@@ -72,7 +72,7 @@ export default defineComponent({
   transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
   z-index: 100;
   opacity: 0;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translateY(225%) translateX(-50%);
   height: 14px;
@@ -102,5 +102,10 @@ export default defineComponent({
   transform: translateX(-50%) translateY(-100%);
   opacity: 1;
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 </style>

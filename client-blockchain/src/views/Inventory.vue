@@ -85,6 +85,11 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .card {
   max-height: 80vh;
   overflow-y: scroll;
@@ -97,5 +102,6 @@ export default defineComponent({
   background: rgba(0, 0, 0, 0.4);
   overflow-x: hidden;
   --bs-card-border-radius: 0px;
+  border: 0px;
 }
 </style>

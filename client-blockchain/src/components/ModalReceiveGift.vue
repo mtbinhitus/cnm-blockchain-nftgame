@@ -20,7 +20,6 @@
             }"
           >
             <span> Congrats, you received a wonderful Pepe card:<br /> </span>
-            <span> {{ gift.name }}</span>
           </h1>
           <button
             type="button"
@@ -29,8 +28,12 @@
             aria-label="Close"
           ></button>
         </div>
-        <div class="modal-body d-flex justify-content-center">
+        <div
+          class="modal-body d-flex justify-content-center"
+          :style="{ 'flex-direction': 'column', 'align-items': 'center' }"
+        >
           <img :src="gift.image" alt="" class="d-block" />
+          <span :style="{ 'padding-top': '10px' }"> {{ gift.name }}</span>
         </div>
         <!-- <div class="modal-footer">
         <button type="button" class="btn btn-primary">Accept</button>

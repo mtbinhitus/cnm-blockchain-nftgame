@@ -30,15 +30,15 @@
         <span
           class="d-flex justify-content-center"
           :style="{ 'font-weight': 600 }"
-          >Your point:
+          >Your points:
           <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">{{ point }}</h4>
         </span>
       </div>
-      <div class="x text-white mt-2 fs-4">
+      <div class="x text-white fs-4">
         <span
           class="d-flex justify-content-center"
           :style="{ 'font-weight': 600 }"
-          >Number spin:
+          >Number of spins:
           <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">
             {{ number_spin }}
           </h4>
@@ -56,9 +56,7 @@
         <table class="table table-bordered">
           <thead class="thead-custom">
             <tr>
-              <th :style="{ 'border-right': '1px solid white' }">
-                Wallet Address
-              </th>
+              <th>Wallet Address</th>
               <th>Pepe Card</th>
             </tr>
           </thead>
@@ -298,19 +296,19 @@ export default defineComponent({
 
 <style scoped>
 .common-text {
-  background-color: #cccccc;
+  background-color: #bdbdb5;
 }
 .uncommon-text {
-  background-color: #008000;
+  background-color: #1fdd1d;
 }
 .rare-text {
-  background-color: #0000ff;
+  background-color: #4e5afd;
 }
 .epic-text {
-  background-color: #800080;
+  background-color: #a745ce;
 }
 .legendary-text {
-  background-color: #ffa500;
+  background-color: #f86912;
 }
 
 .wheel {
@@ -354,6 +352,7 @@ export default defineComponent({
 .table {
   width: 100%;
   border-collapse: collapse;
+  border: 1px solid white;
 }
 
 th,
