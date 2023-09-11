@@ -157,4 +157,9 @@ img {
 .btn:hover {
   background: black;
 }
+
+.btn:focus {
+  background: black;
+  border: 3px solid white;
+}
 </style>

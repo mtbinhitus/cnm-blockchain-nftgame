@@ -1,9 +1,22 @@
 <template>
-  <div class="d-flex justify-content-around">
-    <div class="lucky">
+  <div
+    class="d-flex justify-content-between"
+    :style="{
+      'flex-direction': 'row',
+      'align-items': 'flex-start',
+      height: '600px',
+      background: 'rgba(0,0,0,0.4)',
+    }"
+  >
+    <div
+      class="lucky"
+      :style="{
+        height: '100%',
+      }"
+    >
       <div class="cycle">
         <FortuneWheel
-          style="width: 500px; max-width: 100%"
+          style="width: 400px; max-width: 100%"
           :prizes="data"
           @rotateEnd="onRotateEnd"
           :duration="duration"
@@ -33,25 +46,54 @@
       </div>
     </div>
 
-    <div class="history">
-      <table
-        class="table table-striped table-primary table-bordered border-primary"
-      >
-        <thead class="table-success border-primary">
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Gift</th>
-          </tr>
-        </thead>
-        <tbody class="text-center">
-          <tr v-for="(item, index) in listHistory" :key="index">
-            <td>{{ item.address }}</td>
-            <td>
-              <convert-gift-name :link="item.data" />
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div
+      class="history"
+      :style="{
+        height: '100%',
+      }"
+    >
+      <div class="table-container" style="height: 400px; overflow-y: auto">
+        <table class="table table-bordered">
+          <thead class="thead-custom">
+            <tr>
+              <th :style="{ 'border-right': '1px solid white' }">
+                Wallet Address
+              </th>
+              <th>Pepe Card</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, index) in listHistory" :key="index">
+              <td
+                :class="{
+                  'common-text': containsCommonWord(getGiftName(item.data)),
+                  'uncommon-text': containsUncommonWord(getGiftName(item.data)),
+                  'rare-text': containsRareWord(getGiftName(item.data)),
+                  'epic-text': containsEpicWord(getGiftName(item.data)),
+                  'legendary-text': containsLegendaryWord(
+                    getGiftName(item.data)
+                  ),
+                }"
+              >
+                {{ item.address }}
+              </td>
+              <td
+                :class="{
+                  'common-text': containsCommonWord(getGiftName(item.data)),
+                  'uncommon-text': containsUncommonWord(getGiftName(item.data)),
+                  'rare-text': containsRareWord(getGiftName(item.data)),
+                  'epic-text': containsEpicWord(getGiftName(item.data)),
+                  'legendary-text': containsLegendaryWord(
+                    getGiftName(item.data)
+                  ),
+                }"
+              >
+                <convert-gift-name :link="item.data" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <!-- <span class="text-white text-decoration-underline">Game rules</span> -->
     </div>
@@ -95,6 +137,31 @@ export default defineComponent({
   },
 
   computed: {
+    containsCommonWord() {
+      return (text) => {
+        return text.toLowerCase().includes("common");
+      };
+    },
+    containsUncommonWord() {
+      return (text) => {
+        return text.toLowerCase().includes("uncommon");
+      };
+    },
+    containsRareWord() {
+      return (text) => {
+        return text.toLowerCase().includes("rare");
+      };
+    },
+    containsEpicWord() {
+      return (text) => {
+        return text.toLowerCase().includes("epic");
+      };
+    },
+    containsLegendaryWord() {
+      return (text) => {
+        return text.toLowerCase().includes("legendary");
+      };
+    },
     number_spin() {
       return Math.floor(this.point / 10);
     },
@@ -109,6 +176,20 @@ export default defineComponent({
   },
 
   methods: {
+    getGiftName(link) {
+      const giftList = dataStore().list;
+
+      // Find the gift object that matches the link
+      const gift = giftList.find((giftItem) => giftItem.key === link);
+
+      // Check if a matching gift was found
+      if (gift) {
+        return gift.name; // Return the gift name if found
+      } else {
+        return ""; // Return an empty string or handle the case when no gift is found
+      }
+    },
+
     onRotateEnd(prize) {
       this.handleShow();
       this.handleTransfer();
@@ -216,6 +297,22 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.common-text {
+  background-color: #cccccc;
+}
+.uncommon-text {
+  background-color: #008000;
+}
+.rare-text {
+  background-color: #0000ff;
+}
+.epic-text {
+  background-color: #800080;
+}
+.legendary-text {
+  background-color: #ffa500;
+}
+
 .wheel {
   width: 100%;
   height: auto;
@@ -235,20 +332,39 @@ export default defineComponent({
 }
 
 .lucky {
-  padding: 5em 1em;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .history {
-  padding: 5em 1em;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-th {
-  min-width: 250px;
+.table-container {
+  width: 90%;
+  overflow-x: auto;
 }
 
 .table {
-  display: block;
-  height: 500px !important;
-  overflow: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+/* Style table headers with a different background color */
+.thead-custom th {
+  background-color: #15bd96;
 }
 </style>

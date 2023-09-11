@@ -16,10 +16,10 @@ export default defineComponent({
 
   computed: {
     list() {
-      return  dataStore().list;
+      return dataStore().list;
     },
     gift() {
-      return this.list.find((i => i.key == this.link))
+      return this.list.find((i) => i.key == this.link);
     },
   },
 });

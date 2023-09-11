@@ -10,8 +10,17 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">
-            Congrats you received a wonderful Pepe card: {{ gift.name }}
+          <h1
+            class="modal-title fs-5"
+            id="exampleModalLabel"
+            :style="{
+              display: 'flex',
+              'flex-direction': 'column',
+              'align-items': 'flex-start',
+            }"
+          >
+            <span> Congrats, you received a wonderful Pepe card:<br /> </span>
+            <span> {{ gift.name }}</span>
           </h1>
           <button
             type="button"
@@ -43,5 +52,9 @@ export default defineComponent({
 img {
   width: 150px;
   height: 150px;
+}
+
+.modal-header .btn-close {
+  margin: 0;
 }
 </style>
