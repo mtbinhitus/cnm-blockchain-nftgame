@@ -9,6 +9,8 @@ import { nextTick } from "vue";
 import { authStore } from "./stores/authStore";
 import Inventory from "./views/Inventory.vue";
 import NftDetail from "./views/NftDetail.vue";
+import Collection from "./views/Collection.vue"
+import CollectionDetail from "./views/CollectionDetail.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -57,6 +59,16 @@ const router = createRouter({
       component: NftDetail,
       name: "nft detail",
       meta: { authRequired: true },
+    },
+    {
+      path: "/collection",
+      component: Collection,
+      name: "Collection",
+    },
+    {
+      path: "/collection/:id",
+      component: CollectionDetail,
+      name: "collect detail",
     },
 
     {

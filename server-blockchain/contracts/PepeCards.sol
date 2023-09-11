@@ -15,9 +15,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
     uint256 internal immutable i_mintFee;
     mapping(uint256 => address) public s_requestIdToSender; // a mapping from requestId to the address that made that request
     uint256 private s_tokenCounter;
-    uint256[] internal offset = [0, 37, 65, 86, 95, 99];
+    uint256[] internal offset = [0, 36, 65, 86, 95, 98];
     string[] internal s_pepeTokenURIs = [
-        "ipfs://QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9",
         "ipfs://QmV41XEh6S1Ggh1Gr9w81gW4K2BSMi7PzvEDtQL5Y9daEh",
         "ipfs://QmWMN3pmwqkxgY6Co7Wno3vfTaMWAD4enHNrdiY8DTkbYp",
         "ipfs://QmTWvjfhEfY6vMBBJ97MNRctYDoicUSYQup6Nnz8bH6uNC",
@@ -54,6 +53,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         "ipfs://QmfYnyYCNHeWCq7u7NEN7W6BLowKtFTV3ETAcGxhfc7tRz",
         "ipfs://QmcN9CFvCUWkCyzYHQ7oxWVs7WJEMsbx2cvd86pTM8nhbb",
         "ipfs://QmQx8SeFX9kD9UKu5cYZeE5eiYGHYFVW7nAYha7KeK4EMx",
+        "ipfs://QmcXzSP6VVKY3yMH5dQXDqiiUfwP8Z7exyvZZa9BwcFNk9",
         "ipfs://QmfK6ax8mZoVyFHVMWFNWaXy4L6ULTcV7ZdsanHFYrupnb",
         "ipfs://QmNrfjerZXC5TLrzF2gnWYjNfzutrXxERCR6FaUkQcVntM",
         "ipfs://Qme8S5oJsb93Toh8xYUEt5Mwk7EE7h2NgvCq9ugJ7hyJbS",
@@ -144,7 +144,10 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         uint64 subId,
         bytes32 keyHash,
         uint32 callbackGasLimit
-    ) VRFConsumerBaseV2(vrfCoordinatorV2Address) ERC721("Pepe Cards", "PEPE") {
+    )
+        VRFConsumerBaseV2(vrfCoordinatorV2Address)
+        ERC721("The Pepe Collection", "PEPEV23")
+    {
         i_mintFee = mintFee;
         s_tokenCounter = 0;
 
@@ -195,7 +198,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
 
         _safeMint(nftOwner, tokenId); // finally, mint the NFT using _safeMint function
 
-        // set Token URI of that particular NFT
+        // set Token URI of that particular NFT offset = [0, 36, 65, 86, 95, 98]
         if (pepeType == PepeType.COMMON) index = index + offset[0];
         else if (pepeType == PepeType.UNCOMMON) index = index + offset[1];
         else if (pepeType == PepeType.RARE) index = index + offset[2];
@@ -212,7 +215,7 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
 
     function getPepeRarity(
         uint256 randomNumber
-    ) public pure returns (PepeType rarity) {
+    ) public pure returns (PepeType) {
         uint256 cumulativeSum = 0;
         uint8[5] memory chanceArray = getChanceArray();
 
@@ -241,8 +244,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
     function getRandomCardByRarity(
         PepeType pepeType
     ) public view returns (uint256) {
-        // common:start->hết 7mb: 37 files
-        // uncommon:8mb->hết 10mb: 28 files
+        // common:start->hết 7mb: 36 files
+        // uncommon:8mb->hết 10mb: 29 files
         // rare:11mb->hết 13mb: 21 files
         // epic:14mb->hết 14mb: 9 files
         // legendary:15mb->end: 4 files
@@ -264,8 +267,8 @@ contract PepeCards is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         );
 
         // Check type to get chance of type nft
-        if (pepeType == PepeType.COMMON) return randomNumber % 37;
-        else if (pepeType == PepeType.UNCOMMON) return randomNumber % 28;
+        if (pepeType == PepeType.COMMON) return randomNumber % 36;
+        else if (pepeType == PepeType.UNCOMMON) return randomNumber % 29;
         else if (pepeType == PepeType.RARE) return randomNumber % 21;
         else if (pepeType == PepeType.EPIC) return randomNumber % 9;
         else if (pepeType == PepeType.LEGENDARY) return randomNumber % 4;
