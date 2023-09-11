@@ -15,7 +15,7 @@
         <div
           v-for="(item, index) in collection"
           :key="index"
-          @click="redirectToNftDetail(index)"
+          @click="redirectToNftDetail(index, $event)"
           class="card-item col-lg-3 col-6"
         >
           <div class="item-body shadow">
@@ -59,10 +59,19 @@ export default defineComponent({
     this.fetchDataOpenSea();
   },
   methods: {
-    redirectToNftDetail(index) {
-      this.$router.push({
-        path: `/collection/${index}`,
-      });
+    redirectToNftDetail(index, event) {
+      // Check if the Ctrl key is pressed when clicking
+      if (event.ctrlKey) {
+        // Open a new tab with the desired URL
+        const newTab = window.open(`/collection/${index}`, "_blank");
+        // Focus back on the current tab
+        event.preventDefault();
+      } else {
+        // If Ctrl key is not pressed, navigate normally
+        this.$router.push({
+          path: `/collection/${index}`,
+        });
+      }
     },
     fetchDataOpenSea() {
       collectionStore()
@@ -85,7 +94,7 @@ export default defineComponent({
 
 <style scoped>
 .card {
-  max-height: 80vh;
+  height: 735px;
   overflow-y: scroll;
 }
 

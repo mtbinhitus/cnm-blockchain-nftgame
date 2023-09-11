@@ -3,7 +3,7 @@
     <div class="card p-3">
       <h4
         class="title text-uppercase ms-3"
-        :style="{ color: 'white', 'font-size': '30px' }"
+        :style="{ color: 'white', 'font-size': '30px', 'font-weight': 600 }"
       >
         Inventory
       </h4>
@@ -16,7 +16,7 @@
           v-for="(item, index) in inventory"
           :key="index"
           :item="item"
-          @click="redirectToNftDetail(index)"
+          @click="redirectToNftDetail(index, $event)"
         />
       </div>
     </div>
@@ -49,10 +49,19 @@ export default defineComponent({
     this.fetchDataOpenSea();
   },
   methods: {
-    redirectToNftDetail(index) {
-      this.$router.push({
-        path: `/inventory/${index}`,
-      });
+    redirectToNftDetail(index, event) {
+      // Check if the Ctrl key is pressed when clicking
+      if (event.ctrlKey) {
+        // Open a new tab with the desired URL
+        const newTab = window.open(`/inventory/${index}`, "_blank");
+        // Focus back on the current tab
+        event.preventDefault();
+      } else {
+        // If Ctrl key is not pressed, navigate normally
+        this.$router.push({
+          path: `/inventory/${index}`,
+        });
+      }
     },
     fetchDataOpenSea() {
       this.loading = true;
@@ -103,5 +112,6 @@ export default defineComponent({
   overflow-x: hidden;
   --bs-card-border-radius: 0px;
   border: 0px;
+  height: 735px;
 }
 </style>

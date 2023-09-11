@@ -4,25 +4,44 @@
       class="centered-content"
       v-if="!showSecondCentered && !showThirdCentered"
     >
-      <div class="screen">
-        <div class="image-container">
-          <img :src="currentImage" alt="Ad Image" @click="incrementCounter" />
-        </div>
-        <div class="counter-container">
-          <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
-            You have punched Pepe: {{ clickCount }}
-          </p>
-        </div>
+      <div class="side">
+        <p
+          :style="{
+            color: 'white',
+            margin: '0',
+            'font-size': '30px',
+            'font-weight': '600',
+            padding: '10px',
+          }"
+        >
+          WHICH SIDE ARE YOU ON?
+        </p>
       </div>
-
-      <div class="screen">
-        <div class="image-container">
-          <img :src="currentImage2" alt="Ad Image" @click="incrementCounter2" />
+      <div class="screen-container">
+        <div class="screen">
+          <div class="image-container">
+            <img :src="currentImage" alt="Ad Image" @click="incrementCounter" />
+          </div>
+          <div class="counter-container">
+            <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
+              You have punched Pepe: {{ clickCount }}
+            </p>
+          </div>
         </div>
-        <div class="counter-container">
-          <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
-            You have punched Wojak: {{ clickCount2 }}
-          </p>
+
+        <div class="screen">
+          <div class="image-container">
+            <img
+              :src="currentImage2"
+              alt="Ad Image"
+              @click="incrementCounter2"
+            />
+          </div>
+          <div class="counter-container">
+            <p :style="{ color: 'white', margin: '0', 'font-size': '20px' }">
+              You have punched Wojak: {{ clickCount2 }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -30,7 +49,7 @@
     <div
       class="centered-content2"
       v-if="showSecondCentered"
-      :style="{ width: '100%', height: '620px' }"
+      :style="{ width: '100%', height: '735px' }"
     >
       <img
         src="/wojak-finish.gif"
@@ -42,7 +61,7 @@
     <div
       class="centered-content3"
       v-if="showThirdCentered"
-      :style="{ width: '100%', height: '620px' }"
+      :style="{ width: '100%', height: '735px' }"
     >
       <img
         src="/pepe-finish.gif"
@@ -136,7 +155,7 @@ export default {
 </script>
 
 <style scoped>
-.centered-content {
+.screen-container {
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
   display: flex;
@@ -144,6 +163,16 @@ export default {
   align-items: center;
   align-content: center;
   flex-direction: row;
+}
+
+.centered-content {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .container {

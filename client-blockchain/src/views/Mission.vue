@@ -4,7 +4,7 @@
       <button
         class="button-57 m-4"
         role="button"
-        @click="redirectTo('minigame')"
+        @click="redirectTo('minigame', $event)"
       >
         <span class="text">Flappy Bird</span><span>Go!</span>
       </button>
@@ -12,7 +12,7 @@
       <button
         class="button-57 m-4"
         role="button"
-        @click="redirectTo('minigame2')"
+        @click="redirectTo('minigame2', $event)"
       >
         <span class="text">Minesweeper</span><span>Go!</span>
       </button>
@@ -25,8 +25,18 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   methods: {
-    redirectTo(to) {
-      this.$router.push({ path: `/${to}` });
+    redirectTo(to, event) {
+      if (event.ctrlKey) {
+        // Open a new tab with the desired URL
+        const newTab = window.open(`/${to}`, "_blank");
+        // Focus back on the current tab
+        event.preventDefault();
+      } else {
+        // If Ctrl key is not pressed, navigate normally
+        this.$router.push({
+          path: `/${to}`,
+        });
+      }
     },
   },
 });

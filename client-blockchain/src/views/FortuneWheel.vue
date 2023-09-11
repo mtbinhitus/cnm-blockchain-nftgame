@@ -4,7 +4,7 @@
     :style="{
       'flex-direction': 'row',
       'align-items': 'flex-start',
-      height: '600px',
+      height: '550px',
       background: 'rgba(0,0,0,0.4)',
     }"
   >
@@ -26,23 +26,21 @@
           :canvas="canvasOptions"
         />
       </div>
-      <div class="x text-white mt-5 fs-4">
-        <span
-          class="d-flex justify-content-center"
-          :style="{ 'font-weight': 600 }"
-          >Your points:
-          <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">{{ point }}</h4>
-        </span>
-      </div>
-      <div class="x text-white fs-4">
-        <span
-          class="d-flex justify-content-center"
-          :style="{ 'font-weight': 600 }"
-          >Number of spins:
-          <h4 class="ms-3 fs-2" :style="{ 'font-weight': 600 }">
-            {{ number_spin }}
-          </h4>
-        </span>
+      <div class="info">
+        <div class="x text-white mt-3 fs-4">
+          <span
+            class="d-flex justify-content-center"
+            :style="{ 'font-weight': 600, 'font-size': '24px' }"
+            >Your points: {{ point }}
+          </span>
+        </div>
+        <div class="x text-white mt-2 fs-4">
+          <span
+            class="d-flex justify-content-center"
+            :style="{ 'font-weight': 600, 'font-size': '24px' }"
+            >Number of spins: {{ number_spin }}
+          </span>
+        </div>
       </div>
     </div>
 
@@ -52,7 +50,7 @@
         height: '100%',
       }"
     >
-      <div class="table-container" style="height: 400px; overflow-y: auto">
+      <div class="table-container" style="height: 500px; overflow-y: auto">
         <table class="table table-bordered">
           <thead class="thead-custom">
             <tr>
@@ -365,5 +363,13 @@ td {
 /* Style table headers with a different background color */
 .thead-custom th {
   background-color: #15bd96;
+}
+
+.cycle {
+  height: 400px;
+}
+
+.info {
+  height: 100px;
 }
 </style>

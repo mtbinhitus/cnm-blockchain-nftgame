@@ -146,18 +146,26 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 img {
   background: #dee2e6;
 }
 
 .card.p-3 {
+  height: 550px;
   background: rgba(0, 0, 0, 0.4);
   overflow-x: hidden;
   --bs-card-border-radius: 0px;
+  border: 0px;
 }
 
 .image.p-3 {
   background: transparent;
+  width: 100%;
+  height: 100%;
 }
 
 .btn {
@@ -183,8 +191,8 @@ img {
 }
 
 model-viewer {
-  width: 45vh;
-  height: 45vh;
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
 </style>
