@@ -5,7 +5,15 @@
       <div v-if="!loading" class="row">
         <div class="col-lg-4 lg-12" :style="{ margin: '2vh auto' }">
           <div class="image p-3">
-            <img :src="image_convert" alt="" class="w-100 rounded" />
+            <model-viewer
+              v-if="isMounted"
+              :src="detail.metadata.animation_url"
+              ar
+              shadow-intensity="1"
+              autoplay
+              camera-controls
+              touch-action="pan-y"
+            ></model-viewer>
           </div>
         </div>
         <div class="col-lg-8 p-3">
@@ -58,21 +66,6 @@
               </div> -->
             </div>
           </div>
-          <div class="model border-top pt-3">
-            <h4 class="text-uppercase" :style="{ color: 'white' }">
-              3D Viewer
-            </h4>
-            <model-viewer
-              v-if="isMounted"
-              :src="detail.metadata.animation_url"
-              ar
-              shadow-intensity="1"
-              autoplay
-              camera-controls
-              touch-action="pan-y"
-            ></model-viewer>
-          </div>
-
           <router-link to="/inventory" class="btn btn-primary mt-3">
             Back to Inventory
           </router-link>
@@ -164,7 +157,7 @@ img {
 }
 
 .image.p-3 {
-  background: white;
+  background: transparent;
 }
 
 .btn {
