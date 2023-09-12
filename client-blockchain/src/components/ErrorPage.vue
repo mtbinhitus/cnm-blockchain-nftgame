@@ -31,6 +31,6 @@ export default defineComponent({});
   align-content: center;
   align-items: center;
   color: white;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
 }
 </style>

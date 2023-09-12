@@ -267,9 +267,9 @@ export default {
     .v-container
       main(:style="cssVars")
         .status
-          div {{ bombsRemaining | addLeadingZeros }}
-          button(@click="resetGame") {{ gameStatus }}
-          div {{ secondsPassed | addLeadingZeros }}
+            div(style="flex:1; text-align:left") {{ bombsRemaining | addLeadingZeros }}
+            button(@click="resetGame") {{ gameStatus }}
+            div(style="flex:1; text-align:right") {{ secondsPassed | addLeadingZeros }}
         .board
           .tile(
             v-for="(tile, i) in tiles" :key="i"
@@ -354,7 +354,9 @@ header {
 }
 
 main {
-  background-color: $tile-color;
+  background-image: url("/wojak-brain.jpg");
+  background-size: 100% 100%; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
   font-family: "Ubuntu Mono", monospace;
   font-weight: 600;
   padding: 0 20px 20px 20px;
@@ -391,12 +393,14 @@ main {
     $shadow: calc(var(--size) / 12.5);
     @include add-shadow($shadow);
     border-radius: $border-radius;
+    background-color: rgba(212, 212, 212, 0.4);
     cursor: pointer;
   }
 
   &.revealed {
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
+    background-color: rgba(212, 212, 212, 0.8);
   }
 
   &.wrong-pick {

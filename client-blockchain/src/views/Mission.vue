@@ -6,7 +6,7 @@
         role="button"
         @click="redirectTo('minigame', $event)"
       >
-        <span class="text">Flappy Bird</span><span>Go!</span>
+        <span class="text">Flappy Wojak</span><span>Go!</span>
       </button>
 
       <button
@@ -14,7 +14,7 @@
         role="button"
         @click="redirectTo('minigame2', $event)"
       >
-        <span class="text">Minesweeper</span><span>Go!</span>
+        <span class="text">Pepe Sweeper</span><span>Go!</span>
       </button>
     </div>
   </div>
@@ -52,7 +52,7 @@ export default defineComponent({
 
 .button-57 {
   background: rgba(0, 0, 0, 0.4);
-  width: 400px;
+  width: 450px;
   position: relative;
   overflow: hidden;
   border: 3px solid #fff;

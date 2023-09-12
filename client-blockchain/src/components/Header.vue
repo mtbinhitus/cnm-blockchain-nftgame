@@ -208,7 +208,7 @@ header {
   left: 0;
   width: 100vw;
   height: 60px;
-  background: rgba(0, 0, 0, 0.243);
+  background: rgba(0, 0, 0, 0.2);
 }*/
 .nav-link:hover {
   color: white;

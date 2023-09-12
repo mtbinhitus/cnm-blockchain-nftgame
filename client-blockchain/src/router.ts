@@ -9,8 +9,8 @@ import { nextTick } from "vue";
 import { authStore } from "./stores/authStore";
 import Inventory from "./views/Inventory.vue";
 import NftDetail from "./views/NftDetail.vue";
-import Collection from "./views/Collection.vue"
-import CollectionDetail from "./views/CollectionDetail.vue"
+import Collection from "./views/Collection.vue";
+import CollectionDetail from "./views/CollectionDetail.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +92,8 @@ router.beforeEach((routeTo, routeFrom, next) => {
 
   if (authStore().is_authen) {
     return next();
+  } else if (routeFrom.name === "Collection" && authRequired) {
+    alert("Please connect with Metamask wallet");
   } else {
     router.push({ path: "/" });
     alert("Please connect with Metamask wallet");

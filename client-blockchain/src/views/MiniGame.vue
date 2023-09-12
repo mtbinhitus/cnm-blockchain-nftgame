@@ -1,12 +1,28 @@
 <template>
   <div class="wrap">
     <div class="top-game d-flex mb-3">
-      <div class="btn-gr">
-        <button class="btn btn-success" @click="handleStart">Start</button>
-        <button class="btn btn-primary ms-3" @click="pause">pause</button>
-      </div>
-      <div class="score ms-5">
-        <h2 class="text-danger">{{ score }}</h2>
+      <div
+        :style="{
+          display: 'flex',
+          'justify-content': 'center',
+          'align-items': 'center',
+          'flex-direction': 'column',
+          background: 'rgba(0,0,0,0.4)',
+          padding: '10px',
+        }"
+      >
+        <div class="btn-gr">
+          <button class="btn btn-success" @click="handleStart">Start</button>
+          <button class="btn btn-success ms-3" @click="pause">Pause</button>
+        </div>
+        <div class="score">
+          <h2
+            class="text-danger"
+            :style="{ color: 'white !important', 'margin-top': '10px' }"
+          >
+            Your score: {{ score }}
+          </h2>
+        </div>
       </div>
     </div>
 
@@ -58,7 +74,7 @@
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">
             Accept
           </button>
         </div>
@@ -306,9 +322,11 @@ export default defineComponent({
 <style scoped>
 .game-container {
   position: relative;
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+  height: 550px;
   background: url("/flappybirdbg.png");
+  background-size: 100% 100%;
+
   overflow: hidden;
 }
 
@@ -351,5 +369,20 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.btn-success {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0px;
+  border: 3px solid white;
+}
+
+.btn-success:hover {
+  background: black;
+}
+
+.btn-success:focus {
+  background: black;
+  border: 3px solid white;
 }
 </style>

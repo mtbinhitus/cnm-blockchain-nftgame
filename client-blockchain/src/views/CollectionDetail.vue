@@ -48,7 +48,7 @@
 
           <div class="attributeds mt-4 border-top pt-3">
             <h4 class="text-uppercase" :style="{ color: 'white' }">
-              Attributes
+              Attribute
             </h4>
             <div
               class="row mt-3"
